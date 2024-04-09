@@ -179,7 +179,7 @@ def generate_metadata(csv_diaries, csv_entries):
             regions = []
             textualbodies = []
             for region in e["regions"].split("\n"):
-                region = region.replace(" ", "#")
+                region = region.replace(" ", "#") + "-target"
                 regions.append(region)
                 textualbodies += region2textualbody[region]
 
@@ -193,7 +193,7 @@ def generate_metadata(csv_diaries, csv_entries):
                         "@container": "@list",
                     },
                 },
-                "@id": f"{PREFIX}entries/{e.identifier}",
+                "@id": f"{PREFIX}/annotations/entries/{e.identifier}",
                 "@type": "Manuscript",
                 "isPartOf": {
                     "@id": book["@id"],
@@ -272,6 +272,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
                     {
                         "type": "FragmentSelector",
                         "value": f"xywh={region.coords.x},{region.coords.y},{region.coords.w},{region.coords.h}",
+                        "conformsTo": "http://www.w3.org/TR/media-frags/",
                     },
                 ],
             },
@@ -309,6 +310,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
                         {
                             "type": "FragmentSelector",
                             "value": f"xywh={line.coords.x},{line.coords.y},{line.coords.w},{line.coords.h}",
+                            "conformsTo": "http://www.w3.org/TR/media-frags/",
                         },
                     ],
                 },
