@@ -14,6 +14,10 @@ PREFIX = "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/"
 METADATA_DIARIES = "data/metadata_diaries.csv"
 METADATA_ENTRIES = "data/metadata_entries.csv"
 
+ANNOTATION_IDENTIFIERS = (
+    "data/ATM-Diaries Annotaties Linking 2024-03-14 - annotations_20240314.csv"
+)
+
 body2length = dict()
 
 region2textualbody = defaultdict(list)
@@ -85,7 +89,6 @@ tagtype2resource = {
         "label": "Etenswaren",
     },
 }
-#
 
 regiontype2resource = {
     "heading": {
@@ -178,7 +181,7 @@ def generate_metadata(csv_diaries, csv_entries):
             regiontargets = []
             textualbodies = []
             for region in e["regions"].split("\n"):
-                region = f"{PREFIX}annotations/regions/{region.replace(' ', '#')}"
+                region = f"{PREFIX}annotations/regions/{region.replace('.xml ', '/')}"
                 regiontargets.append(region + "-target")
                 textualbodies += region2textualbody[region]
 
@@ -232,7 +235,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
 
     for region in page.text_regions:
 
-        region_id = f"{PREFIX}annotations/regions/{base_filename}#{region.id}"
+        region_id = f"{PREFIX}annotations/regions/{base_filename.replace('.xml', '/')}{region.id}"
         target_id = f"{region_id}-target"
 
         region_type = region.types.difference(
@@ -334,7 +337,7 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
     # TODO: these are not unique
     base_filename = os.path.basename(filename)
 
-    source = f"{PREFIX}annotations/regions/{base_filename}#{tag['region_id']}-{tag['line_id']}-body"
+    source = f"{PREFIX}annotations/regions/{base_filename.replace('.xml', '/')}{tag['region_id']}-{tag['line_id']}-body"
 
     annotation = {
         "@context": "http://www.w3.org/ns/anno.jsonld",
@@ -344,14 +347,8 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
             {
                 "type": "SpecificResource",
                 "source": tagtype2resource[tag["type"]],
-                # "value": tag["type"],
                 "purpose": "classifying",
-            },
-            # {
-            #     "type": "SpecificResource",
-            #     "source": "https://www.example.com/",
-            #     "purpose": "identifying",
-            # },
+            }
         ],
         "target": [
             {
@@ -371,6 +368,54 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
             }
         ],
     }
+
+    return annotation
+
+
+def add_entity_identifier(annotation, identifier_df):
+
+    source = annotation["target"][0]["source"]
+    tag = annotation["body"][0]["source"]["id"].replace(PREFIX + "tags/entities/", "")
+    text = " ".join([t["selector"][0]["exact"] for t in annotation["target"]])
+    text = text.replace("- ", "")
+
+    if tag.startswith("atm_"):
+        # skip
+        return annotation
+
+    # identifying
+    identifier, identifier_type = get_annotation_identifier(
+        source, tag, text, identifier_df
+    )
+
+    if identifier:
+        if tag == "date":
+            annotation["body"].append(
+                {
+                    "type": "TextualBody",
+                    "value": {"@type": "xsd:date", "@value": identifier},
+                    "purpose": "identifying",
+                }
+            )
+        elif tag == "abbrev":
+            annotation["body"].append(
+                {
+                    "type": "TextualBody",
+                    "value": identifier,
+                    "purpose": "identifying",
+                }
+            )
+        else:
+            annotation["body"].append(
+                {
+                    "type": "SpecificResource",
+                    "source": {
+                        "id": identifier,
+                        "type": identifier_type,
+                    },
+                    "purpose": "identifying",
+                }
+            )
 
     return annotation
 
@@ -416,6 +461,40 @@ def merge_annotations(annotations):
     return annotations
 
 
+def get_annotation_identifier(source, tag, text, df):
+
+    # temp fix
+    source = source.replace("-body", "")
+    source_prefix, source_rest = source.rsplit("/", 1)
+    source_region, source_line = source_rest.rsplit("-", 1)
+
+    source = f"{source_prefix}/{source_line}"
+
+    results = df.query("source == @source & tag == @tag & text == @text")
+
+    if results.empty:
+        print(f"No identifier found for: {source}, {tag}, {text}")
+        return None, None
+    else:
+        identifier = (
+            results.iloc[0]["uri"] if not pd.isna(results.iloc[0]["uri"]) else None
+        )
+        identifier = identifier or (
+            results.iloc[0]["date"] if not pd.isna(results.iloc[0]["date"]) else None
+        )
+
+        if tag == "person":
+            identifier_type = "schema:Person"
+        elif tag == "place":
+            identifier_type = "schema:Place"
+        elif tag == "organization":
+            identifier_type = "schema:Organization"
+        else:
+            identifier_type = None
+
+    return identifier, identifier_type
+
+
 def main():
 
     # Text (from pagexml)
@@ -438,6 +517,7 @@ def main():
 
     # Annotations
     entity_annotations = []
+    df_annotation_identifiers = pd.read_csv(ANNOTATION_IDENTIFIERS)
     for root, dirs, files in os.walk("data/export_job_8806623/"):
         for file in sorted(files):
             if file.endswith(".xml") and file not in ("metadata.xml", "mets.xml"):
@@ -471,7 +551,13 @@ def main():
                         )
                     )
 
+    # Merge annotations
     entity_annotations = merge_annotations(entity_annotations)
+
+    # Add identifiers
+    entity_annotations = [
+        add_entity_identifier(a, df_annotation_identifiers) for a in entity_annotations
+    ]
 
     with open("rdf/entity_annotations.jsonld", "w") as outfile:
         json.dump(entity_annotations, outfile, indent=4)

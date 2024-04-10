@@ -97,6 +97,8 @@ package Diaries {
   }
   
   Diary --> Scan: schema:image
+  
+
 
 }
 
@@ -282,7 +284,8 @@ Collection -u-> Archive: schema:holdingArchive
 Diary -u--> Collection: schema:isPartOf
 Entry -u--> Diary: schema:isPartOf
 
-
+Diary --> Person: schema:author
+Diary --> Person: schema:about
 
 
 ```
