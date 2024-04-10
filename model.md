@@ -83,13 +83,11 @@ package Diaries {
   date (schema:temporalCoverage)
   }
   
-  ' Or Manuscript if everything is written?
   class Entry as "Entry (schema:CreativeWork)" #thistle {
   * URI
   --
   name (schema:name)
   date (schema:temporalCoverage)
-  text (schema:text)
   }
   
   class Scan as "Scan (schema:ImageObject)" #lightgreen {
@@ -97,6 +95,8 @@ package Diaries {
   --
   name (schema:name)
   }
+  
+  Diary --> Scan: schema:image
 
 }
 
@@ -182,6 +182,8 @@ package WA_Line as "Line Annotation" {
     --
     purpose (oa:hasPurpose)
   }
+  
+  Entry -u--> TextualBody_Line: schema:text
   
   class SpecificResource_Line as "SpecificResource (oa:SpecificResource)" #silver {
   --
