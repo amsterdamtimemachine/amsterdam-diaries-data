@@ -14,15 +14,9 @@ PREFIX = "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/"
 METADATA_DIARIES = "data/metadata_diaries.csv"
 METADATA_ENTRIES = "data/metadata_entries.csv"
 
+body2length = dict()
 
 region2textualbody = defaultdict(list)
-
-name2archive_uri = {
-    "Verzetsmuseum Amsterdam": "https://www.verzetsmuseum.org/",
-    "Stadsarchief Amsterdam": "https://archief.amsterdam/",
-    "Atria": "https://atria.nl/",
-    "Crescas Joods Educatief Centrum": "https://www.crescas.nl/",
-}
 
 tagtype2resource = {
     "structure": {
@@ -84,6 +78,11 @@ tagtype2resource = {
         "id": PREFIX + "tags/entities/" + "sic",
         "type": "skos:Concept",
         "label": "Sic",
+    },
+    "atm_food": {
+        "id": PREFIX + "tags/entities/" + "atm_food",
+        "type": "skos:Concept",
+        "label": "Etenswaren",
     },
 }
 #
@@ -176,11 +175,11 @@ def generate_metadata(csv_diaries, csv_entries):
         for _, e in df_entries[df_entries["diary"] == r.identifier].iterrows():
 
             # Regions
-            regions = []
+            regiontargets = []
             textualbodies = []
             for region in e["regions"].split("\n"):
-                region = region.replace(" ", "#") + "-target"
-                regions.append(region)
+                region = f"{PREFIX}annotations/regions/{region.replace(' ', '#')}"
+                regiontargets.append(region + "-target")
                 textualbodies += region2textualbody[region]
 
             # Entry
@@ -193,12 +192,11 @@ def generate_metadata(csv_diaries, csv_entries):
                         "@container": "@list",
                     },
                 },
-                "@id": f"{PREFIX}/annotations/entries/{e.identifier}",
+                "@id": f"{PREFIX}annotations/entries/{e.identifier}",
                 "@type": "Manuscript",
                 "isPartOf": {
                     "@id": book["@id"],
                     "@type": "Book",
-                    "name": book["name"],
                 },  # shallow
                 "name": e["name"],
                 "dateCreated": e.date,
@@ -214,7 +212,7 @@ def generate_metadata(csv_diaries, csv_entries):
                 "motivation": "classifying",
                 "type": "Annotation",
                 "body": [entry],
-                "target": {"type": "oa:List", "items": regions},
+                "target": {"type": "oa:List", "items": regiontargets},
             }
 
             resources.append(entry_annotation)
@@ -234,7 +232,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
 
     for region in page.text_regions:
 
-        region_id = f"{base_filename}#{region.id}"
+        region_id = f"{PREFIX}annotations/regions/{base_filename}#{region.id}"
         target_id = f"{region_id}-target"
 
         region_type = region.types.difference(
@@ -253,7 +251,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
                 "http://www.w3.org/ns/anno.jsonld",
                 "http://iiif.io/api/extension/text-granularity/context.json",
             ],
-            "id": f"{PREFIX}annotations/regions/{region_id}",
+            "id": region_id,
             "type": "Annotation",
             "textGranularity": "region",
             "items": [],
@@ -277,13 +275,15 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
                 ],
             },
         }
-        annotations.append(region_annotation)
 
         for line in region.lines:
             # region2text[region.id]["lines"].append()
 
             line_id = f"{region_id}-{line.id}"
             body_id = f"{line_id}-body"
+
+            # Needed to merge annotations later
+            body2length[body_id] = len(line.text)
 
             region2textualbody[region_id].append(body_id)
 
@@ -292,12 +292,12 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
                     "http://www.w3.org/ns/anno.jsonld",
                     "http://iiif.io/api/extension/text-granularity/context.json",
                 ],
-                "id": f"{PREFIX}annotations/lines/{line_id}",
+                "id": line_id,
                 "type": "Annotation",
                 "textGranularity": "line",
                 "body": [
                     {
-                        "id": f"{PREFIX}annotations/lines/{body_id}",
+                        "id": body_id,
                         "type": "TextualBody",
                         "value": line.text,
                         "purpose": "supplementing",
@@ -318,6 +318,8 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
             region_annotation["items"].append(line_id)
             annotations.append(line_annotation)
 
+        annotations.append(region_annotation)
+
     return annotations
 
 
@@ -332,7 +334,7 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
     # TODO: these are not unique
     base_filename = os.path.basename(filename)
 
-    source = f"{base_filename}#{tag['region_id']}-{tag['line_id']}-body"
+    source = f"{PREFIX}annotations/regions/{base_filename}#{tag['region_id']}-{tag['line_id']}-body"
 
     annotation = {
         "@context": "http://www.w3.org/ns/anno.jsonld",
@@ -351,31 +353,74 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
             #     "purpose": "identifying",
             # },
         ],
-        "target": {
-            "type": "SpecificResource",
-            "source": source,
-            "selector": [
-                {
-                    "type": "TextQuoteSelector",
-                    "exact": tag["value"],
-                },
-                {
-                    "type": "TextPositionSelector",
-                    "start": tag["offset"],
-                    "end": tag["offset"] + tag["length"],
-                },
-            ],
-        },
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": source,
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": tag["value"],
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": tag["offset"],
+                        "end": tag["offset"] + tag["length"] - 1,
+                    },
+                ],
+            }
+        ],
     }
 
     return annotation
+
+
+def merge_annotations(annotations):
+
+    for a1, a2 in zip(annotations[:-1], annotations[1:]):
+
+        # Are the annotations of the same type?
+        if not a1["body"][0]["source"] == a2["body"][0]["source"]:
+            continue
+
+        text_length = body2length[a1["target"][0]["source"]]
+
+        # Is the annotation at the end of the text?
+        if not a1["target"][0]["selector"][1]["end"] == text_length - 1:
+            continue
+
+        # Is the next annotation in the next line?
+        body_id_a1 = a1["target"][0]["source"]
+        body_id_a2 = a2["target"][0]["source"]
+
+        region_id_a1 = body_id_a1.rsplit("-", 2)[0]
+        region_id_a2 = body_id_a2.rsplit("-", 2)[0]
+
+        index_a1 = region2textualbody[region_id_a1].index(body_id_a1)
+        index_a2 = region2textualbody[region_id_a2].index(body_id_a2)
+
+        if not index_a2 - index_a1 == 1:
+            continue
+
+        # Is the next annotation at the start of the text?
+        if not a2["target"][0]["selector"][1]["start"] == 0:
+            continue
+
+        annotations.remove(a1)
+        annotations.remove(a2)
+
+        # Merge targets
+        a1["target"].append(a2["target"][0])
+        annotations.append(a1)
+
+    return annotations
 
 
 def main():
 
     # Text (from pagexml)
     textual_annotations = []
-    for root, dirs, files in os.walk("data/export_job_8701885/"):
+    for root, dirs, files in os.walk("data/export_job_8806623/"):
         for file in sorted(files):
             if file.endswith(".xml") and file not in ("metadata.xml", "mets.xml"):
                 filepath = os.path.join(root, file)
@@ -393,7 +438,7 @@ def main():
 
     # Annotations
     entity_annotations = []
-    for root, dirs, files in os.walk("data/export_job_8701885/"):
+    for root, dirs, files in os.walk("data/export_job_8806623/"):
         for file in sorted(files):
             if file.endswith(".xml") and file not in ("metadata.xml", "mets.xml"):
                 filepath = os.path.join(root, file)
@@ -413,6 +458,7 @@ def main():
                         "abbrev",
                         # "gap",
                         # "sic",
+                        "atm_food",
                     ),
                 )
 
@@ -424,6 +470,8 @@ def main():
                             tag, prefix=PREFIX + "annotations/", filename=filepath
                         )
                     )
+
+    entity_annotations = merge_annotations(entity_annotations)
 
     with open("rdf/entity_annotations.jsonld", "w") as outfile:
         json.dump(entity_annotations, outfile, indent=4)
