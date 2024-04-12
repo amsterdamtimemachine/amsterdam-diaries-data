@@ -13,6 +13,7 @@ PREFIX = "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/"
 
 METADATA_DIARIES = "data/metadata_diaries.csv"
 METADATA_ENTRIES = "data/metadata_entries.csv"
+METADATA_PERSONS = "data/metadata_persons.csv"
 
 ANNOTATION_IDENTIFIERS = (
     "data/ATM-Diaries Annotaties Linking 2024-03-14 - annotations_20240314.csv"
@@ -135,10 +136,11 @@ regiontype2resource = {
 }
 
 
-def generate_metadata(csv_diaries, csv_entries):
+def generate_metadata(csv_diaries, csv_entries, csv_persons):
 
     df_diaries = pd.read_csv(csv_diaries)
     df_entries = pd.read_csv(csv_entries)
+    df_persons = pd.read_csv(csv_persons)
 
     resources = []
 
@@ -147,16 +149,16 @@ def generate_metadata(csv_diaries, csv_entries):
 
         # Organization
         archive = {
-            # "@id": ?
+            "@id": r["archive_URL"],
             "@type": "ArchiveOrganization",
             "name": r["archive_name"],
         }
 
         # Collection
         collection = {
-            # "@id": ?
+            "@id": r["archive_collection_URL"],
             "@type": ["Collection", "ArchiveComponent"],
-            "name": r["archive_collection"],
+            "name": r["archive_collection_name"],
             "holdingArchive": archive,
         }
 
@@ -179,9 +181,14 @@ def generate_metadata(csv_diaries, csv_entries):
             "isPartOf": collection,
             # "keywords": r["keywords"].replace(";", ","),
             "description": r.description if not pd.isna(r.description) else [],
-            "temporalCoverage": str(r.year).replace("-", "/"),
-            # "dateCreated": #TODO
+            "temporalCoverage": r["temporalCoverage"],
+            "dateCreated": r["dateCreated"],
+            "identifier": r["identifier"],
+            "url": r["Viewer_URI"],
         }
+
+        if not pd.isna(r["Book_URI"]):
+            book["sameAs"] = r["Book_URI"]
 
         resources.append(book)
 
@@ -242,15 +249,65 @@ def generate_metadata(csv_diaries, csv_entries):
             entry_annotation = {
                 "@context": [
                     "http://www.w3.org/ns/anno.jsonld",
+                    {
+                        "target": {
+                            "@id": "oa:hasTarget",
+                            "@type": "@id",
+                            "@container": "@list",
+                        }
+                    },
                 ],
                 "id": f"{PREFIX}annotations/entries/{e.identifier}-annotation",
                 "motivation": "classifying",
                 "type": "Annotation",
                 "body": [entry],
-                "target": {"type": "oa:List", "items": regiontargets},
+                # "target": {"type": "oa:List", "items": regiontargets},
+                "target": regiontargets,
             }
 
             resources.append(entry_annotation)
+
+    # persons
+    for _, r in df_persons.iterrows():
+
+        # uri	name	birthDate	birthPlace_uri	birthPlace_name	deathDate	deathPlace_uri	deathPlace_name	description	image	image_other
+
+        person = {
+            "@context": {"@vocab": "https://schema.org/"},
+            "@id": r.uri,
+            "@type": "Person",
+            "name": r["name"],
+        }
+        if not pd.isna(r["birthDate"]):
+            person["birthDate"] = r["birthDate"]
+
+        if not pd.isna(r["birthPlace_uri"]):
+            person["birthPlace"] = {
+                "@id": r["birthPlace_uri"],
+                "@type": "Place",
+                "name": r["birthPlace_name"],
+            }
+
+        if not pd.isna(r["deathDate"]):
+            person["deathDate"] = r["deathDate"]
+
+        if not pd.isna(r["deathPlace_uri"]):
+            person["deathPlace"] = {
+                "@id": r["deathPlace_uri"],
+                "@type": "Place",
+                "name": r["deathPlace_name"],
+            }
+
+        if not pd.isna(r["description"]):
+            person["description"] = r["description"]
+
+        if not pd.isna(r["image"]):
+            person["image"] = r["image"]
+
+        # if not pd.isna(r["image_other"]):
+        #     person["image_other"] = r["image_other"]
+
+        resources.append(person)
 
     return resources
 
@@ -289,7 +346,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
             ],
             "id": region_id,
             "type": "Annotation",
-            "textGranularity": "region",
+            "textGranularity": "block",
             "items": [],
             "body": [
                 {
@@ -543,7 +600,7 @@ def main():
         json.dump(textual_annotations, outfile, indent=4)
 
     # Metadata
-    resources = generate_metadata(METADATA_DIARIES, METADATA_ENTRIES)
+    resources = generate_metadata(METADATA_DIARIES, METADATA_ENTRIES, METADATA_PERSONS)
 
     with open("rdf/metadata.jsonld", "w") as outfile:
         json.dump(resources, outfile, indent=4)

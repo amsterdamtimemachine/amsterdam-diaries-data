@@ -39,6 +39,8 @@
 
 ## Diary (Book)
 
+
+
 ## Entry (Manuscript)
 
 ## Image
@@ -137,7 +139,7 @@ package WA_Region as "Region Annotation" {
   class Annotation_Region as "Annotation (Region)" #silver {
       * URI
       --
-      textGranularity: "region"
+      textGranularity: "block"
       motivation: tagging
   }
   
