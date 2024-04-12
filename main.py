@@ -2,6 +2,7 @@ import os
 import json
 from collections import defaultdict
 import uuid
+from lxml import etree
 
 from pagexml.parser import parse_pagexml_file
 from pagexml.helper.pagexml_helper import get_custom_tags
@@ -134,6 +135,37 @@ regiontype2resource = {
         "skos:broader": PREFIX + "tags/regions/" + "region",
     },
 }
+
+
+def getSVG(
+    coordinates,
+    color="#BD0032",
+    opacity="0.1",
+    stroke_width="1",
+    stroke_color="#BD0032",
+):
+
+    points = "M "  # start at this point
+    points += " L ".join(
+        [f"{int(x)},{int(y)}" for x, y in coordinates]
+    )  # then move from point to point
+    points += " Z"  # close
+
+    svg = etree.Element("svg", xmlns="http://www.w3.org/2000/svg")
+    _ = etree.SubElement(
+        svg,
+        "path",
+        **{
+            "fill-rule": "evenodd",
+            "fill": color,
+            "stroke": stroke_color,
+            "stroke-width": stroke_width,
+            "fill-opacity": opacity,
+            "d": points,
+        },
+    )
+
+    return etree.tostring(svg, encoding=str)
 
 
 def generate_metadata(csv_diaries, csv_entries, csv_persons):
@@ -369,6 +401,11 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
                         "value": f"xywh={region.coords.x},{region.coords.y},{region.coords.w},{region.coords.h}",
                         "conformsTo": "http://www.w3.org/TR/media-frags/",
                     },
+                    {
+                        "type": "SvgSelector",
+                        "value": getSVG(region.coords.points),
+                        "conformsTo": "http://www.w3.org/TR/SVG/",
+                    },
                 ],
             },
         }
@@ -408,6 +445,11 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
                             "type": "FragmentSelector",
                             "value": f"xywh={line.coords.x},{line.coords.y},{line.coords.w},{line.coords.h}",
                             "conformsTo": "http://www.w3.org/TR/media-frags/",
+                        },
+                        {
+                            "type": "SvgSelector",
+                            "value": getSVG(line.coords.points),
+                            "conformsTo": "http://www.w3.org/TR/SVG/",
                         },
                     ],
                 },
