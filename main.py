@@ -91,35 +91,46 @@ tagtype2resource = {
 }
 
 regiontype2resource = {
+    "region": {
+        "id": PREFIX + "tags/regions/" + "region",
+        "type": "skos:Concept",
+        "label": "Region",
+    },
     "heading": {
         "id": PREFIX + "tags/regions/" + "heading",
         "type": "skos:Concept",
         "label": "Heading",
+        "skos:broader": PREFIX + "tags/regions/" + "region",
     },
     "paragraph": {
         "id": PREFIX + "tags/regions/" + "paragraph",
         "type": "skos:Concept",
         "label": "Paragraph",
+        "skos:broader": PREFIX + "tags/regions/" + "region",
     },
     "caption": {
         "id": PREFIX + "tags/regions/" + "caption",
         "type": "skos:Concept",
         "label": "Caption",
+        "skos:broader": PREFIX + "tags/regions/" + "region",
     },
     "visual": {
         "id": PREFIX + "tags/regions/" + "visual",
         "type": "skos:Concept",
         "label": "Visual",
+        "skos:broader": PREFIX + "tags/regions/" + "region",
     },
     "marginalia": {
         "id": PREFIX + "tags/regions/" + "marginalia",
         "type": "skos:Concept",
         "label": "Marginalia",
+        "skos:broader": PREFIX + "tags/regions/" + "region",
     },
     "page-number": {
         "id": PREFIX + "tags/regions/" + "page-number",
         "type": "skos:Concept",
         "label": "Page number",
+        "skos:broader": PREFIX + "tags/regions/" + "region",
     },
 }
 
@@ -175,7 +186,9 @@ def generate_metadata(csv_diaries, csv_entries):
         resources.append(book)
 
         # entries
-        for _, e in df_entries[df_entries["diary"] == r.identifier].iterrows():
+        for _, e in df_entries[
+            df_entries["identifier_diary"] == r.identifier
+        ].iterrows():
 
             # Regions
             regiontargets = []
@@ -194,6 +207,7 @@ def generate_metadata(csv_diaries, csv_entries):
                         "@type": "@id",
                         "@container": "@list",
                     },
+                    "name": "https://schema.org/name",
                 },
                 "@id": f"{PREFIX}annotations/entries/{e.identifier}",
                 "@type": "Manuscript",
@@ -201,10 +215,28 @@ def generate_metadata(csv_diaries, csv_entries):
                     "@id": book["@id"],
                     "@type": "Book",
                 },  # shallow
-                "name": e["name"],
-                "dateCreated": e.date,
                 "text": textualbodies,
             }
+
+            if not pd.isna(e["name"]):
+                entry["name"] = e["name"]
+
+            if not pd.isna(e["date"]):
+                if e["date"].count("-") == 1:
+                    entry["dateCreated"] = {
+                        "@type": "xsd:gYearMonth",
+                        "@value": e["date"],
+                    }
+                elif e["date"].count("-") == 2:
+                    entry["dateCreated"] = {
+                        "@type": "xsd:date",
+                        "@value": e["date"],
+                    }
+                else:
+                    entry["dateCreated"] = {
+                        "@type": "xsd:gYear",
+                        "@value": e["date"],
+                    }
 
             # Entry annotation
             entry_annotation = {
@@ -243,6 +275,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
         )
         if not region_type:
             region_type = ""
+            region_type_resource = regiontype2resource["region"]
         else:
             region_type = region_type.pop()
             region_type_resource = regiontype2resource[region_type]
@@ -484,11 +517,11 @@ def get_annotation_identifier(source, tag, text, df):
         )
 
         if tag == "person":
-            identifier_type = "schema:Person"
+            identifier_type = "https://schema.org/Person"
         elif tag == "place":
-            identifier_type = "schema:Place"
+            identifier_type = "https://schema.org/Place"
         elif tag == "organization":
-            identifier_type = "schema:Organization"
+            identifier_type = "https://schema.org/Organization"
         else:
             identifier_type = None
 
@@ -499,7 +532,7 @@ def main():
 
     # Text (from pagexml)
     textual_annotations = []
-    for root, dirs, files in os.walk("data/export_job_8806623/"):
+    for root, dirs, files in os.walk("data/diaries/"):
         for file in sorted(files):
             if file.endswith(".xml") and file not in ("metadata.xml", "mets.xml"):
                 filepath = os.path.join(root, file)
@@ -518,7 +551,7 @@ def main():
     # Annotations
     entity_annotations = []
     df_annotation_identifiers = pd.read_csv(ANNOTATION_IDENTIFIERS)
-    for root, dirs, files in os.walk("data/export_job_8806623/"):
+    for root, dirs, files in os.walk("data/diaries/"):
         for file in sorted(files):
             if file.endswith(".xml") and file not in ("metadata.xml", "mets.xml"):
                 filepath = os.path.join(root, file)
