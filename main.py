@@ -164,7 +164,11 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons):
 
         # Diary
         book = {
-            "@context": {"@vocab": "https://schema.org/"},
+            "@context": {
+                "@vocab": "https://schema.org/",
+                "sameAs": {"@type": "@id"},
+                "url": {"@type": "@id"},
+            },
             "@id": f"{PREFIX}diaries/{r.identifier}",
             "@type": "Book",
             "author": {
@@ -471,10 +475,10 @@ def add_entity_identifier(annotation, identifier_df):
 
     if tag.startswith("atm_"):
         # skip
-        return annotation
+        return annotation, identifier_df
 
     # identifying
-    identifier, identifier_type = get_annotation_identifier(
+    identifier, identifier_type, identifier_df = get_annotation_identifier(
         source, tag, text, identifier_df
     )
 
@@ -507,7 +511,7 @@ def add_entity_identifier(annotation, identifier_df):
                 }
             )
 
-    return annotation
+    return annotation, identifier_df
 
 
 def merge_annotations(annotations):
@@ -551,10 +555,10 @@ def merge_annotations(annotations):
     return annotations
 
 
-def get_annotation_identifier(source, tag, text, df):
+def get_annotation_identifier(source_body, tag, text, df):
 
     # temp fix
-    source = source.replace("-body", "")
+    source = source_body.replace("-body", "")
     source_prefix, source_rest = source.rsplit("/", 1)
     source_region, source_line = source_rest.rsplit("-", 1)
 
@@ -564,7 +568,25 @@ def get_annotation_identifier(source, tag, text, df):
 
     if results.empty:
         print(f"No identifier found for: {source}, {tag}, {text}")
-        return None, None
+
+        # add to df
+        # index,annotation,tag,source,text,uri,label,date,checken
+        df_add = pd.DataFrame(
+            {
+                "index": [df.shape[0] + 1],
+                "annotation": [None],
+                "tag": [tag],
+                "source": [source],
+                "text": [text],
+                "uri": [None],
+                "label": [None],
+                "date": [None],
+                "checken": [None],
+            }
+        )
+        df = pd.concat([df, df_add], ignore_index=True)
+
+        return None, None, df
     else:
         identifier = (
             results.iloc[0]["uri"] if not pd.isna(results.iloc[0]["uri"]) else None
@@ -582,7 +604,7 @@ def get_annotation_identifier(source, tag, text, df):
         else:
             identifier_type = None
 
-    return identifier, identifier_type
+    return identifier, identifier_type, df
 
 
 def main():
@@ -645,12 +667,17 @@ def main():
     entity_annotations = merge_annotations(entity_annotations)
 
     # Add identifiers
-    entity_annotations = [
-        add_entity_identifier(a, df_annotation_identifiers) for a in entity_annotations
-    ]
+    new_entity_annotations = []
+    for a in entity_annotations:
+        a, df_annotation_identifiers = add_entity_identifier(
+            a, df_annotation_identifiers
+        )
+        new_entity_annotations.append(a)
+
+    df_annotation_identifiers.to_csv(ANNOTATION_IDENTIFIERS, index=False)
 
     with open("rdf/entity_annotations.jsonld", "w") as outfile:
-        json.dump(entity_annotations, outfile, indent=4)
+        json.dump(new_entity_annotations, outfile, indent=4)
 
 
 if __name__ == "__main__":
