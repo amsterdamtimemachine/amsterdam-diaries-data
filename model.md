@@ -55,6 +55,9 @@
 
 ## PlantUML
 
+![](model.svg)
+
+
 ```plantuml
 @startuml
 hide circle
