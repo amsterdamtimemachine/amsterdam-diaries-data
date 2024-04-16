@@ -660,6 +660,48 @@ def get_annotation_identifier(source_body, tag, text, annotation_id, df):
     return identifier, identifier_type, annotation_id, df
 
 
+def generate_external_data(df):
+
+    resources = []
+    cache = set()
+
+    for _, r in df.iterrows():
+
+        if pd.isna(r["uri"]):
+            continue
+        elif r["uri"] in cache:
+            continue
+
+        if r["tag"] == "person":
+            resource_type = "Person"
+        elif r["tag"] == "place":
+            resource_type = "Place"
+        elif r["tag"] == "organization":
+            resource_type = "Organization"
+
+        resource = {
+            "@context": {"@vocab": "https://schema.org/"},
+            "@id": r["uri"],
+            "@type": resource_type,
+            "name": r["label"],
+        }
+
+        if not pd.isna(r["description"]):
+            resource["description"] = r["description"]
+
+        if not pd.isna(r["latitude"]):
+            resource["geo"] = {
+                "@type": "GeoCoordinates",
+                "latitude": r["latitude"],
+                "longitude": r["longitude"],
+            }
+
+        cache.add(r["uri"])
+        resources.append(resource)
+
+    return resources
+
+
 def main():
 
     # Text (from pagexml)
@@ -731,6 +773,11 @@ def main():
 
     with open("rdf/entity_annotations.jsonld", "w") as outfile:
         json.dump(new_entity_annotations, outfile, indent=4)
+
+    external_resources = generate_external_data(df_annotation_identifiers)
+
+    with open("rdf/external_resources.jsonld", "w") as outfile:
+        json.dump(external_resources, outfile, indent=4)
 
 
 if __name__ == "__main__":
