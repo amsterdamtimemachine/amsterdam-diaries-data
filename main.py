@@ -265,21 +265,26 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons):
                 entry["name"] = e["name"]
 
             if not pd.isna(e["date"]):
-                if e["date"].count("-") == 1:
-                    entry["dateCreated"] = {
-                        "@type": "xsd:gYearMonth",
-                        "@value": e["date"],
-                    }
-                elif e["date"].count("-") == 2:
-                    entry["dateCreated"] = {
-                        "@type": "xsd:date",
-                        "@value": e["date"],
-                    }
-                else:
-                    entry["dateCreated"] = {
-                        "@type": "xsd:gYear",
-                        "@value": e["date"],
-                    }
+                # if e["date"].count("-") == 1:
+                #     entry["dateCreated"] = {
+                #         "@type": "xsd:gYearMonth",
+                #         "@value": e["date"],
+                #     }
+                # elif e["date"].count("-") == 2:
+                #     entry["dateCreated"] = {
+                #         "@type": "xsd:date",
+                #         "@value": e["date"],
+                #     }
+                # else:
+                #     entry["dateCreated"] = {
+                #         "@type": "xsd:gYear",
+                #         "@value": e["date"],
+                #     }
+
+                entry["dateCreated"] = {
+                    "@type": "xsd:date",
+                    "@value": e["date"],
+                }
 
             # Entry annotation
             entry_annotation = {
@@ -498,7 +503,7 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
                     {
                         "type": "TextPositionSelector",
                         "start": tag["offset"],
-                        "end": tag["offset"] + tag["length"] - 1,
+                        "end": tag["offset"] + tag["length"],
                     },
                 ],
             }
@@ -571,7 +576,7 @@ def merge_annotations(annotations):
         text_length = body2length[a1["target"][0]["source"]]
 
         # Is the annotation at the end of the text?
-        if not a1["target"][0]["selector"][1]["end"] == text_length - 1:
+        if not a1["target"][0]["selector"][1]["end"] == text_length:
             continue
 
         # Is the next annotation in the next line?

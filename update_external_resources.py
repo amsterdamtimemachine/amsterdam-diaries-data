@@ -133,8 +133,10 @@ def main(annotations_file):
 
         df.at[index, "label"] = label
         df.at[index, "description"] = description
-        df.at[index, "latitude"] = latitude
-        df.at[index, "longitude"] = longitude
+        df.at[index, "latitude"] = round(float(latitude), 6) if latitude else latitude
+        df.at[index, "longitude"] = (
+            round(float(longitude), 6) if longitude else longitude
+        )
 
     # Save!
     df.to_csv(annotations_file, index=False)
