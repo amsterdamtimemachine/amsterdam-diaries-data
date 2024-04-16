@@ -510,6 +510,7 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
 
 def add_entity_identifier(annotation, identifier_df):
 
+    annotation_id = annotation["id"]
     source = annotation["target"][0]["source"]
     tag = annotation["body"][0]["source"]["id"].replace(PREFIX + "tags/entities/", "")
     text = " ".join([t["selector"][0]["exact"] for t in annotation["target"]])
@@ -520,9 +521,12 @@ def add_entity_identifier(annotation, identifier_df):
         return annotation, identifier_df
 
     # identifying
-    identifier, identifier_type, identifier_df = get_annotation_identifier(
-        source, tag, text, identifier_df
+    identifier, identifier_type, annotation_id, identifier_df = (
+        get_annotation_identifier(source, tag, text, annotation_id, identifier_df)
     )
+
+    if annotation_id:
+        annotation["id"] = annotation_id
 
     if identifier:
         if tag == "date":
@@ -597,7 +601,7 @@ def merge_annotations(annotations):
     return annotations
 
 
-def get_annotation_identifier(source_body, tag, text, df):
+def get_annotation_identifier(source_body, tag, text, annotation_id, df):
 
     # temp fix
     source = source_body.replace("-body", "")
@@ -616,23 +620,30 @@ def get_annotation_identifier(source_body, tag, text, df):
         df_add = pd.DataFrame(
             {
                 "index": [df.shape[0] + 1],
-                "annotation": [None],
+                "annotation": [annotation_id],
                 "tag": [tag],
                 "source": [source],
                 "text": [text],
                 "uri": [None],
-                "label": [None],
                 "date": [None],
+                "label": [None],
+                "description": [None],
+                "latitude": [None],
+                "longitude": [None],
                 "checken": [None],
             }
         )
         df = pd.concat([df, df_add], ignore_index=True)
 
-        return None, None, df
+        return None, None, None, df
     else:
+        annotation_id = results.iloc[0]["annotation"]
+
         identifier = (
             results.iloc[0]["uri"] if not pd.isna(results.iloc[0]["uri"]) else None
         )
+
+        # If no uri, use date
         identifier = identifier or (
             results.iloc[0]["date"] if not pd.isna(results.iloc[0]["date"]) else None
         )
@@ -646,7 +657,7 @@ def get_annotation_identifier(source_body, tag, text, df):
         else:
             identifier_type = None
 
-    return identifier, identifier_type, df
+    return identifier, identifier_type, annotation_id, df
 
 
 def main():
