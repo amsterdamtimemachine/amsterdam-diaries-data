@@ -685,11 +685,7 @@ def generate_external_data(df):
             resource_type = "Organization"
 
         resource = {
-            "@context": {
-                "@vocab": "https://schema.org/",
-                "latitude": {"@type": "xsd:decimal"},
-                "longitude": {"@type": "xsd:decimal"},
-            },
+            "@context": {"@vocab": "https://schema.org/"},
             "@id": r["uri"],
             "@type": resource_type,
             "name": r["label"],
