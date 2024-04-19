@@ -282,7 +282,7 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons):
                 #     }
 
                 entry["dateCreated"] = {
-                    "@type": "xsd:date",
+                    "@type": "http://www.w3.org/2001/XMLSchema#date",
                     "@value": e["date"],
                 }
 
@@ -397,7 +397,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
                 },
             ],
             "target": {
-                "id": f"{PREFIX}annotations/regions/{target_id}",
+                "id": target_id,
                 "type": "SpecificResource",
                 "source": scan_uri,
                 "selector": [
@@ -538,7 +538,10 @@ def add_entity_identifier(annotation, identifier_df):
             annotation["body"].append(
                 {
                     "type": "TextualBody",
-                    "value": {"@type": "xsd:date", "@value": identifier},
+                    "value": {
+                        "@type": "http://www.w3.org/2001/XMLSchema#date",
+                        "@value": identifier,
+                    },
                     "purpose": "identifying",
                 }
             )
@@ -685,7 +688,17 @@ def generate_external_data(df):
             resource_type = "Organization"
 
         resource = {
-            "@context": {"@vocab": "https://schema.org/"},
+            "@context": {
+                "@vocab": "https://schema.org/",
+                "latitude": {
+                    "@type": "http://www.w3.org/2001/XMLSchema#double",
+                    "@id": "https://schema.org/latitude",
+                },
+                "longitude": {
+                    "@type": "http://www.w3.org/2001/XMLSchema#double",
+                    "@id": "https://schema.org/longitude",
+                },
+            },
             "@id": r["uri"],
             "@type": resource_type,
             "name": r["label"],
