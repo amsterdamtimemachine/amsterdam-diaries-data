@@ -23,6 +23,7 @@ ANNOTATION_IDENTIFIERS = (
 body2length = dict()
 
 region2textualbody = defaultdict(list)
+diary2scan = defaultdict(list)
 
 tagtype2resource = {
     "structure": {
@@ -104,6 +105,12 @@ regiontype2resource = {
         "label": "Heading",
         "skos:broader": PREFIX + "tags/regions/" + "region",
     },
+    "header": {
+        "id": PREFIX + "tags/regions/" + "header",
+        "type": "skos:Concept",
+        "label": "header",
+        "skos:broader": PREFIX + "tags/regions/" + "region",
+    },
     "paragraph": {
         "id": PREFIX + "tags/regions/" + "paragraph",
         "type": "skos:Concept",
@@ -176,8 +183,12 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons):
 
     resources = []
 
+    diaryname2fileprefix = dict()
+
     # books
     for _, r in df_diaries.iterrows():
+
+        diaryname2fileprefix[r["name"]] = r["file_prefix"]
 
         # Organization
         archive = {
@@ -350,15 +361,23 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons):
 
         resources.append(person)
 
-    return resources
+    return resources, diaryname2fileprefix
 
 
-def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
+def parse_pagexml(
+    diary,
+    pagexml_file_path,
+    region2textualbody=region2textualbody,
+    diary2scan=diary2scan,
+    body2length=body2length,
+):
 
     annotations = []
 
     page = parse_pagexml_file(pagexml_file_path)
     scan_uri = f"{pagexml_file_path}-scan"
+
+    diary2scan[diary].append(scan_uri)
 
     # TODO: these are not unique
     base_filename = os.path.basename(pagexml_file_path)
@@ -399,7 +418,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
             "target": {
                 "id": target_id,
                 "type": "SpecificResource",
-                "source": scan_uri,
+                "source": {"@id": scan_uri, "type": "ImageObject"},
                 "selector": [
                     {
                         "type": "FragmentSelector",
@@ -422,7 +441,10 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
             body_id = f"{line_id}-body"
 
             # Needed to merge annotations later
-            body2length[body_id] = len(line.text)
+            if line.text:
+                body2length[body_id] = len(line.text)
+            else:
+                body2length[body_id] = 0
 
             region2textualbody[region_id].append(body_id)
 
@@ -444,7 +466,7 @@ def parse_pagexml(pagexml_file_path, region2textualbody=region2textualbody):
                 ],
                 "target": {
                     "type": "SpecificResource",
-                    "source": scan_uri,
+                    "source": {"@id": scan_uri, "type": "ImageObject"},
                     "selector": [
                         {
                             "type": "FragmentSelector",
@@ -513,7 +535,7 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
     return annotation
 
 
-def add_entity_identifier(annotation, identifier_df):
+def add_entity_identifier(annotation, identifier_df, diaryname2fileprefix):
 
     annotation_id = annotation["id"]
     source = annotation["target"][0]["source"]
@@ -525,9 +547,15 @@ def add_entity_identifier(annotation, identifier_df):
         # skip
         return annotation, identifier_df
 
+    for diary, fileprefix in diaryname2fileprefix.items():
+        if fileprefix in source:
+            break
+
     # identifying
     identifier, identifier_type, annotation_id, identifier_df = (
-        get_annotation_identifier(source, tag, text, annotation_id, identifier_df)
+        get_annotation_identifier(
+            diary, source, tag, text, annotation_id, identifier_df
+        )
     )
 
     if annotation_id:
@@ -570,7 +598,7 @@ def add_entity_identifier(annotation, identifier_df):
 
 def merge_annotations(annotations):
 
-    for a1, a2 in zip(annotations[:-1], annotations[1:]):
+    for a2, a1 in zip(reversed(annotations[1:]), reversed(annotations[:-1])):
 
         # Are the annotations of the same type?
         if not a1["body"][0]["source"] == a2["body"][0]["source"]:
@@ -599,17 +627,17 @@ def merge_annotations(annotations):
         if not a2["target"][0]["selector"][1]["start"] == 0:
             continue
 
-        annotations.remove(a1)
+        # annotations.remove(a1)
         annotations.remove(a2)
 
         # Merge targets
-        a1["target"].append(a2["target"][0])
-        annotations.append(a1)
+        a1["target"] += a2["target"]
+        # annotations.append(a1)
 
     return annotations
 
 
-def get_annotation_identifier(source_body, tag, text, annotation_id, df):
+def get_annotation_identifier(diary, source_body, tag, text, annotation_id, df):
 
     # temp fix
     source = source_body.replace("-body", "")
@@ -629,6 +657,7 @@ def get_annotation_identifier(source_body, tag, text, annotation_id, df):
             {
                 "index": [df.shape[0] + 1],
                 "annotation": [annotation_id],
+                "diary": [diary],
                 "tag": [tag],
                 "source": [source],
                 "text": [text],
@@ -724,18 +753,22 @@ def main():
 
     # Text (from pagexml)
     textual_annotations = []
-    for root, dirs, files in os.walk("data/diaries/"):
-        for file in sorted(files):
+    for diary in os.listdir("data/diaries/"):
+        print(diary)
+        page_xml_path = os.path.join("data/diaries/", diary, "page")
+        for file in sorted(os.listdir(page_xml_path)):
             if file.endswith(".xml") and file not in ("metadata.xml", "mets.xml"):
-                filepath = os.path.join(root, file)
+                filepath = os.path.join(page_xml_path, file)
 
-                textual_annotations += parse_pagexml(filepath)
+                textual_annotations += parse_pagexml(diary, filepath)
 
     with open("rdf/textual_annotations.jsonld", "w") as outfile:
         json.dump(textual_annotations, outfile, indent=4)
 
     # Metadata
-    resources = generate_metadata(METADATA_DIARIES, METADATA_ENTRIES, METADATA_PERSONS)
+    resources, diaryname2fileprefix = generate_metadata(
+        METADATA_DIARIES, METADATA_ENTRIES, METADATA_PERSONS
+    )
 
     with open("rdf/metadata.jsonld", "w") as outfile:
         json.dump(resources, outfile, indent=4)
@@ -743,10 +776,11 @@ def main():
     # Annotations
     entity_annotations = []
     df_annotation_identifiers = pd.read_csv(ANNOTATION_IDENTIFIERS)
-    for root, dirs, files in os.walk("data/diaries/"):
-        for file in sorted(files):
+    for diary in os.listdir("data/diaries/"):
+        page_xml_path = os.path.join("data/diaries/", diary, "page")
+        for file in sorted(os.listdir(page_xml_path)):
             if file.endswith(".xml") and file not in ("metadata.xml", "mets.xml"):
-                filepath = os.path.join(root, file)
+                filepath = os.path.join(page_xml_path, file)
 
                 page = parse_pagexml_file(
                     filepath,
@@ -783,7 +817,7 @@ def main():
     new_entity_annotations = []
     for a in entity_annotations:
         a, df_annotation_identifiers = add_entity_identifier(
-            a, df_annotation_identifiers
+            a, df_annotation_identifiers, diaryname2fileprefix
         )
         new_entity_annotations.append(a)
 
