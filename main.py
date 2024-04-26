@@ -11,6 +11,7 @@ import pandas as pd
 
 # FOLDER = "data/"
 PREFIX = "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/"
+IIIF_PREFIX = "https://images.diaries.amsterdamtimemachine.nl/"
 
 METADATA_DIARIES = "data/metadata_diaries.csv"
 METADATA_ENTRIES = "data/metadata_entries.csv"
@@ -175,7 +176,7 @@ def getSVG(
     return etree.tostring(svg, encoding=str)
 
 
-def generate_metadata(csv_diaries, csv_entries, csv_persons):
+def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2scan):
 
     df_diaries = pd.read_csv(csv_diaries)
     df_entries = pd.read_csv(csv_entries)
@@ -211,6 +212,11 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons):
                 "@vocab": "https://schema.org/",
                 "sameAs": {"@type": "@id"},
                 "url": {"@type": "@id"},
+                "image": {
+                    "@id": "https://schema.org/image",
+                    "@type": "@id",
+                    "@container": "@list",
+                },
             },
             "@id": f"{PREFIX}diaries/{r.identifier}",
             "@type": "Book",
@@ -232,6 +238,7 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons):
             "dateCreated": r["dateCreated"],
             "identifier": r["identifier"],
             "url": r["Viewer_URI"],
+            "image": diary2scan[r["folder_name"]],
         }
 
         if not pd.isna(r["Book_URI"]):
@@ -375,7 +382,10 @@ def parse_pagexml(
     annotations = []
 
     page = parse_pagexml_file(pagexml_file_path)
-    scan_uri = f"{pagexml_file_path}-scan"
+
+    filename = os.path.basename(pagexml_file_path).split("_", 1)[1]
+    scan_name = filename.replace(".xml", ".jpg")
+    scan_uri = IIIF_PREFIX + scan_name
 
     diary2scan[diary].append(scan_uri)
 
@@ -418,7 +428,13 @@ def parse_pagexml(
             "target": {
                 "id": target_id,
                 "type": "SpecificResource",
-                "source": {"@id": scan_uri, "type": "ImageObject"},
+                "source": {
+                    "@id": scan_uri,
+                    "type": "ImageObject",
+                    "name": scan_name,
+                    "contentUrl": scan_uri + "/full/max/0/default.jpg",
+                    "thumbnailUrl": scan_uri + "/full/,250/0/default.jpg",
+                },
                 "selector": [
                     {
                         "type": "FragmentSelector",
@@ -466,7 +482,13 @@ def parse_pagexml(
                 ],
                 "target": {
                     "type": "SpecificResource",
-                    "source": {"@id": scan_uri, "type": "ImageObject"},
+                    "source": {
+                        "@id": scan_uri,
+                        "type": "ImageObject",
+                        "name": scan_name,
+                        "contentUrl": scan_uri + "/full/max/0/default.jpg",
+                        "thumbnailUrl": scan_uri + "/full/,250/0/default.jpg",
+                    },
                     "selector": [
                         {
                             "type": "FragmentSelector",
@@ -760,14 +782,16 @@ def main():
             if file.endswith(".xml") and file not in ("metadata.xml", "mets.xml"):
                 filepath = os.path.join(page_xml_path, file)
 
-                textual_annotations += parse_pagexml(diary, filepath)
+                textual_annotations += parse_pagexml(
+                    diary, filepath, region2textualbody, diary2scan, body2length
+                )
 
     with open("rdf/textual_annotations.jsonld", "w") as outfile:
         json.dump(textual_annotations, outfile, indent=4)
 
     # Metadata
     resources, diaryname2fileprefix = generate_metadata(
-        METADATA_DIARIES, METADATA_ENTRIES, METADATA_PERSONS
+        METADATA_DIARIES, METADATA_ENTRIES, METADATA_PERSONS, diary2scan
     )
 
     with open("rdf/metadata.jsonld", "w") as outfile:
