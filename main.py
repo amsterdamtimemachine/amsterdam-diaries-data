@@ -557,7 +557,9 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
     return annotation
 
 
-def add_entity_identifier(annotation, identifier_df, diaryname2fileprefix):
+def add_entity_identifier(
+    annotation, identifier_df, diaryname2fileprefix, skip_tags=()
+):
 
     annotation_id = annotation["id"]
     source = annotation["target"][0]["source"]
@@ -567,6 +569,8 @@ def add_entity_identifier(annotation, identifier_df, diaryname2fileprefix):
 
     if tag.startswith("atm_"):
         # skip
+        return annotation, identifier_df
+    elif tag in skip_tags:
         return annotation, identifier_df
 
     for diary, fileprefix in diaryname2fileprefix.items():
@@ -814,13 +818,13 @@ def main():
                         "person",
                         "place",
                         "organization",
-                        # "add",
-                        # "unclear",
-                        # "blackening",
+                        "add",
+                        "unclear",
+                        "blackening",
                         "speech",
                         "abbrev",
-                        # "gap",
-                        # "sic",
+                        "gap",
+                        "sic",
                         "atm_food",
                     ),
                 )
@@ -841,7 +845,10 @@ def main():
     new_entity_annotations = []
     for a in entity_annotations:
         a, df_annotation_identifiers = add_entity_identifier(
-            a, df_annotation_identifiers, diaryname2fileprefix
+            a,
+            df_annotation_identifiers,
+            diaryname2fileprefix,
+            skip_tags=("add", "unclear", "blackening", "speech", "gap", "sic"),
         )
         new_entity_annotations.append(a)
 
