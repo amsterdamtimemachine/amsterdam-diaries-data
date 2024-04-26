@@ -130,6 +130,8 @@ def main(annotations_file):
             label, description, latitude, longitude = query_wikidata(uri, cache=cache)
         elif "adamlink" in uri:
             label, description, latitude, longitude = query_adamlink(uri, cache=cache)
+        else:
+            label, description, latitude, longitude = "", "", "", ""
 
         df.at[index, "label"] = label
         df.at[index, "description"] = description
