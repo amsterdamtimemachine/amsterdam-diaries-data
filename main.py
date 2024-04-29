@@ -563,7 +563,7 @@ def add_entity_identifier(
     source = annotation["target"][0]["source"]
     tag = annotation["body"][0]["source"]["id"].replace(PREFIX + "tags/entities/", "")
     text = " ".join([t["selector"][0]["exact"] for t in annotation["target"]])
-    text = text.replace("- ", "")
+    text = text.replace("- ", "").replace("¬ ", "")
 
     if tag.startswith("atm_"):
         # skip
