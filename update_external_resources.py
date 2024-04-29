@@ -5,9 +5,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from shapely import wkt
 
 
-ANNOTATION_IDENTIFIERS = (
-    "data/ATM-Diaries Annotaties Linking 2024-03-14 - annotations_20240314.csv"
-)
+ANNOTATION_IDENTIFIERS = "data/annotations_linking.csv"
 
 
 def query_wikidata(uri, endpoint="https://query.wikidata.org/sparql", cache=dict()):
@@ -29,7 +27,7 @@ def query_wikidata(uri, endpoint="https://query.wikidata.org/sparql", cache=dict
         
         VALUES ?uri { <URIHIER> }
 
-        SERVICE wikibase:label { bd:serviceParam wikibase:language "nl,en". }
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "nl,en,de". }
     }
     """.replace(
         "URIHIER", uri
@@ -123,6 +121,17 @@ def main(annotations_file):
         if pd.isna(row["uri"]):
             continue
         elif pd.notna(row["label"]):
+            continue
+        # Diary writers have their own biography in the project
+        elif row["uri"] in (
+            "http://www.wikidata.org/entity/Q113810404",
+            "http://www.wikidata.org/entity/Q123396315",
+            "http://www.wikidata.org/entity/Q124972258",
+            "http://www.wikidata.org/entity/Q124987744",
+            "http://www.wikidata.org/entity/Q125019911",
+            "http://www.wikidata.org/entity/Q125020291",
+            "http://www.wikidata.org/entity/Q65965451",
+        ):
             continue
 
         uri = row["uri"]

@@ -17,9 +17,7 @@ METADATA_DIARIES = "data/metadata_diaries.csv"
 METADATA_ENTRIES = "data/metadata_entries.csv"
 METADATA_PERSONS = "data/metadata_persons.csv"
 
-ANNOTATION_IDENTIFIERS = (
-    "data/ATM-Diaries Annotaties Linking 2024-03-14 - annotations_20240314.csv"
-)
+ANNOTATION_IDENTIFIERS = "data/annotations_linking.csv"
 
 body2length = dict()
 
