@@ -754,8 +754,10 @@ def generate_external_data(df):
             },
             "@id": r["uri"],
             "@type": resource_type,
-            "name": r["label"],
         }
+
+        if not pd.isna(r["label"]):
+            resource["name"] = r["label"]
 
         if not pd.isna(r["description"]):
             resource["description"] = r["description"]
