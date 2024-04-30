@@ -11,7 +11,7 @@ import pandas as pd
 
 # FOLDER = "data/"
 PREFIX = "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/"
-IIIF_PREFIX = "https://images.diaries.amsterdamtimemachine.nl/"
+IIIF_PREFIX = "https://images.diaries.amsterdamtimemachine.nl/iiif/"
 
 METADATA_DIARIES = "data/metadata_diaries.csv"
 METADATA_ENTRIES = "data/metadata_entries.csv"
@@ -89,6 +89,10 @@ tagtype2resource = {
         "id": PREFIX + "tags/entities/" + "atm_food",
         "type": "skos:Concept",
         "label": "Etenswaren",
+        "skos:closeMatch": [
+            "http://vocab.getty.edu/aat/300254496",
+            "http://data.beeldengeluid.nl/gtaa/217707",
+        ],
     },
 }
 
