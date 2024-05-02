@@ -440,7 +440,7 @@ def parse_pagexml(
                 "selector": [
                     {
                         "type": "FragmentSelector",
-                        "value": f"xywh={region.coords.x},{region.coords.y},{region.coords.w},{region.coords.h}",
+                        "value": f"xywh={max(0, region.coords.x)},{max(0, region.coords.y)},{region.coords.w},{region.coords.h}",
                         "conformsTo": "http://www.w3.org/TR/media-frags/",
                     },
                     {
@@ -494,7 +494,7 @@ def parse_pagexml(
                     "selector": [
                         {
                             "type": "FragmentSelector",
-                            "value": f"xywh={line.coords.x},{line.coords.y},{line.coords.w},{line.coords.h}",
+                            "value": f"xywh={max(0, line.coords.x)},{max(0, line.coords.y)},{line.coords.w},{line.coords.h}",
                             "conformsTo": "http://www.w3.org/TR/media-frags/",
                         },
                         {
@@ -566,7 +566,7 @@ def add_entity_identifier(
     annotation_id = annotation["id"]
     source = annotation["target"][0]["source"]
     tag = annotation["body"][0]["source"]["id"].replace(PREFIX + "tags/entities/", "")
-    text = " ".join([t["selector"][0]["exact"] for t in annotation["target"]])
+    text = " ".join([t["selector"][0]["exact"] for t in annotation["target"]]).strip()
     text = text.replace("- ", "").replace("¬ ", "")
 
     if tag.startswith("atm_"):
@@ -743,6 +743,8 @@ def generate_external_data(df):
             resource_type = "Place"
         elif r["tag"] == "organization":
             resource_type = "Organization"
+        else:
+            continue
 
         resource = {
             "@context": {

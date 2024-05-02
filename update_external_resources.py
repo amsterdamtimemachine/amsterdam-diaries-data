@@ -15,7 +15,7 @@ def query_wikidata(uri, endpoint="https://query.wikidata.org/sparql", cache=dict
 
     q = """
     SELECT DISTINCT ?uri ?uriLabel ?uriDescription ?latitude ?longitude WHERE {
-        ?uri wdt:P31 [] .
+        ?uri wdt:P31|wdt:P279 [] .
     
         OPTIONAL {
             ?uri p:P625 ?coordinate.
@@ -32,6 +32,8 @@ def query_wikidata(uri, endpoint="https://query.wikidata.org/sparql", cache=dict
     """.replace(
         "URIHIER", uri
     )
+
+    print(uri)
 
     sparql = SPARQLWrapper(endpoint)
     sparql.setQuery(q)
