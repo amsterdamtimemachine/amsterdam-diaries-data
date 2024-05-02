@@ -6,6 +6,7 @@ from lxml import etree
 
 from pagexml.parser import parse_pagexml_file
 from pagexml.helper.pagexml_helper import get_custom_tags
+from pagexml.model.physical_document_model import PageXMLTextLine, Coords
 
 import pandas as pd
 
@@ -440,7 +441,7 @@ def parse_pagexml(
                 "selector": [
                     {
                         "type": "FragmentSelector",
-                        "value": f"xywh={max(0, region.coords.x)},{max(0, region.coords.y)},{region.coords.w},{region.coords.h}",
+                        "value": f"xywh={max(0, region.coords.x)},{max(0, region.coords.y)},{min(page.coords.w - region.coords.x, region.coords.w)},{min(page.coords.h - region.coords.y, region.coords.h)}",
                         "conformsTo": "http://www.w3.org/TR/media-frags/",
                     },
                     {
@@ -452,7 +453,12 @@ def parse_pagexml(
             },
         }
 
-        for line in region.lines:
+        # Trick to fool the query: have at least one line
+        for line in region.lines or [
+            PageXMLTextLine(
+                doc_id="empty", coords=Coords(points="0,0 0,0 0,0 0,0"), text=""
+            )
+        ]:
             # region2text[region.id]["lines"].append()
 
             line_id = f"{region_id}-{line.id}"
@@ -464,7 +470,8 @@ def parse_pagexml(
             else:
                 body2length[body_id] = 0
 
-            region2textualbody[region_id].append(body_id)
+            if "empty" not in line_id:
+                region2textualbody[region_id].append(body_id)
 
             line_annotation = {
                 "@context": [
@@ -494,7 +501,7 @@ def parse_pagexml(
                     "selector": [
                         {
                             "type": "FragmentSelector",
-                            "value": f"xywh={max(0, line.coords.x)},{max(0, line.coords.y)},{line.coords.w},{line.coords.h}",
+                            "value": f"xywh={max(0, line.coords.x)},{max(0, line.coords.y)},{min(page.coords.w - line.coords.x, line.coords.w)},{min(page.coords.h - line.coords.y, line.coords.h)}",
                             "conformsTo": "http://www.w3.org/TR/media-frags/",
                         },
                         {
