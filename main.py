@@ -206,6 +206,7 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
     # books
     for _, r in df_diaries.iterrows():
 
+        entries = []
         diaryname2fileprefix[r["name"]] = r["file_prefix"]
 
         # Organization
@@ -234,6 +235,11 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
                     "@type": "@id",
                     "@container": "@list",
                 },
+                "hasPart": {
+                    "@id": "https://schema.org/hasPart",
+                    "@type": "@id",
+                    "@container": "@list",
+                },
             },
             "@id": f"{PREFIX}diaries/{r.identifier}",
             "@type": "Book",
@@ -249,6 +255,7 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
             },
             "name": r["name"],
             "isPartOf": collection,
+            "hasPart": [],
             # "keywords": r["keywords"].replace(";", ","),
             "description": r.description if not pd.isna(r.description) else [],
             "temporalCoverage": r["temporalCoverage"],
@@ -260,8 +267,6 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
 
         if not pd.isna(r["Book_URI"]):
             book["sameAs"] = r["Book_URI"]
-
-        resources.append(book)
 
         # entries
         for _, e in df_entries[
@@ -295,6 +300,8 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
                 },  # shallow
                 "text": textualbodies,
             }
+
+            entries.append({"@id": entry["@id"], "@type": entry["@type"]})
 
             if not pd.isna(e["name"]):
                 entry["name"] = e["name"]
@@ -342,6 +349,9 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
             }
 
             resources.append(entry_annotation)
+
+        book["hasPart"] = entries
+        resources.append(book)
 
     # persons
     for _, r in df_persons.iterrows():

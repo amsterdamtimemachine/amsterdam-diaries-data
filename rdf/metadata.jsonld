@@ -1,177 +1,5 @@
 [
     {
-        "@context": {
-            "@vocab": "https://schema.org/",
-            "sameAs": {
-                "@type": "@id"
-            },
-            "url": {
-                "@type": "@id"
-            },
-            "image": {
-                "@id": "https://schema.org/image",
-                "@type": "@id",
-                "@container": "@list"
-            }
-        },
-        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/1",
-        "@type": "Book",
-        "author": {
-            "@id": "http://www.wikidata.org/entity/Q123396315",
-            "@type": "Person",
-            "name": "Dien Kiewit de Jonge"
-        },
-        "about": {
-            "@id": "http://www.wikidata.org/entity/Q123396315",
-            "@type": "Person",
-            "name": "Dien Kiewit de Jonge"
-        },
-        "name": "Dagboek Dien Kiewit de Jonge",
-        "isPartOf": {
-            "@id": "https://collectie.verzetsmuseum.org/ais6/Details/collect/2947",
-            "@type": [
-                "Collection",
-                "ArchiveComponent"
-            ],
-            "name": "Collectie Kiewiet de Jonge",
-            "holdingArchive": {
-                "@id": "https://www.verzetsmuseum.org",
-                "@type": "ArchiveOrganization",
-                "name": "Verzetsmuseum Amsterdam"
-            }
-        },
-        "description": "2 (oorlogs-)dagboeken van Dien Kiewiet de Jonge (209 pp. in totaal). Dien is 15 jaar als de oorlog uitbreekt. Zij heeft veel liedjes, commentaar, moppen plus veel patriottische documentjes ingeplakt, maar natuurlijk niet geschreven over de onderduikers die haar familie en zijzelf verzorgde.",
-        "temporalCoverage": "1940/1945",
-        "dateCreated": "1940-05-10",
-        "identifier": 1,
-        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:VMA01_KBN007000011",
-        "image": [
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_001.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_002.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_003.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_004.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_005.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_006.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_007.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_008.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_009.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_010.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_011.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_012.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_013.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_014.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_015.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_016.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_017.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_018.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_019.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_020.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_021.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_022.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_023.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_024.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_025.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_026.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_027.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_028.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_029.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_030.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_031.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_032.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_033.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_034.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_035.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_036.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_037.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_038.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_039.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_040.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_041.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_042.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_043.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_044.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_045.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_046.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_047.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_048.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_049.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_050.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_051.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_052.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_053.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_054.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_055.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_056.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_057.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_058.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_059.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_060.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_061.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_062.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_063.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_064.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_065.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_066.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_067.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_068.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_069.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_070.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_071.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_072.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_073.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_074.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_075.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_076.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_077.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_078.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_079.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_080.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_081.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_082.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_083.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_084.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_085.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_086.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_087.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_088.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_089.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_090.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_091.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_092.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_093.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_094.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_095.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_096.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_097.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_098.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_099.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_100.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_101.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_102.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_103.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_104.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_105.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_106.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_107.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_108.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_109.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_110.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_111.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_112.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_113.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_114.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_115.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_116.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_117.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_118.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_119.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_120.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_121.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_122.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_123.jpg"
-        ]
-    },
-    {
         "@context": [
             "http://www.w3.org/ns/anno.jsonld",
             {
@@ -2456,71 +2284,327 @@
                 "@id": "https://schema.org/image",
                 "@type": "@id",
                 "@container": "@list"
+            },
+            "hasPart": {
+                "@id": "https://schema.org/hasPart",
+                "@type": "@id",
+                "@container": "@list"
             }
         },
-        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/4",
+        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/1",
         "@type": "Book",
         "author": {
-            "@id": "http://www.wikidata.org/entity/Q65965451",
+            "@id": "http://www.wikidata.org/entity/Q123396315",
             "@type": "Person",
-            "name": "Neeltje (Toby) Vos"
+            "name": "Dien Kiewit de Jonge"
         },
         "about": {
-            "@id": "http://www.wikidata.org/entity/Q65965451",
+            "@id": "http://www.wikidata.org/entity/Q123396315",
             "@type": "Person",
-            "name": "Neeltje (Toby) Vos"
+            "name": "Dien Kiewit de Jonge"
         },
-        "name": "Dagboek Toby Vos, deel 1",
+        "name": "Dagboek Dien Kiewit de Jonge",
         "isPartOf": {
-            "@id": "https://collectie.atria.nl/bibliotheek/?refine[Categories][]=Egodocument%2FEgodocument",
+            "@id": "https://collectie.verzetsmuseum.org/ais6/Details/collect/2947",
             "@type": [
                 "Collection",
                 "ArchiveComponent"
             ],
-            "name": "Egodocument/Egodocument",
+            "name": "Collectie Kiewiet de Jonge",
             "holdingArchive": {
-                "@id": "https://atria.nl",
+                "@id": "https://www.verzetsmuseum.org",
                 "@type": "ArchiveOrganization",
-                "name": "Atria"
+                "name": "Verzetsmuseum Amsterdam"
             }
         },
-        "description": "Dagboek van Toby Vos, geschreven te Amsterdam, 26-27 jaar, betreffende de oorlog en haar buren, 1944-1945. Tijdens de oorlog was Toby als koerierster actief in het verzet (Paroolgroep). Het dagboek is geillustreerd met tekeningen.",
-        "temporalCoverage": "1944/1945",
-        "dateCreated": "1944-06",
-        "identifier": 4,
-        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:IIAV002_IAV001000030",
-        "image": [
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_01.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_02.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_03.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_04.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_05.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_06.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_07.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_08.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_09.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_10.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_11.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_12.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_13.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_14.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_15.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_16.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_17.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_18.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_19.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_20.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_21.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_22.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_23.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_24.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_25.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_26.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_27.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_28.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_29.jpg"
+        "hasPart": [
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/66",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/67",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/68",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/69",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/70",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/71",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/72",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/73",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/74",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/75",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/76",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/77",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/78",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/79",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/80",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/81",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/82",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/83",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/84",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/85",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/86",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/87",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/88",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/89",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/90",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/91",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/92",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/93",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/94",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/95",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/96",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/97",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/98",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/99",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/100",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/101",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/102",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/103",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/104",
+                "@type": "Manuscript"
+            }
         ],
-        "sameAs": "https://hdl.handle.net/11653/ego1000142"
+        "description": "2 (oorlogs-)dagboeken van Dien Kiewiet de Jonge (209 pp. in totaal). Dien is 15 jaar als de oorlog uitbreekt. Zij heeft veel liedjes, commentaar, moppen plus veel patriottische documentjes ingeplakt, maar natuurlijk niet geschreven over de onderduikers die haar familie en zijzelf verzorgde.",
+        "temporalCoverage": "1940/1945",
+        "dateCreated": "1940-05-10",
+        "identifier": 1,
+        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:VMA01_KBN007000011",
+        "image": [
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_001.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_002.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_003.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_004.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_005.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_006.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_007.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_008.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_009.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_010.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_011.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_012.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_013.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_014.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_015.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_016.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_017.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_018.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_019.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_020.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_021.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_022.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_023.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_024.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_025.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_026.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_027.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_028.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_029.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_030.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_031.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_032.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_033.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_034.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_035.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_036.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_037.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_038.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_039.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_040.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_041.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_042.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_043.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_044.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_045.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_046.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_047.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_048.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_049.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_050.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_051.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_052.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_053.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_054.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_055.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_056.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_057.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_058.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_059.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_060.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_061.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_062.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_063.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_064.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_065.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_066.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_067.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_068.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_069.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_070.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_071.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_072.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_073.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_074.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_075.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_076.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_077.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_078.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_079.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_080.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_081.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_082.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_083.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_084.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_085.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_086.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_087.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_088.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_089.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_090.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_091.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_092.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_093.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_094.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_095.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_096.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_097.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_098.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_099.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_100.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_101.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_102.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_103.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_104.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_105.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_106.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_107.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_108.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_109.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_110.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_111.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_112.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_113.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_114.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_115.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_116.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_117.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_118.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_119.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_120.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_121.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_122.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-VMA01_KBN007000011-large_123.jpg"
+        ]
     },
     {
         "@context": [
@@ -3824,9 +3908,14 @@
                 "@id": "https://schema.org/image",
                 "@type": "@id",
                 "@container": "@list"
+            },
+            "hasPart": {
+                "@id": "https://schema.org/hasPart",
+                "@type": "@id",
+                "@container": "@list"
             }
         },
-        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/5",
+        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/4",
         "@type": "Book",
         "author": {
             "@id": "http://www.wikidata.org/entity/Q65965451",
@@ -3838,7 +3927,7 @@
             "@type": "Person",
             "name": "Neeltje (Toby) Vos"
         },
-        "name": "Dagboek Toby Vos, deel 2",
+        "name": "Dagboek Toby Vos, deel 1",
         "isPartOf": {
             "@id": "https://collectie.atria.nl/bibliotheek/?refine[Categories][]=Egodocument%2FEgodocument",
             "@type": [
@@ -3852,38 +3941,111 @@
                 "name": "Atria"
             }
         },
+        "hasPart": [
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/49",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/50",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/51",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/52",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/53",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/54",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/55",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/56",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/57",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/58",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/59",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/60",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/61",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/62",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/63",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/64",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/65",
+                "@type": "Manuscript"
+            }
+        ],
         "description": "Dagboek van Toby Vos, geschreven te Amsterdam, 26-27 jaar, betreffende de oorlog en haar buren, 1944-1945. Tijdens de oorlog was Toby als koerierster actief in het verzet (Paroolgroep). Het dagboek is geillustreerd met tekeningen.",
-        "temporalCoverage": "1944/1963",
-        "dateCreated": "1944-08",
-        "identifier": 5,
-        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:IIAV002_IAV001000031",
+        "temporalCoverage": "1944/1945",
+        "dateCreated": "1944-06",
+        "identifier": 4,
+        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:IIAV002_IAV001000030",
         "image": [
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_01.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_02.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_03.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_04.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_05.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_06.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_07.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_08.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_09.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_10.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_11.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_12.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_13.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_14.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_15.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_16.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_17.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_18.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_19.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_20.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_21.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_22.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_23.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_24.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_25.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_26.jpg"
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_01.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_02.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_03.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_04.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_05.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_06.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_07.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_08.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_09.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_10.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_11.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_12.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_13.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_14.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_15.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_16.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_17.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_18.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_19.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_20.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_21.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_22.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_23.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_24.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_25.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_26.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_27.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_28.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000030-large_29.jpg"
         ],
         "sameAs": "https://hdl.handle.net/11653/ego1000142"
     },
@@ -4580,85 +4742,115 @@
                 "@id": "https://schema.org/image",
                 "@type": "@id",
                 "@container": "@list"
+            },
+            "hasPart": {
+                "@id": "https://schema.org/hasPart",
+                "@type": "@id",
+                "@container": "@list"
             }
         },
-        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/11",
+        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/5",
         "@type": "Book",
         "author": {
-            "@id": "http://www.wikidata.org/entity/Q113810404",
+            "@id": "http://www.wikidata.org/entity/Q65965451",
             "@type": "Person",
-            "name": "Gerda Oestreicher Laqueur"
+            "name": "Neeltje (Toby) Vos"
         },
         "about": {
-            "@id": "http://www.wikidata.org/entity/Q113810404",
+            "@id": "http://www.wikidata.org/entity/Q65965451",
             "@type": "Person",
-            "name": "Gerda Oestreicher Laqueur"
+            "name": "Neeltje (Toby) Vos"
         },
-        "name": "Dagboek Gerda Oestreicher 1929-1939",
+        "name": "Dagboek Toby Vos, deel 2",
         "isPartOf": {
-            "@id": "https://archief.amsterdam/archief/30808",
+            "@id": "https://collectie.atria.nl/bibliotheek/?refine[Categories][]=Egodocument%2FEgodocument",
             "@type": [
                 "Collection",
                 "ArchiveComponent"
             ],
-            "name": "30808",
+            "name": "Egodocument/Egodocument",
             "holdingArchive": {
-                "@id": "https://archief.amsterdam",
+                "@id": "https://atria.nl",
                 "@type": "ArchiveOrganization",
-                "name": "Stadsarchief Amsterdam"
+                "name": "Atria"
             }
         },
-        "description": [],
-        "temporalCoverage": "1929/1939",
-        "dateCreated": "1929-09-30",
-        "identifier": 11,
-        "url": "https://archief.amsterdam/inventarissen/file/58d156cd-3b54-df37-2a2e-0696acae217d",
-        "image": [
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000001.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000002.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000003.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000004.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000005.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000006.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000007.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000008.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000009.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000010.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000011.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000012.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000013.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000014.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000015.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000016.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000017.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000018.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000019.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000020.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000021.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000022.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000023.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000024.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000025.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000026.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000027.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000028.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000029.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000030.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000031.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000032.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000033.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000034.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000035.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000036.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000037.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000038.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000039.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000040.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000041.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000042.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000043.jpg"
+        "hasPart": [
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/5",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/6",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/7",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/8",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/9",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/10",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/11",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/12",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/13",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/14",
+                "@type": "Manuscript"
+            }
         ],
-        "sameAs": "https://archief.amsterdam/inventarissen/file/58d156cd-3b54-df37-2a2e-0696acae217d"
+        "description": "Dagboek van Toby Vos, geschreven te Amsterdam, 26-27 jaar, betreffende de oorlog en haar buren, 1944-1945. Tijdens de oorlog was Toby als koerierster actief in het verzet (Paroolgroep). Het dagboek is geillustreerd met tekeningen.",
+        "temporalCoverage": "1944/1963",
+        "dateCreated": "1944-08",
+        "identifier": 5,
+        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:IIAV002_IAV001000031",
+        "image": [
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_01.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_02.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_03.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_04.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_05.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_06.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_07.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_08.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_09.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_10.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_11.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_12.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_13.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_14.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_15.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_16.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_17.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_18.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_19.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_20.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_21.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_22.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_23.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_24.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_25.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000031-large_26.jpg"
+        ],
+        "sameAs": "https://hdl.handle.net/11653/ego1000142"
     },
     {
         "@context": [
@@ -5600,77 +5792,132 @@
                 "@id": "https://schema.org/image",
                 "@type": "@id",
                 "@container": "@list"
+            },
+            "hasPart": {
+                "@id": "https://schema.org/hasPart",
+                "@type": "@id",
+                "@container": "@list"
             }
         },
-        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/16",
+        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/11",
         "@type": "Book",
         "author": {
-            "@id": "http://www.wikidata.org/entity/Q125020291",
+            "@id": "http://www.wikidata.org/entity/Q113810404",
             "@type": "Person",
-            "name": "Els Polak"
+            "name": "Gerda Oestreicher Laqueur"
         },
         "about": {
-            "@id": "http://www.wikidata.org/entity/Q125020291",
+            "@id": "http://www.wikidata.org/entity/Q113810404",
             "@type": "Person",
-            "name": "Els Polak"
+            "name": "Gerda Oestreicher Laqueur"
         },
-        "name": "Dagboek Els Polak, deel 1",
+        "name": "Dagboek Gerda Oestreicher 1929-1939",
         "isPartOf": {
-            "@id": "https://collectie.atria.nl/bibliotheek/?refine[Categories][]=Egodocument%2FEgodocument",
+            "@id": "https://archief.amsterdam/archief/30808",
             "@type": [
                 "Collection",
                 "ArchiveComponent"
             ],
-            "name": "Egodocument/Egodocument",
+            "name": "30808",
             "holdingArchive": {
-                "@id": "https://atria.nl",
+                "@id": "https://archief.amsterdam",
                 "@type": "ArchiveOrganization",
-                "name": "Atria"
+                "name": "Stadsarchief Amsterdam"
             }
         },
-        "description": "Dagboek geschreven te Amsterdam, 17-18 jaar, betreffende het leven op kamers en op de opleiding voor Montessorikleuterleidster, de oorlog en de situatie van de joden, 1940-1941. Dit deel loopt van 9 september 1940 tot 4 februari 1941.",
-        "temporalCoverage": "1940/1941",
-        "dateCreated": "1940-09-09",
-        "identifier": 16,
-        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:IIAV002_IAV001000040",
-        "image": [
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_01.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_02.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_03.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_04.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_05.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_06.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_07.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_08.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_09.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_10.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_11.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_12.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_13.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_14.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_15.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_16.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_17.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_18.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_19.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_20.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_21.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_22.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_23.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_24.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_25.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_26.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_27.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_28.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_29.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_30.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_31.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_32.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_33.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_34.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_35.jpg"
+        "hasPart": [
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/39",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/40",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/41",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/42",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/43",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/44",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/45",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/46",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/47",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/48",
+                "@type": "Manuscript"
+            }
         ],
-        "sameAs": "https://hdl.handle.net/11653/ego1000109"
+        "description": [],
+        "temporalCoverage": "1929/1939",
+        "dateCreated": "1929-09-30",
+        "identifier": 11,
+        "url": "https://archief.amsterdam/inventarissen/file/58d156cd-3b54-df37-2a2e-0696acae217d",
+        "image": [
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000001.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000002.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000003.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000004.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000005.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000006.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000007.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000008.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000009.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000010.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000011.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000012.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000013.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000014.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000015.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000016.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000017.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000018.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000019.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000020.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000021.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000022.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000023.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000024.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000025.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000026.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000027.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000028.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000029.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000030.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000031.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000032.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000033.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000034.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000035.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000036.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000037.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000038.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000039.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000040.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000041.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000042.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/KLAO00764000043.jpg"
+        ],
+        "sameAs": "https://archief.amsterdam/inventarissen/file/58d156cd-3b54-df37-2a2e-0696acae217d"
     },
     {
         "@context": [
@@ -8216,9 +8463,14 @@
                 "@id": "https://schema.org/image",
                 "@type": "@id",
                 "@container": "@list"
+            },
+            "hasPart": {
+                "@id": "https://schema.org/hasPart",
+                "@type": "@id",
+                "@container": "@list"
             }
         },
-        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/17",
+        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/16",
         "@type": "Book",
         "author": {
             "@id": "http://www.wikidata.org/entity/Q125020291",
@@ -8230,7 +8482,7 @@
             "@type": "Person",
             "name": "Els Polak"
         },
-        "name": "Dagboek Els Polak, deel 2",
+        "name": "Dagboek Els Polak, deel 1",
         "isPartOf": {
             "@id": "https://collectie.atria.nl/bibliotheek/?refine[Categories][]=Egodocument%2FEgodocument",
             "@type": [
@@ -8244,22 +8496,145 @@
                 "name": "Atria"
             }
         },
+        "hasPart": [
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/15",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/16",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/17",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/18",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/19",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/20",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/21",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/22",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/23",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/24",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/25",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/26",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/27",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/28",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/29",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/30",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/31",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/32",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/33",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/34",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/35",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/36",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/37",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/38",
+                "@type": "Manuscript"
+            }
+        ],
         "description": "Dagboek geschreven te Amsterdam, 17-18 jaar, betreffende het leven op kamers en op de opleiding voor Montessorikleuterleidster, de oorlog en de situatie van de joden, 1940-1941. Dit deel loopt van 9 september 1940 tot 4 februari 1941.",
-        "temporalCoverage": "1941",
-        "dateCreated": "1941-02-27",
-        "identifier": 17,
-        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:IIAV002_IAV001000041",
+        "temporalCoverage": "1940/1941",
+        "dateCreated": "1940-09-09",
+        "identifier": 16,
+        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:IIAV002_IAV001000040",
         "image": [
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_01.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_02.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_03.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_04.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_05.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_06.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_07.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_08.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_09.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_10.jpg"
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_01.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_02.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_03.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_04.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_05.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_06.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_07.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_08.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_09.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_10.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_11.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_12.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_13.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_14.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_15.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_16.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_17.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_18.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_19.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_20.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_21.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_22.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_23.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_24.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_25.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_26.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_27.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_28.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_29.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_30.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_31.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_32.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_33.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_34.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000040-large_35.jpg"
         ],
         "sameAs": "https://hdl.handle.net/11653/ego1000109"
     },
@@ -8677,51 +9052,75 @@
                 "@id": "https://schema.org/image",
                 "@type": "@id",
                 "@container": "@list"
+            },
+            "hasPart": {
+                "@id": "https://schema.org/hasPart",
+                "@type": "@id",
+                "@container": "@list"
             }
         },
-        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/19",
+        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/17",
         "@type": "Book",
         "author": {
-            "@id": "http://www.wikidata.org/entity/Q125019911",
+            "@id": "http://www.wikidata.org/entity/Q125020291",
             "@type": "Person",
-            "name": "Celina Veffer"
+            "name": "Els Polak"
         },
         "about": {
-            "@id": "http://www.wikidata.org/entity/Q125019911",
+            "@id": "http://www.wikidata.org/entity/Q125020291",
             "@type": "Person",
-            "name": "Celina Veffer"
+            "name": "Els Polak"
         },
-        "name": "Dagboek Celina Veffer, 1944-1946",
+        "name": "Dagboek Els Polak, deel 2",
         "isPartOf": {
-            "@id": "https://collectie.verzetsmuseum.org/ais6/Details/collect/2990",
+            "@id": "https://collectie.atria.nl/bibliotheek/?refine[Categories][]=Egodocument%2FEgodocument",
             "@type": [
                 "Collection",
                 "ArchiveComponent"
             ],
-            "name": "Collectie Veffer",
+            "name": "Egodocument/Egodocument",
             "holdingArchive": {
-                "@id": "https://www.verzetsmuseum.org",
+                "@id": "https://atria.nl",
                 "@type": "ArchiveOrganization",
-                "name": "Verzetsmuseum Amsterdam"
+                "name": "Atria"
             }
         },
-        "description": "Vier delen dagboeken (ca. 450 pp), van de 16 jarige scholiere Celina Veffer, van april 1944 tot februari 1946. Zij zat op de HBS-A, aan het Raamplein. Ze schrijft dagelijks over schoolbesoignes, vakantie op de Veluwe en (front) nieuwsfeitjes enz.",
-        "temporalCoverage": "1944/1946",
-        "dateCreated": "1944-04-04",
-        "identifier": 19,
-        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:VMA01_KBN007000014",
+        "hasPart": [
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/1",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/2",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/3",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/4",
+                "@type": "Manuscript"
+            }
+        ],
+        "description": "Dagboek geschreven te Amsterdam, 17-18 jaar, betreffende het leven op kamers en op de opleiding voor Montessorikleuterleidster, de oorlog en de situatie van de joden, 1940-1941. Dit deel loopt van 9 september 1940 tot 4 februari 1941.",
+        "temporalCoverage": "1941",
+        "dateCreated": "1941-02-27",
+        "identifier": 17,
+        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:IIAV002_IAV001000041",
         "image": [
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_1.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_2.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_3.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_4.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_5.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_6.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_7.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_8.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_9.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_10.jpg"
-        ]
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_01.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_02.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_03.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_04.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_05.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_06.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_07.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_08.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_09.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/urn-gvn-EVDO01-IIAV002_IAV001000041-large_10.jpg"
+        ],
+        "sameAs": "https://hdl.handle.net/11653/ego1000109"
     },
     {
         "@context": [
@@ -9597,353 +9996,102 @@
                 "@id": "https://schema.org/image",
                 "@type": "@id",
                 "@container": "@list"
+            },
+            "hasPart": {
+                "@id": "https://schema.org/hasPart",
+                "@type": "@id",
+                "@container": "@list"
             }
         },
-        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/20",
+        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/19",
         "@type": "Book",
         "author": {
-            "@id": "http://www.wikidata.org/entity/Q124972258",
+            "@id": "http://www.wikidata.org/entity/Q125019911",
             "@type": "Person",
-            "name": "Margaretha van Hinte"
+            "name": "Celina Veffer"
         },
         "about": {
-            "@id": "http://www.wikidata.org/entity/Q124987744",
+            "@id": "http://www.wikidata.org/entity/Q125019911",
             "@type": "Person",
-            "name": "Berdi Pront"
+            "name": "Celina Veffer"
         },
-        "name": "Dagboek Berdi, 1942-1945",
+        "name": "Dagboek Celina Veffer, 1944-1946",
         "isPartOf": {
-            "@id": "https://data.jck.nl/search/?q=berdi&qf[]=nave_collectionPart%3ABoeken/artikelen",
+            "@id": "https://collectie.verzetsmuseum.org/ais6/Details/collect/2990",
             "@type": [
                 "Collection",
                 "ArchiveComponent"
             ],
-            "name": "Boeken/artikelen",
+            "name": "Collectie Veffer",
             "holdingArchive": {
-                "@id": "https://jck.nl",
+                "@id": "https://www.verzetsmuseum.org",
                 "@type": "ArchiveOrganization",
-                "name": "Crescas Joods Educatief Centrum"
+                "name": "Verzetsmuseum Amsterdam"
             }
         },
-        "description": [],
-        "temporalCoverage": "1942/1945",
-        "dateCreated": "1942-12-26",
-        "identifier": 20,
-        "url": "https://joodsebibliotheek.nl/auteur/UEo/Berdi-Vieyra-Pront/boek/Doo/Dagboeken-over-een-onderduikstertje-1942-1945/1/",
-        "image": [
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p001.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p002.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p003.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p004.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p005.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p006.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p007.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p008.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p009.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p010.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p011.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p012.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p013.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p014.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p015.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p016.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p017.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p018.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p019.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p020.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p021.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p022.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p023.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p024.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p025.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p026.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p027.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p028.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p029.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p030.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p031.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p032.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p033.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p034.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p035.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p036.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p037.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p038.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p039.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p040.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p041.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p042.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p043.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p044.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p045.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p046.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p047.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p048.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p049.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p050.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p051.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p052.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p053.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p054.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p055.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p056.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p057.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p058.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p059.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p060.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p061.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p062.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p063.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p064.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p065.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p066.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p067.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p068.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p069.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p070.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p071.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p072.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p073.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p074.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p075.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p076.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p077.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p078.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p079.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p080.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p081.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p082.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p083.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p084.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p085.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p086.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p087.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p088.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p089.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p090.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p091.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p092.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p093.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p094.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p095.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p096.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p097.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p098.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p099.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p100.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p101.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p102.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p103.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p104.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p105.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p106.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p107.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p108.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p109.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p110.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p111.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p112.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p113.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p114.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p115.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p116.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p117.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p118.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p119.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p120.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p121.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p122.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p123.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p124.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p125.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p126.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p127.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p128.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p129.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p130.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p131.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p132.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p133.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p134.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p135.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p136.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p137.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p138.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p139.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p140.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p141.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p142.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p143.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p144.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p145.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p146.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p147.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p148.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p149.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p150.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p151.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p152.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p153.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p154.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p155.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p156.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p157.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p158.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p159.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p160.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p161.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p162.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p163.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p164.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p165.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p166.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p167.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p168.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p169.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p170.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p171.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p172.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p173.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p174.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p175.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p176.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p177.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p178.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p179.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p180.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p181.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p182.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p183.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p184.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p185.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p186.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p187.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p188.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p189.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p190.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p191.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p192.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p193.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p194.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p195.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p196.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p197.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p198.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p199.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p200.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p201.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p202.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p203.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p204.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p205.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p206.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p207.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p208.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p209.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p210.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p211.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p212.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p213.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p214.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p215.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p216.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p217.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p218.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p219.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p220.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p221.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p222.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p223.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p224.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p225.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p226.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p227.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p228.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p229.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p230.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p231.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p232.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p233.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p234.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p235.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p236.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p237.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p238.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p239.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p240.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p241.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p242.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p243.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p244.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p245.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p246.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p247.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p248.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p249.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p250.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p251.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p252.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p253.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p254.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p255.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p256.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p257.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p258.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p259.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p260.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p261.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p262.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p263.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p264.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p265.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p266.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p267.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p268.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p269.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p270.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p271.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p272.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p273.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p274.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p275.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p276.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p277.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p278.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p279.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p280.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p281.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p282.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p283.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p284.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p285.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p286.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p287.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p288.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p289.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p290.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p291.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p292.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p293.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p294.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p295.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p296.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p297.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p298.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p299.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p300.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p301.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p302.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p303.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p304.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p305.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p306.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p307.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p308.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p309.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p310.jpg",
-            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p311.jpg"
+        "hasPart": [
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/105",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/106",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/107",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/108",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/109",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/110",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/111",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/112",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/113",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/114",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/115",
+                "@type": "Manuscript"
+            }
         ],
-        "sameAs": "http://data.jck.nl/resource/aggregation/jhm-literatuur/20120387"
+        "description": "Vier delen dagboeken (ca. 450 pp), van de 16 jarige scholiere Celina Veffer, van april 1944 tot februari 1946. Zij zat op de HBS-A, aan het Raamplein. Ze schrijft dagelijks over schoolbesoignes, vakantie op de Veluwe en (front) nieuwsfeitjes enz.",
+        "temporalCoverage": "1944/1946",
+        "dateCreated": "1944-04-04",
+        "identifier": 19,
+        "url": "https://resolver.kb.nl/resolve?urn=urn:gvn:EVDO01:VMA01_KBN007000014",
+        "image": [
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_1.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_2.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_3.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_4.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_5.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_6.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_7.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_8.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_9.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/EVDO01_VMA01_KBN007000014_10.jpg"
+        ]
     },
     {
         "@context": [
@@ -16688,6 +16836,854 @@
             "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0111_berdi_4245_pdf_p111/r_3058-target",
             "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0111_berdi_4245_pdf_p111/r_3059-target"
         ]
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "sameAs": {
+                "@type": "@id"
+            },
+            "url": {
+                "@type": "@id"
+            },
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id",
+                "@container": "@list"
+            },
+            "hasPart": {
+                "@id": "https://schema.org/hasPart",
+                "@type": "@id",
+                "@container": "@list"
+            }
+        },
+        "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/20",
+        "@type": "Book",
+        "author": {
+            "@id": "http://www.wikidata.org/entity/Q124972258",
+            "@type": "Person",
+            "name": "Margaretha van Hinte"
+        },
+        "about": {
+            "@id": "http://www.wikidata.org/entity/Q124987744",
+            "@type": "Person",
+            "name": "Berdi Pront"
+        },
+        "name": "Dagboek Berdi, 1942-1945",
+        "isPartOf": {
+            "@id": "https://data.jck.nl/search/?q=berdi&qf[]=nave_collectionPart%3ABoeken/artikelen",
+            "@type": [
+                "Collection",
+                "ArchiveComponent"
+            ],
+            "name": "Boeken/artikelen",
+            "holdingArchive": {
+                "@id": "https://jck.nl",
+                "@type": "ArchiveOrganization",
+                "name": "Crescas Joods Educatief Centrum"
+            }
+        },
+        "hasPart": [
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/116",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/117",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/118",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/119",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/120",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/121",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/122",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/123",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/124",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/125",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/126",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/127",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/128",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/129",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/130",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/131",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/132",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/133",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/134",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/135",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/136",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/137",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/138",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/139",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/140",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/141",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/142",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/143",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/144",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/145",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/146",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/147",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/148",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/149",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/150",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/151",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/152",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/153",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/154",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/155",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/156",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/157",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/158",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/159",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/160",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/161",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/162",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/163",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/164",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/165",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/166",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/167",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/168",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/169",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/170",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/171",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/172",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/173",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/174",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/175",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/176",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/177",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/178",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/179",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/180",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/181",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/182",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/183",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/184",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/185",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/186",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/187",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/188",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/189",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/190",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/191",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/192",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/193",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/194",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/195",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/196",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/197",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/198",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/199",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/200",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/201",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/202",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/203",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/204",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/205",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/206",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/207",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/208",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/209",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/210",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/211",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/212",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/213",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/214",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/215",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/216",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/217",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/218",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/219",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/220",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/221",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/222",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/223",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/224",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/225",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/226",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/227",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/228",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/229",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/230",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/231",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/232",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/233",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/234",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/235",
+                "@type": "Manuscript"
+            }
+        ],
+        "description": [],
+        "temporalCoverage": "1942/1945",
+        "dateCreated": "1942-12-26",
+        "identifier": 20,
+        "url": "https://joodsebibliotheek.nl/auteur/UEo/Berdi-Vieyra-Pront/boek/Doo/Dagboeken-over-een-onderduikstertje-1942-1945/1/",
+        "image": [
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p001.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p002.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p003.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p004.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p005.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p006.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p007.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p008.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p009.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p010.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p011.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p012.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p013.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p014.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p015.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p016.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p017.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p018.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p019.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p020.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p021.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p022.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p023.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p024.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p025.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p026.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p027.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p028.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p029.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p030.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p031.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p032.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p033.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p034.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p035.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p036.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p037.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p038.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p039.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p040.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p041.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p042.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p043.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p044.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p045.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p046.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p047.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p048.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p049.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p050.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p051.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p052.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p053.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p054.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p055.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p056.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p057.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p058.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p059.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p060.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p061.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p062.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p063.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p064.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p065.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p066.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p067.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p068.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p069.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p070.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p071.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p072.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p073.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p074.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p075.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p076.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p077.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p078.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p079.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p080.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p081.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p082.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p083.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p084.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p085.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p086.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p087.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p088.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p089.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p090.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p091.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p092.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p093.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p094.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p095.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p096.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p097.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p098.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p099.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p100.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p101.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p102.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p103.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p104.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p105.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p106.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p107.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p108.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p109.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p110.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p111.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p112.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p113.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p114.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p115.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p116.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p117.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p118.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p119.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p120.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p121.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p122.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p123.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p124.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p125.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p126.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p127.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p128.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p129.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p130.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p131.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p132.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p133.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p134.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p135.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p136.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p137.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p138.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p139.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p140.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p141.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p142.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p143.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p144.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p145.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p146.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p147.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p148.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p149.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p150.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p151.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p152.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p153.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p154.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p155.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p156.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p157.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p158.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p159.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p160.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p161.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p162.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p163.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p164.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p165.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p166.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p167.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p168.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p169.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p170.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p171.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p172.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p173.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p174.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p175.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p176.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p177.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p178.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p179.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p180.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p181.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p182.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p183.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p184.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p185.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p186.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p187.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p188.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p189.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p190.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p191.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p192.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p193.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p194.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p195.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p196.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p197.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p198.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p199.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p200.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p201.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p202.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p203.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p204.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p205.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p206.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p207.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p208.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p209.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p210.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p211.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p212.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p213.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p214.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p215.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p216.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p217.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p218.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p219.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p220.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p221.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p222.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p223.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p224.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p225.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p226.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p227.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p228.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p229.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p230.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p231.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p232.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p233.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p234.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p235.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p236.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p237.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p238.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p239.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p240.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p241.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p242.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p243.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p244.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p245.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p246.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p247.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p248.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p249.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p250.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p251.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p252.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p253.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p254.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p255.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p256.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p257.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p258.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p259.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p260.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p261.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p262.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p263.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p264.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p265.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p266.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p267.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p268.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p269.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p270.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p271.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p272.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p273.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p274.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p275.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p276.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p277.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p278.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p279.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p280.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p281.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p282.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p283.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p284.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p285.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p286.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p287.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p288.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p289.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p290.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p291.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p292.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p293.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p294.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p295.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p296.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p297.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p298.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p299.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p300.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p301.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p302.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p303.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p304.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p305.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p306.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p307.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p308.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p309.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p310.jpg",
+            "https://images.diaries.amsterdamtimemachine.nl/iiif/berdi_4245_pdf_p311.jpg"
+        ],
+        "sameAs": "http://data.jck.nl/resource/aggregation/jhm-literatuur/20120387"
     },
     {
         "@context": {
