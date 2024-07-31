@@ -17,6 +17,7 @@ IIIF_PREFIX = "https://images.diaries.amsterdamtimemachine.nl/iiif/"
 METADATA_DIARIES = "data/metadata_diaries.csv"
 METADATA_ENTRIES = "data/metadata_entries.csv"
 METADATA_PERSONS = "data/metadata_persons.csv"
+METADATA_CONCEPTS = "data/metadata_concepts.csv"
 
 ANNOTATION_IDENTIFIERS = "data/annotations_linking.csv"
 
@@ -86,16 +87,46 @@ tagtype2resource = {
         "type": "skos:Concept",
         "label": "Sic",
     },
-    "atm_food": {
-        "id": PREFIX + "tags/entities/" + "atm_food",
-        "type": "skos:Concept",
-        "label": "Etenswaren",
-        "skos:closeMatch": [
-            "http://vocab.getty.edu/aat/300254496",
-            "http://data.beeldengeluid.nl/gtaa/217707",
-        ],
-    },
 }
+
+
+def generate_concept_metadata(csv_concepts):
+    df_concepts = pd.read_csv(csv_concepts)
+    resources = []
+    for _, r in df_concepts.iterrows():
+        concept = {
+            "@context": {
+                "id": "@id",
+                "type": "@type",
+                "label": "http://www.w3.org/2000/01/rdf-schema#label",
+                "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            },
+            "id": r.uri,
+            "type": "Concept",
+            "label": r.prefLabel,
+            "prefLabel": {"@language": "nl", "@value": r.prefLabel},
+            "notation": r.notation,
+        }
+
+        if not pd.isna(r.altLabel):
+            concept["altLabel"] = [i.strip() for i in r.altLabel.split(";")]
+
+        if not pd.isna(r.definition):
+            concept["definition"] = r.definition
+
+        if not pd.isna(r.closeMatch):
+            concept["closeMatch"] = [i.strip() for i in r.closeMatch.split(";")]
+
+        if not pd.isna(r.exactMatch):
+            concept["exactMatch"] = [i.strip() for i in r.exactMatch.split(";")]
+
+        if not pd.isna(r.broader):
+            concept["broader"] = r.broader
+
+        resources.append(concept)
+
+    return resources
+
 
 regiontype2resource = {
     "region": {
@@ -258,7 +289,7 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
             regiontargets = []
             textualbodies = []
             for region in e["regions"].split("\n"):
-                region = f"{PREFIX}annotations/regions/{region.replace('.xml ', '/')}"
+                region = f"{PREFIX}annotations/regions/{region.replace('.xml ', '/')}"  # the space after .xml is important
                 regiontargets.append(region + "-target")
                 textualbodies += region2textualbody[region]
 
@@ -520,7 +551,9 @@ def parse_pagexml(
     return annotations
 
 
-def make_entity_annotation(tag, identifier="", prefix="", filename=""):
+def make_entity_annotation(
+    tag, identifier="", prefix="", filename="", tagtype2resource=tagtype2resource
+):
 
     if not identifier:
         identifier = uuid.uuid4()
@@ -540,7 +573,11 @@ def make_entity_annotation(tag, identifier="", prefix="", filename=""):
         "body": [
             {
                 "type": "SpecificResource",
-                "source": tagtype2resource[tag["type"]],
+                "source": {  # shallow link
+                    "id": tagtype2resource[tag["type"]]["id"],
+                    "type": tagtype2resource[tag["type"]]["type"],
+                    "label": tagtype2resource[tag["type"]]["label"],
+                },
                 "purpose": "classifying",
             }
         ],
@@ -576,10 +613,7 @@ def add_entity_identifier(
     text = " ".join([t["selector"][0]["exact"] for t in annotation["target"]]).strip()
     text = text.replace("- ", "").replace("¬ ", "")
 
-    if tag.startswith("atm_"):
-        # skip
-        return annotation, identifier_df
-    elif tag in skip_tags:
+    if tag in skip_tags:
         return annotation, identifier_df
 
     for diary, fileprefix in diaryname2fileprefix.items():
@@ -814,6 +848,16 @@ def main():
     with open("rdf/metadata.jsonld", "w") as outfile:
         json.dump(resources, outfile, indent=4)
 
+    # Concepts
+    concepts = generate_concept_metadata(METADATA_CONCEPTS)
+
+    # Add to tagtype2resource
+    for c in concepts:
+        tagtype2resource[c["notation"]] = c
+
+    with open("rdf/concepts.jsonld", "w") as outfile:
+        json.dump(concepts, outfile, indent=4)
+
     # Annotations
     entity_annotations = []
     df_annotation_identifiers = pd.read_csv(ANNOTATION_IDENTIFIERS)
@@ -847,7 +891,10 @@ def main():
                 for tag in tags:
                     entity_annotations.append(
                         make_entity_annotation(
-                            tag, prefix=PREFIX + "annotations/", filename=filepath
+                            tag,
+                            prefix=PREFIX + "annotations/",
+                            filename=filepath,
+                            tagtype2resource=tagtype2resource,
                         )
                     )
 

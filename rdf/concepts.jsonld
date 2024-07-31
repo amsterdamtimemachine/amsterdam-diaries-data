@@ -1,0 +1,22 @@
+[
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#"
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_food",
+        "type": "Concept",
+        "label": "Etenswaren",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Etenswaren"
+        },
+        "notation": "atm_food",
+        "closeMatch": [
+            "http://vocab.getty.edu/aat/300254496",
+            "http://data.beeldengeluid.nl/gtaa/217707"
+        ]
+    }
+]
