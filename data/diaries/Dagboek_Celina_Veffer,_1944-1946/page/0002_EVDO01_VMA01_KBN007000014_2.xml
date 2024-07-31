@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.0:model_id=50786:lm=none:date=06_03_2024_14:12</Creator>
+        <Created>2024-02-07T14:47:55.773+01:00</Created>
+        <LastChange>2024-04-03T16:17:24.465+02:00</LastChange>
+        <TranskribusMetadata docId="1799754" pageId="64954515" pageNr="2" tsid="156869070" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=HOLTCVDTLKFBMGPNHYUFUFIQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EDJQEQHBTIVLRYJBZAHUMQYT" imageId="51980048"/>
+    </Metadata>
+    <Page imageFilename="0002_EVDO01_VMA01_KBN007000014_2.jpg" imageWidth="1500" imageHeight="947">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1713971278635" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_19"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:visual;}">
+            <Coords points="725,935 17,935 17,20 725,20"/>
+            <TextLine id="r_tl_1" custom="readingOrder {index:0;} person {offset:0; length:14;}">
+                <Coords points="301,301 324,313 382,306 414,328 448,312 493,346 538,317 534,229 488,234 461,258 298,248"/>
+                <Baseline points="305,295 335,299 365,299 395,301 425,303 455,303 485,305 515,307 539,307"/>
+                <Word id="r_tl_1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="296,259 296,319 419,319 419,259 296,259 296,259"/>
+                    <TextEquiv>
+                        <Unicode>hientje</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_tl_1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="444,265 444,325 530,325 530,265 444,265 444,265"/>
+                    <TextEquiv>
+                        <Unicode>effen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Lientje Veffer </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="213,339 232,353 243,346 280,344 289,337 301,346 319,341 320,304 313,304 306,311 291,311 280,300 275,305 269,302 253,314 230,289 224,295 216,295"/>
+                <Baseline points="219,337 231,337 261,335 291,333 321,333"/>
+                <Word id="r_tl_2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="213,295 213,355 283,355 283,295 213,295 213,295"/>
+                    <TextEquiv>
+                        <Unicode>deel</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_tl_2_w2" custom="readingOrder {index:1;}">
+                    <Coords points="302,293 302,353 312,353 312,293 302,293 302,293"/>
+                    <TextEquiv>
+                        <Unicode>t</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>deel I</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_3" custom="readingOrder {index:2;} date {offset:8; length:9;}">
+                <Coords points="294,417 330,408 361,378 423,391 435,382 473,393 526,394 535,385 557,394 555,353 540,348 499,361 490,355 480,366 429,348 351,347 334,331 291,345"/>
+                <Baseline points="297,371 327,373 357,373 387,375 417,377 447,379 477,379 507,381 537,381 557,379"/>
+                <Word id="r_tl_3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="288,333 288,393 381,393 381,333 288,333 288,333"/>
+                    <TextEquiv>
+                        <Unicode>geboren</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_tl_3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="401,336 401,396 407,396 407,336 401,336 401,336"/>
+                    <TextEquiv>
+                        <Unicode>2</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_tl_3_w3" custom="readingOrder {index:2;}">
+                    <Coords points="437,339 437,399 458,399 458,339 437,339 437,339"/>
+                    <TextEquiv>
+                        <Unicode>11</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_tl_3_w4" custom="readingOrder {index:3;}">
+                    <Coords points="475,339 475,399 480,399 480,339 475,339 475,339"/>
+                    <TextEquiv>
+                        <Unicode>&amp;</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_tl_3_w5" custom="readingOrder {index:4;}">
+                    <Coords points="492,341 492,401 530,401 530,341 492,341 492,341"/>
+                    <TextEquiv>
+                        <Unicode>192</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_tl_3_w6" custom="readingOrder {index:5;}">
+                    <Coords points="545,340 545,400 549,400 549,340 545,340 545,340"/>
+                    <TextEquiv>
+                        <Unicode>7</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>geboren 2-12-1927</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_19" custom="readingOrder {index:1;} structure {type:visual;}">
+            <Coords points="1484,928 749,928 749,20 1484,20"/>
+            <TextLine id="r_19_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1355,95 1365,93 1370,98 1383,100 1387,104 1397,100 1411,99 1409,50 1396,47 1391,48 1383,57 1371,51 1362,60 1355,58"/>
+                <Baseline points="1360,77 1390,77 1412,79"/>
+                <Word id="r_19_tl_1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1360,37 1360,97 1407,97 1407,37 1360,37 1360,37"/>
+                    <TextEquiv>
+                        <Unicode>355</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>555</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

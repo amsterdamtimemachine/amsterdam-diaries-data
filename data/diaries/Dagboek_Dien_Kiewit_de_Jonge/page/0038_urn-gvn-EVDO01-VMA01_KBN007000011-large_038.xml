@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-07-28T16:53:51.889+02:00</Created>
+        <LastChange>2024-04-22T11:25:05.849+02:00</LastChange>
+        <TranskribusMetadata docId="1515108" pageId="58235740" pageNr="38" tsid="159738161" status="IN_PROGRESS" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=FTACGMDKGOYWAFNOPISHGUFI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UIWFFRYJGHYMILMIMIZTZQMN" imageId="47162661"/>
+    </Metadata>
+    <Page imageFilename="0038_urn-gvn-EVDO01-VMA01_KBN007000011-large_038.jpeg" imageWidth="1500" imageHeight="1108">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1713946269372" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_22"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="665,26 749,26 749,81 665,81"/>
+            <TextLine id="l" custom="readingOrder {index:0;} textStyle {offset:0; length:3;underlined:true;}">
+                <Coords points="678,63 730,62 729,38 677,39"/>
+                <Baseline points="678,63 730,62"/>
+                <TextEquiv>
+                    <Unicode>71.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_22" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="90,44 669,44 669,309 90,309"/>
+            <TextLine id="l_31" custom="readingOrder {index:0;} person {offset:24; length:8; continued:true;}">
+                <Coords points="179,96 248,93 326,90 395,88 461,87 531,89 598,88 597,64 531,65 461,63 394,64 325,66 247,70 178,73"/>
+                <Baseline points="179,96 248,93 326,90 395,88 461,87 531,89 598,88"/>
+                <TextEquiv>
+                    <Unicode>het middelpunt, terwijl Minister</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_75" custom="readingOrder {index:1;} person {offset:0; length:20; continued:true;}">
+                <Coords points="184,122 251,122 314,123 371,120 437,121 501,116 564,115 647,115 647,92 564,92 500,93 436,97 371,96 313,99 252,98 184,98"/>
+                <Baseline points="184,122 251,122 314,123 371,120 437,121 501,116 564,115 647,115"/>
+                <TextEquiv>
+                    <Unicode>President, Gerbrandy, het woord voerde.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_125" custom="readingOrder {index:2;}">
+                <Coords points="181,148 253,149 315,149 378,148 445,144 513,146 588,143 623,143 623,119 587,119 513,123 444,121 377,124 314,125 253,125 182,124"/>
+                <Baseline points="181,148 253,149 315,149 378,148 445,144 513,146 588,143 623,143"/>
+                <TextEquiv>
+                    <Unicode>'s Avonds om kwart voor negen, dus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_175" custom="readingOrder {index:3;} person {offset:20; length:11;}">
+                <Coords points="176,177 225,176 290,175 340,176 388,175 440,173 501,172 558,171 628,171 628,147 557,147 501,148 439,149 387,152 340,153 290,152 224,153 175,154"/>
+                <Baseline points="176,177 225,176 290,175 340,176 388,175 440,173 501,172 558,171 628,171"/>
+                <TextEquiv>
+                    <Unicode>Radio Oranje, sprak de Koningin tot</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_231" custom="readingOrder {index:4;}">
+                <Coords points="187,211 250,205 315,204 385,205 453,204 524,200 578,201 634,200 634,176 578,177 524,176 452,180 385,182 315,180 249,182 185,187"/>
+                <Baseline points="187,211 250,205 315,204 385,205 453,204 524,200 578,201 634,200"/>
+                <TextEquiv>
+                    <Unicode>het Nederlandse volk. Ze sprak over-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_281" custom="readingOrder {index:5;}">
+                <Coords points="186,236 248,236 301,236 357,236 411,233 472,233 513,232 578,233 578,209 513,208 472,209 410,209 356,213 301,213 248,213 186,213"/>
+                <Baseline points="186,236 248,236 301,236 357,236 411,233 472,233 513,232 578,233"/>
+                <TextEquiv>
+                    <Unicode>tuigend, en gaf ons weer moed.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_331" custom="readingOrder {index:6;}">
+                <Coords points="181,266 234,262 284,262 355,262 418,260 484,262 530,261 588,256 648,261 649,237 588,233 529,237 485,238 418,236 354,238 284,238 233,238 179,243"/>
+                <Baseline points="181,266 234,262 284,262 355,262 418,260 484,262 530,261 588,256 648,261"/>
+                <TextEquiv>
+                    <Unicode>Er werd geëindigd met het "Wien Neêr-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_387" custom="readingOrder {index:7;}">
+                <Coords points="180,296 238,295 299,294 354,292 418,294 492,291 541,291 590,292 590,268 541,267 492,267 418,270 353,268 298,270 238,271 180,272"/>
+                <Baseline points="180,296 238,295 299,294 354,292 418,294 492,291 541,291 590,292"/>
+                <TextEquiv>
+                    <Unicode>land Bloed" en het "Wilhelmus."</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

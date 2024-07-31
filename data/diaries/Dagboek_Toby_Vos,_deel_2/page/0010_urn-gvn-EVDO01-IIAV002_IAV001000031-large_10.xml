@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=50786:lm=none:date=02_04_2024_14:18</Creator>
+        <Created>2023-07-28T17:14:38.102+02:00</Created>
+        <LastChange>2024-04-03T16:46:32.709+02:00</LastChange>
+        <TranskribusMetadata docId="1515126" pageId="58235993" pageNr="10" tsid="156873127" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=LVYOCJROWLGGSDXMGWGCGCBV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PKVOCOSNTEGLSCJEFUETOJLL" imageId="47162908"/>
+    </Metadata>
+    <Page imageFilename="0010_urn-gvn-EVDO01-IIAV002_IAV001000031-large_10.jpeg" imageWidth="1500" imageHeight="1208">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712890503499" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_5"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:visual;}">
+            <Coords points="797,45 1465,45 1465,1024 797,1024"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:1;} structure {type:caption;}">
+            <Coords points="841,1147 1106,1147 1106,1200 841,1200"/>
+            <TextLine id="l" custom="readingOrder {index:0;} place {offset:0; length:16;}">
+                <Coords points="864,1177 889,1178 905,1177 935,1178 954,1178 972,1180 973,1160 955,1158 936,1158 905,1157 889,1158 864,1157"/>
+                <Baseline points="864,1172 889,1173 905,1172 935,1173 954,1173 972,1175"/>
+                <TextEquiv>
+                    <Unicode>N.Z. Voorburgwal</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_46" custom="readingOrder {index:1;} person {offset:4; length:4;} person {offset:12; length:5;}">
+                <Coords points="872,1195 892,1195 906,1195 931,1196 952,1197 969,1198 988,1198 988,1178 969,1178 953,1177 931,1176 906,1175 892,1175 872,1175"/>
+                <Baseline points="872,1190 892,1190 906,1190 931,1191 952,1192 969,1193 988,1193"/>
+                <TextEquiv>
+                    <Unicode>bij Mien en Peter</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_90" custom="readingOrder {index:2;} date {offset:0; length:9;}">
+                <Coords points="1012,1196 1033,1196 1044,1196 1059,1198 1075,1198 1074,1178 1060,1178 1045,1176 1033,1176 1012,1176"/>
+                <Baseline points="1012,1191 1033,1191 1044,1191 1059,1193 1075,1193"/>
+                <TextEquiv>
+                    <Unicode>Juni 1945</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

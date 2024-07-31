@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-07-28T16:54:00.393+02:00</Created>
+        <LastChange>2024-04-22T12:01:54.779+02:00</LastChange>
+        <TranskribusMetadata docId="1515108" pageId="58235804" pageNr="101" tsid="159747770" status="IN_PROGRESS" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=XBGGLYNYXNGFOUWEURGWYVWZ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IWTKYSNNIUDUXQSPSJNKOSWJ" imageId="47162724"/>
+    </Metadata>
+    <Page imageFilename="0101_urn-gvn-EVDO01-VMA01_KBN007000011-large_101.jpeg" imageWidth="1500" imageHeight="1112">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1713946270298" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_18"/>
+                <RegionRefIndexed index="2" regionRef="r_27"/>
+                <RegionRefIndexed index="3" regionRef="r_36"/>
+                <RegionRefIndexed index="4" regionRef="r_102"/>
+                <RegionRefIndexed index="5" regionRef="r_111"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="61,31 128,31 128,69 61,69"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="67,55 120,54 120,30 67,31"/>
+                <Baseline points="67,55 120,54"/>
+                <TextEquiv>
+                    <Unicode>140.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_18" custom="readingOrder {index:1;} structure {type:heading;}">
+            <Coords points="47,63 524,63 524,120 47,120"/>
+            <TextLine id="l_58" custom="readingOrder {index:0;} date {offset:0; length:4;} textStyle {offset:6; length:10;underlined:true;}">
+                <Coords points="54,101 119,99 172,98 261,97 364,95 448,92 510,92 510,68 448,68 363,72 261,74 172,75 119,76 53,77"/>
+                <Baseline points="54,101 119,99 172,98 261,97 364,95 448,92 510,92"/>
+                <TextEquiv>
+                    <Unicode>1945. Voor later.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_27" custom="readingOrder {index:2;} structure {type:caption;}">
+            <Coords points="138,120 711,120 711,166 138,166"/>
+            <TextLine id="l_456" custom="readingOrder {index:0;} atm_food {offset:5; length:11;} date {offset:25; length:9;}">
+                <Coords points="150,150 182,151 220,151 264,152 321,152 381,152 438,151 507,151 589,152 650,150 704,149 704,125 649,126 588,128 507,127 438,127 380,128 321,128 264,128 220,127 182,127 151,126"/>
+                <Baseline points="150,150 182,151 220,151 264,152 321,152 381,152 438,151 507,151 589,152 650,150 704,149"/>
+                <TextEquiv>
+                    <Unicode>Onze noodkaarten; sedert Nov. 1944.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_36" custom="readingOrder {index:3;} structure {type:visual;}">
+            <Coords points="39,153 696,153 696,752 39,752"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_102" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="125,755 759,755 759,969 125,969"/>
+            <TextLine id="l_120" custom="readingOrder {index:0;}">
+                <Coords points="135,800 214,800 281,799 363,796 428,798 491,796 555,797 615,797 681,801 683,778 616,773 555,773 491,772 428,774 363,772 280,776 214,777 135,777"/>
+                <Baseline points="135,800 214,800 281,799 363,796 428,798 491,796 555,797 615,797 681,801"/>
+                <TextEquiv>
+                    <Unicode>Iedere plaats heeft zijn eigen kaart,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_176" custom="readingOrder {index:1;} place {offset:21; length:6;}">
+                <Coords points="132,832 181,832 225,829 295,829 377,826 469,825 561,825 653,826 717,826 717,803 653,803 561,802 469,802 377,803 295,805 224,805 180,808 132,808"/>
+                <Baseline points="132,832 181,832 225,829 295,829 377,826 469,825 561,825 653,826 717,826"/>
+                <TextEquiv>
+                    <Unicode>met een vast nummer: Leiden - 340.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_232" custom="readingOrder {index:2;}">
+                <Coords points="165,856 226,858 276,859 330,855 404,855 475,856 539,854 608,854 702,858 703,834 608,830 539,830 475,832 404,831 329,831 276,835 227,834 166,832"/>
+                <Baseline points="165,856 226,858 276,859 330,855 404,855 475,856 539,854 608,854 702,858"/>
+                <TextEquiv>
+                    <Unicode>Alleen plaatselijk zijn de bonnen te</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_288" custom="readingOrder {index:3;}">
+                <Coords points="147,888 218,886 315,887 374,886 418,885 479,882 528,885 599,884 658,884 715,883 714,860 658,861 599,861 528,862 479,858 417,862 374,863 315,864 217,863 146,865"/>
+                <Baseline points="147,888 218,886 315,887 374,886 418,885 479,882 528,885 599,884 658,884 715,883"/>
+                <TextEquiv>
+                    <Unicode>besteden - tenzij men bij het distributie-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_350" custom="readingOrder {index:4;}">
+                <Coords points="141,917 191,919 249,917 292,915 363,917 434,915 476,915 532,914 618,915 679,916 720,914 719,890 679,892 618,891 532,890 476,891 434,891 363,893 292,891 248,893 191,895 142,893"/>
+                <Baseline points="141,917 191,919 249,917 292,915 363,917 434,915 476,915 532,914 618,915 679,916 720,914"/>
+                <TextEquiv>
+                    <Unicode>kantoor een stempeltje krijgt voor de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_418" custom="readingOrder {index:5;}">
+                <Coords points="146,948 185,946 235,944 297,946 340,947 392,947 392,924 340,924 298,923 235,920 184,923 145,924"/>
+                <Baseline points="146,948 185,946 235,944 297,946 340,947 392,947"/>
+                <TextEquiv>
+                    <Unicode>andere plaats.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_111" custom="readingOrder {index:5;} structure {type:visual;}">
+            <Coords points="312,970 468,970 468,1034 312,1034"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.14.0:model_id=50786:lm=none:date=25_04_2024_13:43</Creator>
+        <Created>2024-01-12T15:25:44.580+01:00</Created>
+        <LastChange>2024-04-25T15:49:05.747+02:00</LastChange>
+        <TranskribusMetadata docId="1744898" pageId="63299875" pageNr="8" tsid="160471351" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=EMJRPEZTQDVCESNEZSBIEJQP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RAYKJPUSNBZGOOIPZIWMBGGS" imageId="51197880"/>
+    </Metadata>
+    <Page imageFilename="0008_p008.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1714088094479" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_79"/>
+                <RegionRefIndexed index="2" regionRef="r_70"/>
+                <RegionRefIndexed index="3" regionRef="r_88"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:visual;}">
+            <Coords points="978,651 1616,651 1616,1414 978,1414"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_79" custom="readingOrder {index:1;} structure {type:caption;}">
+            <Coords points="754,1395 1837,1395 1837,1555 754,1555"/>
+            <TextLine id="l" custom="readingOrder {index:0;} person {offset:0; length:27;} person {offset:31; length:5;} date {offset:40; length:4;}">
+                <Coords points="777,1479 914,1475 1096,1479 1259,1479 1396,1475 1563,1475 1677,1475 1795,1483 1784,1479 1770,1521 1713,1467 1679,1431 1563,1431 1395,1431 1259,1435 1096,1435 913,1431 776,1435"/>
+                <Baseline points="777,1479 914,1475 1096,1479 1259,1479 1396,1475 1563,1475 1677,1475 1795,1483 1784,1479"/>
+                <TextEquiv>
+                    <Unicode>Margareta (Mammi) van Hinte en Berdi in 1943</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_70" custom="readingOrder {index:2;} structure {type:visual;}">
+            <Coords points="731,1699 1852,1699 1852,2409 731,2409"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_88" custom="readingOrder {index:3;} structure {type:caption;}">
+            <Coords points="921,2424 1715,2424 1715,2557 921,2557"/>
+            <TextLine id="l_152" custom="readingOrder {index:0;} person {offset:9; length:21;}">
+                <Coords points="959,2477 1066,2477 1168,2477 1328,2485 1449,2481 1635,2481 1635,2437 1449,2437 1328,2441 1169,2433 1066,2433 959,2433"/>
+                <Baseline points="959,2477 1066,2477 1168,2477 1328,2485 1449,2481 1635,2481"/>
+                <TextEquiv>
+                    <Unicode>Doopfoto Berdina Sere Hennekam</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

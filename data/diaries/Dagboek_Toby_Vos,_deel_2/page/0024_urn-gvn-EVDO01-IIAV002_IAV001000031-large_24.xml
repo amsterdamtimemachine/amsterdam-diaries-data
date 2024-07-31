@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.1.0:model_id=51170:date=04_08_2023_19:00</Creator>
+        <Created>2023-07-28T17:14:39.953+02:00</Created>
+        <LastChange>2024-04-03T17:23:40.296+02:00</LastChange>
+        <TranskribusMetadata docId="1515126" pageId="58236007" pageNr="24" tsid="156879031" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=WQKCJZEITFGWFWEZBRHBCWTW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CJIDMWMFIYFFSYDOGNXIFFHX" imageId="47162922"/>
+    </Metadata>
+    <Page imageFilename="0024_urn-gvn-EVDO01-IIAV002_IAV001000031-large_24.jpeg" imageWidth="1500" imageHeight="1194">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712890656605" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_5"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:caption;}">
+            <Coords points="464,1179 44,1179 44,1085 464,1085"/>
+            <TextLine id="r_tl_1" custom="readingOrder {index:0;} date {offset:13; length:13;}">
+                <Coords points="39,1142 102,1136 179,1180 213,1161 232,1172 257,1150 319,1162 335,1146 372,1174 396,1154 439,1154 437,1098 377,1123 281,1076 222,1079 210,1092 176,1079 138,1096 124,1089 105,1108 67,1094 38,1114"/>
+                <Baseline points="44,1132 74,1132 104,1136 134,1138 164,1138 194,1138 224,1142 254,1142 284,1142 314,1142 344,1144 374,1144 404,1146 434,1144 440,1146"/>
+                <TextEquiv>
+                    <Unicode>Na de kermis 14 April 1966</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:1;} structure {type:visual;}">
+            <Coords points="779,1185 22,1185 8,29 770,25"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

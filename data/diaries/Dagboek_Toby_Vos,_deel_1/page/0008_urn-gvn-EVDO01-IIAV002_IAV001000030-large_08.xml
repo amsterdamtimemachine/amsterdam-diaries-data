@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-07-28T17:11:23.683+02:00</Created>
+        <LastChange>2024-04-11T15:12:55.200+02:00</LastChange>
+        <TranskribusMetadata docId="1515124" pageId="58235954" pageNr="8" tsid="158026467" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=QDWXAHQUFWTIPDCQFLCJCYCT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DXFZRCGPFHQYIJGCHIVOVSVB" imageId="47162869"/>
+    </Metadata>
+    <Page imageFilename="0008_urn-gvn-EVDO01-IIAV002_IAV001000030-large_08.jpeg" imageWidth="1500" imageHeight="1198">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1713945884031" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_2198"/>
+                <RegionRefIndexed index="2" regionRef="r_723"/>
+                <RegionRefIndexed index="3" regionRef="r_742"/>
+                <RegionRefIndexed index="4" regionRef="r_737"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:paragraph;}">
+            <Coords points="31,22 730,16 732,385 35,385"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="40,1 56,3 86,1 116,0 146,0 176,0 206,0 236,0 266,0 296,0 326,0 356,0 386,0 416,0 446,0 476,0 506,0 536,0 566,0 596,0 626,0 656,0 686,0 716,0 716,45 686,43 656,39 626,39 596,41 566,43 536,41 506,41 476,41 446,41 416,43 386,43 356,45 326,45 296,45 266,47 236,47 206,49 176,49 146,49 116,49 86,51 56,53 40,51"/>
+                <Baseline points="40,46 56,48 86,46 116,44 146,44 176,44 206,44 236,42 266,42 296,40 326,40 356,40 386,38 416,38 446,36 476,36 506,36 536,36 566,38 596,36 626,34 656,34 686,38 716,40"/>
+                <TextEquiv>
+                    <Unicode>Inwendig zuchtend voel ik de tijd gekomen, tot het tijdelijk neerleggen van de teekenpen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l" custom="readingOrder {index:1;}">
+                <Coords points="42,27 70,23 100,23 130,21 160,21 190,21 220,19 250,19 280,19 310,19 340,19 370,19 400,19 430,21 460,21 490,21 520,21 550,19 575,18 575,68 550,69 520,71 490,71 460,71 430,71 400,69 370,69 340,69 310,69 280,69 250,69 220,69 190,71 160,71 130,71 100,73 70,73 42,77"/>
+                <Baseline points="42,72 70,68 100,68 130,66 160,66 190,66 220,64 250,64 280,64 310,64 340,64 370,64 400,64 430,66 460,66 490,66 520,66 550,64 575,63"/>
+                <TextEquiv>
+                    <Unicode>Ik meng nog haastig de straks aan te brengen kleur en maak mij</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:2;} add {offset:0; length:15;}">
+                <Coords points="568,53 604,50 634,50 664,50 664,35 634,35 603,35 567,38"/>
+                <Baseline points="568,53 604,50 634,50 664,50"/>
+                <TextEquiv>
+                    <Unicode>ten tweede male</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2229" custom="readingOrder {index:3;}">
+                <Coords points="575,18 582,18 582,18 614,21 644,23 674,23 704,23 714,25 714,75 704,73 674,73 644,73 614,71 582,68 582,68 575,68"/>
+                <Baseline points="575,63 582,63 582,63 614,66 644,68 674,68 704,68 714,70"/>
+                <TextEquiv>
+                    <Unicode>met een glimlach</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="40,49 42,49 72,47 102,45 132,43 162,43 192,41 222,41 252,41 282,43 282,93 252,91 222,91 192,91 162,93 132,93 102,95 72,97 42,99 40,99"/>
+                <Baseline points="40,94 42,94 72,92 102,90 132,88 162,88 192,86 222,86 252,86 282,88"/>
+                <TextEquiv>
+                    <Unicode>gereed tot het effenen der paden.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="40,69 64,69 94,67 124,65 154,65 184,65 214,63 244,63 274,63 304,63 334,61 364,61 394,59 424,59 454,59 484,61 514,61 544,59 574,59 604,59 634,61 664,63 694,65 694,115 664,113 634,111 604,109 574,109 544,109 514,111 484,111 454,109 424,109 394,109 364,111 334,111 304,113 274,113 244,113 214,113 184,115 154,115 124,115 94,117 64,119 40,119"/>
+                <Baseline points="40,114 64,114 94,112 124,110 154,110 184,110 214,108 244,108 274,108 304,108 334,106 364,106 394,104 424,104 454,104 484,106 514,106 544,104 574,104 604,104 634,106 664,108 694,110"/>
+                <TextEquiv>
+                    <Unicode>Langs zijn mooie glanzende haren kijk ik met keurende, half-dichtgeknepen ogen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="42,93 52,91 82,91 112,87 142,87 172,85 202,85 232,83 262,83 292,83 322,83 352,83 382,83 412,81 442,81 472,83 502,83 532,81 562,81 592,83 622,81 652,83 682,85 682,135 652,133 622,131 592,133 562,131 532,131 502,133 472,133 442,131 412,131 382,133 352,133 322,133 292,133 262,133 232,133 202,135 172,135 142,137 112,137 82,141 52,141 42,143"/>
+                <Baseline points="42,138 52,136 82,136 112,132 142,132 172,130 202,130 232,128 262,128 292,128 322,128 352,128 382,128 412,126 442,126 472,128 502,128 532,126 562,126 592,128 622,126 652,128 682,130"/>
+                <TextEquiv>
+                    <Unicode>naar mijn nog zo gebrekkige tekening en plotseling ontdek ik daar iets, ontdek</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="40,113 62,111 92,111 122,111 152,109 182,107 212,107 242,105 272,103 302,103 332,103 362,103 392,103 422,103 452,101 482,103 512,103 542,101 572,101 602,101 632,101 662,101 662,151 632,151 602,151 572,151 542,151 512,153 482,153 452,151 422,153 392,153 362,153 332,153 302,153 272,153 242,155 212,157 182,157 152,159 122,161 92,161 62,161 40,163"/>
+                <Baseline points="40,158 62,156 92,156 122,156 152,154 182,152 212,152 242,150 272,148 302,148 332,148 362,148 392,148 422,148 452,146 482,148 512,148 542,146 572,146 602,146 632,146 662,146"/>
+                <TextEquiv>
+                    <Unicode>ik een vreselijk groote fout die onvermijdelijk om verbetering vraagt. Ik voer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="36,133 52,133 82,131 112,131 142,129 172,127 202,127 232,125 262,125 292,123 322,123 352,121 382,121 412,123 442,123 472,121 502,121 532,121 562,121 592,121 622,121 652,119 682,117 682,167 652,169 622,171 592,171 562,171 532,171 502,171 472,171 442,173 412,173 382,171 352,171 322,173 292,173 262,175 232,175 202,177 172,177 142,179 112,181 82,181 52,183 36,183"/>
+                <Baseline points="36,178 52,178 82,176 112,176 142,174 172,172 202,172 232,170 262,170 292,168 322,168 352,166 382,166 412,168 442,168 472,166 502,166 532,166 562,166 592,166 622,166 652,164 682,162"/>
+                <TextEquiv>
+                    <Unicode>met mijn hand, die op de kostbare stof van verloofdes beklede rug rust,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="36,153 56,151 86,151 116,147 146,147 176,145 206,145 236,145 266,145 296,143 326,141 356,141 386,139 416,141 446,139 476,139 506,139 536,139 566,139 596,139 626,139 656,139 686,141 686,191 656,189 626,189 596,189 566,189 536,189 506,189 476,189 446,189 416,191 386,189 356,191 326,191 296,193 266,195 236,195 206,195 176,195 146,197 116,197 86,201 56,201 36,203"/>
+                <Baseline points="36,198 56,196 86,196 116,192 146,192 176,190 206,190 236,190 266,190 296,188 326,186 356,186 386,184 416,186 446,184 476,184 506,184 536,184 566,184 596,184 626,184 656,184 686,186"/>
+                <TextEquiv>
+                    <Unicode>alreeds in gedachten de vereiste bewegingen uit. Het lijkt mij onmogelijk met de verandering</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="38,173 54,175 84,173 114,171 144,171 174,171 204,169 234,171 264,169 294,167 324,165 354,165 384,165 414,163 444,161 474,161 504,161 534,161 564,163 594,161 624,161 654,163 684,163 684,213 654,213 624,211 594,211 564,213 534,211 504,211 474,211 444,211 414,213 384,215 354,215 324,215 294,217 264,219 234,221 204,219 174,221 144,221 114,221 84,223 54,225 38,223"/>
+                <Baseline points="38,218 54,220 84,218 114,216 144,216 174,216 204,214 234,216 264,214 294,212 324,210 354,210 384,210 414,208 444,206 474,206 504,206 534,206 564,208 594,206 624,206 654,208 684,208"/>
+                <TextEquiv>
+                    <Unicode>der kleuren slechts maar één ogenblik te wachten. Ik weet dat bij de onstabiliteit der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="46,197 66,195 96,195 126,195 156,193 186,193 216,193 246,191 276,191 306,189 336,189 366,187 396,187 426,185 456,187 486,185 516,185 546,185 576,183 606,185 636,183 666,183 666,233 636,233 606,235 576,233 546,235 516,235 486,235 456,237 426,235 396,237 366,237 336,239 306,239 276,241 246,241 216,243 186,243 156,243 126,245 96,245 66,245 46,247"/>
+                <Baseline points="46,242 66,240 96,240 126,240 156,238 186,238 216,238 246,236 276,236 306,234 336,234 366,232 396,232 426,230 456,232 486,230 516,230 546,230 576,228 606,230 636,228 666,228"/>
+                <TextEquiv>
+                    <Unicode>zonnestand en de wisselvalligheid van het klimaat, dat iedere dag van kleur</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="44,217 54,219 84,217 114,217 144,217 174,213 204,213 234,213 264,213 294,213 324,211 354,211 384,209 414,209 444,207 474,205 504,205 534,203 564,203 594,205 624,203 654,205 684,207 684,257 654,255 624,253 594,255 564,253 534,253 504,255 474,255 444,257 414,259 384,259 354,261 324,261 294,263 264,263 234,263 204,263 174,263 144,267 114,267 84,267 54,269 44,267"/>
+                <Baseline points="44,262 54,264 84,262 114,262 144,262 174,258 204,258 234,258 264,258 294,258 324,256 354,256 384,254 414,254 444,252 474,250 504,250 534,248 564,248 594,250 624,248 654,250 684,252"/>
+                <TextEquiv>
+                    <Unicode>veranderen doet, mijn penseel geen uitstel verdraagt. En ik weet met schrikbarende</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="42,239 46,241 76,239 106,237 136,235 166,235 196,235 226,233 256,233 286,233 316,231 346,231 376,231 406,231 436,229 466,229 496,227 526,225 556,225 586,225 616,225 646,225 646,275 616,275 586,275 556,275 526,275 496,277 466,279 436,279 406,281 376,281 346,281 316,281 286,283 256,283 226,283 196,285 166,285 136,285 106,287 76,289 46,291 42,289"/>
+                <Baseline points="42,284 46,286 76,284 106,282 136,280 166,280 196,280 226,278 256,278 286,278 316,276 346,276 376,276 406,276 436,274 466,274 496,272 526,270 556,270 586,270 616,270 646,270"/>
+                <TextEquiv>
+                    <Unicode>helderheid (zoals men die vaak bij een lichte dronkenschap ervaart), dat mijn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="46,261 56,259 86,257 116,257 146,257 176,255 206,255 236,253 266,253 296,251 326,251 356,249 386,249 416,247 446,249 476,247 506,247 536,247 566,245 596,245 626,245 656,245 686,245 686,295 656,295 626,295 596,295 566,295 536,297 506,297 476,297 446,299 416,297 386,299 356,299 326,301 296,301 266,303 236,303 206,305 176,305 146,307 116,307 86,307 56,309 46,311"/>
+                <Baseline points="46,306 56,304 86,302 116,302 146,302 176,300 206,300 236,298 266,298 296,296 326,296 356,294 386,294 416,292 446,294 476,292 506,292 536,292 566,290 596,290 626,290 656,290 686,290"/>
+                <TextEquiv>
+                    <Unicode>ontembare ijver niet van verzet is ontbloot en dat mijn onafhankelijke tekenaressengeest</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_17" custom="readingOrder {index:15;}">
+                <Coords points="40,320 60,320 90,320 120,320 150,320 180,318 210,318 240,316 270,316 300,316 330,314 360,314 390,312 420,312 450,312 480,310 510,310 545,309 544,294 510,295 480,295 450,297 420,297 390,297 360,299 330,299 300,301 270,301 240,301 210,303 180,303 150,305 120,305 90,305 60,305 40,305"/>
+                <Baseline points="40,320 60,320 90,320 120,320 150,320 180,318 210,318 240,316 270,316 300,316 330,314 360,314 429,312 474,312 520,312 574,310 622,310 663,311"/>
+                <TextEquiv>
+                    <Unicode>zich tegen zekere minnaarsrechten teweer gaat stellen. Ach ja, ik weet welhaast</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_18" custom="readingOrder {index:16;} textStyle {offset:69; length:12;strikethrough:true;} blackening {offset:69; length:12;}">
+                <Coords points="44,340 60,340 90,338 120,338 150,340 180,338 210,338 240,336 270,338 300,336 330,334 360,336 390,334 420,334 450,334 480,334 510,334 541,337 555,336 578,339 608,339 608,324 579,324 555,321 541,322 511,319 480,319 450,319 420,319 390,319 360,321 330,319 299,321 270,323 240,321 210,323 180,323 150,325 120,323 90,323 60,325 44,325"/>
+                <Baseline points="44,340 60,340 90,338 120,338 150,340 180,338 210,338 240,336 270,338 300,336 330,334 360,336 390,334 420,334 450,334 480,334 605,336 521,325 609,325 615,337 666,338"/>
+                <TextEquiv>
+                    <Unicode>zeker, dat bij onveranderlijke zonnestand en andere aanleidingen tot welverdiende  tekenaars- rust,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_19" custom="readingOrder {index:17;}">
+                <Coords points="46,317 66,315 96,313 126,313 156,313 186,311 216,309 246,309 276,309 306,307 336,309 366,309 396,309 426,309 456,309 486,309 516,307 546,307 576,305 608,306 622,304 654,305 684,303 688,303 688,353 684,353 654,355 622,354 608,356 576,355 546,357 516,357 486,359 456,359 426,359 396,359 366,359 336,359 306,357 276,359 246,359 216,359 186,361 156,363 126,363 96,363 66,365 46,367"/>
+                <Baseline points="46,362 66,360 96,358 126,358 156,358 186,356 216,354 246,354 276,354 306,352 336,354 366,354 396,354 426,354 456,354 486,354 516,352 546,352 576,350 608,351 622,349 654,350 684,348 688,348"/>
+                <TextEquiv>
+                    <Unicode>mijn pen eveneens onbedwingbaar tot werken zou staan en niet alléén mijn kunste-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_20" custom="readingOrder {index:18;}">
+                <Coords points="50,339 60,337 90,335 120,333 150,331 180,331 210,329 240,327 270,327 300,325 330,325 360,325 360,375 330,375 300,375 270,377 240,377 210,379 180,381 150,381 120,383 90,385 60,387 50,389"/>
+                <Baseline points="50,384 60,382 90,380 120,378 150,376 180,376 210,374 240,372 270,372 300,370 330,370 360,370"/>
+                <TextEquiv>
+                    <Unicode>naarsschap daarvan de oorzaak zou zijn.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2198" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="732,385 734,719 39,735 35,385"/>
+            <TextLine id="tr_1_tl_21" custom="readingOrder {index:0;}">
+                <Coords points="48,355 64,353 94,353 124,351 154,351 184,349 214,349 244,347 274,345 304,345 334,345 364,345 394,345 424,343 454,343 484,343 514,345 544,345 574,345 604,345 636,347 636,397 604,395 574,395 544,395 514,395 484,393 454,393 424,393 394,395 364,395 334,395 304,395 274,395 244,397 214,399 184,399 154,401 124,401 94,403 64,403 48,405"/>
+                <Baseline points="48,400 64,398 94,398 124,396 154,396 184,394 214,394 244,392 274,390 304,390 334,390 364,390 394,390 424,388 454,388 484,388 514,390 564,390 602,390 639,392 672,392"/>
+                <TextEquiv>
+                    <Unicode>Er was een tijd dat ik, om niet ten onder te gaan, de charmes van mijn verloofde met</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_22" custom="readingOrder {index:1;} textStyle {offset:31; length:9;strikethrough:true;} blackening {offset:31; length:9;}">
+                <Coords points="48,375 64,373 94,373 124,371 154,369 184,369 214,367 244,367 274,365 304,367 334,365 364,361 394,361 424,361 454,361 484,361 514,361 544,361 574,363 604,363 635,360 635,410 604,413 574,413 544,411 514,411 484,411 454,411 424,411 394,411 364,411 334,415 304,417 274,415 244,417 214,417 184,419 154,419 124,421 94,423 64,423 48,425"/>
+                <Baseline points="48,420 64,418 94,418 124,416 154,414 184,414 214,412 244,412 274,410 304,412 334,410 364,406 394,406 424,406 454,406 484,406 514,406 544,406 586,407 626,408 658,407"/>
+                <TextEquiv>
+                    <Unicode>handen en voeten moest treden, zoals een nerveus doch vastberaden, zoals een </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_23" custom="readingOrder {index:2;}">
+                <Coords points="48,395 76,393 106,391 136,389 166,389 196,387 226,387 256,385 286,383 316,383 346,381 376,379 406,379 436,381 466,379 496,381 526,381 556,379 586,377 616,379 646,377 676,377 676,427 646,427 616,429 586,427 556,429 526,431 496,431 466,429 436,431 406,429 376,429 346,431 316,433 286,433 256,435 226,437 196,437 166,439 136,439 106,441 76,443 48,445"/>
+                <Baseline points="48,440 76,438 106,436 136,434 166,434 196,432 226,432 256,430 286,428 316,428 346,426 376,424 406,424 436,426 466,424 496,426 526,426 556,424 586,422 616,424 646,422 676,422"/>
+                <TextEquiv>
+                    <Unicode>paard een hindernis neemt. Daar is nu niet veel meer van over. Ik speur en doe</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_24" custom="readingOrder {index:3;}">
+                <Coords points="48,415 70,413 100,409 130,407 160,405 190,405 220,403 250,401 280,401 310,399 340,399 370,397 400,399 430,397 460,395 490,397 520,397 550,397 580,397 610,395 640,397 640,447 610,445 580,447 550,447 520,447 490,447 460,445 430,447 400,449 370,447 340,449 310,449 280,451 250,451 220,453 190,455 160,455 130,457 100,459 70,463 48,465"/>
+                <Baseline points="48,460 70,458 100,454 130,452 160,450 190,450 220,448 250,446 280,446 310,444 340,444 370,442 400,444 430,442 460,440 490,442 520,442 550,442 580,442 610,440 640,442"/>
+                <TextEquiv>
+                    <Unicode>oprecht mijn best van dat vergankelijke mysterie een spoor terug te vinden, terwijl</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_25" custom="readingOrder {index:4;}">
+                <Coords points="48,439 70,437 100,433 130,431 160,429 190,427 220,425 250,423 280,421 310,419 340,419 370,419 400,419 430,419 460,417 490,417 520,417 550,415 580,415 610,417 640,415 670,415 700,417 700,467 670,465 640,465 610,467 580,465 550,465 520,467 490,467 460,467 430,469 400,469 370,469 340,469 310,469 280,471 250,473 220,475 190,477 160,479 130,481 100,483 70,487 48,489"/>
+                <Baseline points="48,484 70,482 100,478 130,476 160,474 190,472 220,470 250,468 280,466 310,464 340,464 370,464 400,464 430,464 460,462 490,462 520,462 550,460 580,460 610,462 640,460 670,460 700,462"/>
+                <TextEquiv>
+                    <Unicode>ik àl vleiend mijn avond voor tekenen te vrijwaren hoop. Maar geen der mysteries</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_26" custom="readingOrder {index:5;}">
+                <Coords points="50,461 60,459 90,457 120,453 150,451 180,449 210,449 240,445 270,443 300,443 330,441 360,441 390,441 420,441 450,439 480,439 510,439 540,439 570,435 600,435 630,435 660,435 690,439 690,489 660,485 630,485 600,485 570,485 540,489 510,489 480,489 450,489 420,491 390,491 360,491 330,491 300,493 270,493 240,495 210,499 180,499 150,501 120,503 90,507 60,509 50,511"/>
+                <Baseline points="50,506 60,504 90,502 120,498 150,496 180,494 210,494 240,490 270,488 300,488 330,486 360,486 390,486 420,486 450,484 480,484 510,484 540,484 570,480 600,480 630,480 660,480 690,484"/>
+                <TextEquiv>
+                    <Unicode>klopt bij mij aan, en toch moeten er zijn, dat weet ik heel zeker. Het is als met een</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_28" custom="readingOrder {index:6;}">
+                <Coords points="50,481 64,481 94,479 124,477 154,475 184,473 214,471 244,469 274,467 304,465 334,465 364,465 394,463 424,461 454,459 484,459 514,461 544,461 574,461 604,461 634,461 664,461 664,511 634,511 604,511 574,511 544,511 514,511 484,509 454,509 424,511 394,513 364,515 334,515 304,515 274,517 244,519 214,521 184,523 154,525 124,527 94,529 64,531 50,531"/>
+                <Baseline points="50,526 64,526 94,524 124,522 154,520 184,518 214,516 244,514 274,512 304,510 334,510 364,510 394,508 424,506 454,504 484,504 514,506 544,506 574,506 604,506 634,506 664,506"/>
+                <TextEquiv>
+                    <Unicode>kostbaar parfum, men zou zich er geruimen tijd niet van moeten bedienen, om</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_29" custom="readingOrder {index:7;}">
+                <Coords points="52,503 54,503 84,501 114,499 144,499 174,495 204,495 234,493 264,491 294,489 324,487 354,487 384,485 414,485 444,485 474,483 504,483 534,483 534,533 504,533 474,533 444,535 414,535 384,535 354,537 324,537 294,539 264,541 234,543 204,545 174,545 144,549 114,549 84,551 54,553 52,553"/>
+                <Baseline points="52,548 54,548 84,546 114,544 144,544 174,540 204,540 234,538 264,536 294,534 324,532 354,532 384,530 414,530 444,530 474,528 504,528 534,528"/>
+                <TextEquiv>
+                    <Unicode>op de bijzondere geur weer opmerkzaam te worden gemaakt.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_30" custom="readingOrder {index:8;} person {offset:0; length:14;}">
+                <Coords points="48,527 60,527 90,525 120,523 150,521 180,519 210,517 240,515 270,513 300,513 330,511 360,511 390,511 420,509 450,509 480,509 510,511 540,505 570,505 600,505 630,507 660,507 690,509 690,559 660,557 630,557 600,555 570,555 540,555 510,561 480,559 450,559 420,559 390,561 360,561 330,561 300,563 270,563 240,565 210,567 180,569 150,571 120,573 90,575 60,577 48,577"/>
+                <Baseline points="48,572 60,572 90,570 120,568 150,566 180,564 210,562 240,560 270,558 300,558 330,556 360,556 390,556 420,554 450,554 480,554 510,556 540,550 570,550 600,550 630,552 660,552 690,554"/>
+                <TextEquiv>
+                    <Unicode>Mijn verloofde is voor mijn listen weer spoedig gewonnen. Het hindert mij eerder,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_31" custom="readingOrder {index:9;}">
+                <Coords points="48,549 56,549 86,547 116,545 146,543 176,541 206,539 236,537 266,537 296,535 326,535 356,535 386,533 416,531 446,525 476,531 506,533 536,531 566,531 596,531 626,533 656,533 686,537 686,587 656,583 626,583 596,581 566,581 536,581 506,583 476,581 446,575 416,581 386,583 356,585 326,585 296,585 266,587 236,587 206,589 176,591 146,593 116,595 86,597 56,599 48,599"/>
+                <Baseline points="48,594 56,594 86,592 116,590 146,588 176,586 206,584 236,582 266,582 296,580 326,580 356,580 386,578 416,576 446,570 476,576 506,578 536,576 566,576 596,576 626,578 656,578 686,582"/>
+                <TextEquiv>
+                    <Unicode>dan dat het mij berouwt, dat aan het eind van de avond in zijn ogen te lezen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_32" custom="readingOrder {index:10;}">
+                <Coords points="48,573 76,571 106,569 136,567 166,565 196,563 226,561 256,559 286,559 316,557 346,557 376,557 406,557 436,555 466,555 496,555 526,555 556,555 586,553 616,555 646,555 646,605 616,605 586,603 556,605 526,605 496,605 466,605 436,605 406,607 376,607 346,607 316,607 286,609 256,609 226,611 196,613 166,615 136,617 106,619 76,621 48,623"/>
+                <Baseline points="48,618 76,616 106,614 136,612 166,610 196,608 226,606 256,604 286,604 316,602 346,602 376,602 406,602 436,600 466,600 496,600 526,600 556,600 586,598 616,600 646,600"/>
+                <TextEquiv>
+                    <Unicode>valt, hoe zeer ik hem heb te kort gedaan. Men zou verwachten, dat mijn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_33" custom="readingOrder {index:11;}">
+                <Coords points="52,597 62,597 92,595 122,593 152,593 182,589 212,585 242,585 272,583 302,583 332,581 362,581 392,579 422,581 452,579 482,579 512,579 542,579 572,577 602,577 632,577 662,579 692,581 692,631 662,629 632,627 602,627 572,627 542,629 512,629 482,629 452,629 422,631 392,629 362,631 332,631 302,633 272,633 242,635 212,635 182,639 152,643 122,643 92,645 62,647 52,647"/>
+                <Baseline points="52,642 62,642 92,640 122,638 152,638 182,634 212,630 242,630 272,628 302,628 332,626 362,626 392,624 422,626 452,624 482,624 512,624 542,624 572,622 602,622 632,622 662,624 692,626"/>
+                <TextEquiv>
+                    <Unicode>afscheidskus, door berouw gedreven, wel zeer spontaan moest zijn! Dat is hij echter</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_34" custom="readingOrder {index:12;}">
+                <Coords points="52,623 78,621 108,619 138,615 168,613 198,611 228,609 258,609 288,607 318,605 348,605 378,605 408,603 438,603 468,603 498,603 528,603 558,603 588,603 618,603 648,603 678,607 708,611 708,661 678,657 648,653 618,653 588,653 558,653 528,653 498,653 468,653 438,653 408,653 378,655 348,655 318,655 288,657 258,659 228,659 198,661 168,663 138,665 108,669 78,671 52,673"/>
+                <Baseline points="52,668 78,666 108,664 138,660 168,658 198,656 228,654 258,654 288,652 318,650 348,650 378,650 408,648 438,648 468,648 498,648 528,648 558,648 588,648 618,648 648,648 678,652 708,656"/>
+                <TextEquiv>
+                    <Unicode>niet. En ik schud verbaasd mijn hoofd, omdat men van verloofdes zoiets bijzonders </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_35" custom="readingOrder {index:13;}">
+                <Coords points="52,647 66,647 96,645 126,641 156,639 186,637 216,633 246,633 276,631 306,629 336,629 366,629 396,627 426,625 456,627 486,627 516,629 546,629 576,629 606,629 636,631 666,631 666,681 636,681 606,679 576,679 546,679 516,679 486,677 456,677 426,675 396,677 366,679 336,679 306,679 276,681 246,683 216,683 186,687 156,689 126,691 96,695 66,697 52,697"/>
+                <Baseline points="52,692 66,692 96,690 126,686 156,684 186,682 216,678 246,678 276,676 306,674 336,674 366,674 396,672 426,670 456,672 486,672 516,674 546,674 576,674 606,674 636,676 666,676"/>
+                <TextEquiv>
+                    <Unicode>verwacht. Als wist ik niet reeds lang, dat zonder een pen in de hand, in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_36" custom="readingOrder {index:14;}">
+                <Coords points="52,669 82,669 112,665 142,663 172,661 202,659 232,659 262,657 292,655 322,653 352,653 382,651 412,651 442,651 472,651 502,651 532,647 532,697 502,701 472,701 442,701 412,701 382,701 352,703 322,703 292,705 262,707 232,709 202,709 172,711 142,713 112,715 82,719 52,719"/>
+                <Baseline points="52,714 82,714 112,710 142,708 172,706 202,704 232,704 262,702 292,700 322,698 352,698 382,696 412,696 442,696 472,696 502,696 532,692"/>
+                <TextEquiv>
+                    <Unicode>de liefde, voor mij het geluk niet ligt op deze aarde.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_723" custom="readingOrder {index:2;} structure {type:caption;}">
+            <Coords points="413,763 412,828 381,829 42,840 41,770"/>
+            <TextLine id="tr_1_tl_37" custom="readingOrder {index:0;} structure {type:header;} date {offset:28; length:12;when:oktober\u00201944;}">
+                <Coords points="56,769 82,769 112,765 142,761 172,759 202,759 232,757 262,755 292,755 322,753 352,753 382,751 382,801 352,803 322,803 292,805 262,805 232,807 202,809 172,809 142,811 112,815 82,819 56,819"/>
+                <Baseline points="56,814 82,814 112,810 142,806 172,804 202,804 232,802 262,800 292,800 322,798 352,798 382,796"/>
+                <TextEquiv>
+                    <Unicode>Uit: "Het boek der liefde." October 1944</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_742" custom="readingOrder {index:3;} structure {type:visual;}">
+            <Coords points="1475,1088 1419,1149 1274,1183 1143,1158 1066,1110 999,1102 921,1076 817,1034 789,965 748,24 1479,13"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_737" custom="readingOrder {index:4;} structure {type:caption;}">
+            <Coords points="970,1167 798,1167 798,1101 970,1101"/>
+            <TextLine id="l_726" custom="readingOrder {index:0;}">
+                <Coords points="806,1125 832,1124 844,1122 875,1126 886,1126 898,1126 910,1123 945,1127 944,1127 951,1141 968,1123 909,1108 896,1111 886,1111 876,1111 843,1107 830,1110 805,1110"/>
+                <Baseline points="806,1125 832,1124 844,1122 875,1126 886,1126 898,1126 910,1123 945,1127 944,1127"/>
+                <TextEquiv>
+                    <Unicode>Ma fenêtre est ouverte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_737" custom="readingOrder {index:1;} place {offset:0; length:11;country:Nederland; placeName:Rozenstraat;} date {offset:12; length:7;when:juli\u00201944;}">
+                <Coords points="818,1152 888,1152 902,1151 924,1151 944,1152 945,1137 924,1136 901,1136 887,1137 818,1137"/>
+                <Baseline points="818,1152 888,1152 902,1151 924,1151 944,1152"/>
+                <TextEquiv>
+                    <Unicode>Rozenstraat Juli 44</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

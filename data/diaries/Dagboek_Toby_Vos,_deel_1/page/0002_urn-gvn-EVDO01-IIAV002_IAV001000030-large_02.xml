@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-07-28T17:11:23.132+02:00</Created>
+        <LastChange>2024-04-03T17:26:38.071+02:00</LastChange>
+        <TranskribusMetadata docId="1515124" pageId="58235948" pageNr="2" tsid="156879373" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=BAMOLLVZQCUSKFLIMNQMZFHI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GCWRXDOTPXVIXQRRHMDOKJYE" imageId="47162863"/>
+    </Metadata>
+    <Page imageFilename="0002_urn-gvn-EVDO01-IIAV002_IAV001000030-large_02.jpeg" imageWidth="1500" imageHeight="1208">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1713945883530" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="tr_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:visual;}">
+            <Coords points="592,787 182,787 182,378 592,378"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1" custom="readingOrder {index:1;} structure {type:heading;}">
+            <Coords points="820,-2 1438,-2 1438,316 820,316"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;} date {offset:0; length:9;when:1944-1945;}">
+                <Coords points="1292,3 1322,3 1352,5 1382,5 1412,7 1438,9 1438,59 1412,57 1382,55 1352,55 1322,53 1292,53"/>
+                <Baseline points="1292,48 1322,48 1352,50 1382,50 1412,52 1438,54"/>
+                <TextEquiv>
+                    <Unicode>1944-1945</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="820,49 850,49 880,47 910,45 940,45 970,45 1000,43 1030,43 1060,43 1090,43 1120,43 1140,49 1140,99 1120,93 1090,93 1060,93 1030,93 1000,93 970,95 940,95 910,95 880,97 850,99 820,99"/>
+                <Baseline points="820,94 850,94 880,92 910,90 940,90 970,90 1000,88 1030,88 1060,88 1090,88 1120,88 1140,94"/>
+                <TextEquiv>
+                    <Unicode>Het blauw-boek</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="824,113 832,113 862,113 892,113 922,113 952,111 982,111 1012,111 1042,111 1072,111 1102,111 1132,111 1162,109 1192,109 1222,107 1252,107 1282,107 1312,105 1342,105 1342,155 1312,155 1282,157 1252,157 1222,157 1192,159 1162,159 1132,161 1102,161 1072,161 1042,161 1012,161 982,161 952,161 922,163 892,163 862,163 832,163 824,163"/>
+                <Baseline points="824,158 832,158 862,158 892,158 922,158 952,156 982,156 1012,156 1042,156 1072,156 1102,156 1132,156 1162,154 1192,154 1222,152 1252,152 1282,152 1312,150 1342,150"/>
+                <TextEquiv>
+                    <Unicode>Een onpersoonlijk dagboek</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="1044,153 1074,153 1096,153 1096,203 1074,203 1044,203"/>
+                <Baseline points="1044,198 1074,198 1096,198"/>
+                <TextEquiv>
+                    <Unicode>van</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_5" custom="readingOrder {index:4;} person {offset:0; length:8;wikiData:Q65965451; firstname:Neeltje; dateOfDeath:15\u0020maart\u00202019; dateOfBirth:19\u0020april\u00201918; lastname:Vos;}">
+                <Coords points="984,207 1014,207 1044,207 1074,209 1104,207 1134,207 1164,209 1170,209 1170,259 1164,259 1134,257 1104,257 1074,259 1044,257 1014,257 984,257"/>
+                <Baseline points="984,252 1014,252 1044,252 1074,254 1104,252 1134,252 1164,254 1170,254"/>
+                <TextEquiv>
+                    <Unicode>Toby Vos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_6" custom="readingOrder {index:5;} place {offset:0; length:14;country:Nederland; placeName:Rozenstraat\u002056;}">
+                <Coords points="1120,259 1150,257 1180,257 1210,257 1240,257 1270,259 1300,259 1312,261 1312,311 1300,309 1270,309 1240,307 1210,307 1180,307 1150,307 1120,309"/>
+                <Baseline points="1120,304 1150,302 1180,302 1210,302 1240,302 1270,304 1300,304 1312,306"/>
+                <TextEquiv>
+                    <Unicode>Rozenstraat 56</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

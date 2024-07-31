@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trpDocMetadata>
+    <docId>1515124</docId>
+    <title>Dagboek Toby Vos, deel 1</title>
+    <uploadTimestamp>1690557085710</uploadTimestamp>
+    <uploader>j.aerts@uva.nl</uploader>
+    <uploaderId>145668</uploaderId>
+    <nrOfPages>29</nrOfPages>
+    <pageId>58235947</pageId>
+    <url>https://files.transkribus.eu/Get?fileType=view&amp;id=WXBWPDIPKRCDOZCJQDEYBBSI</url>
+    <thumbUrl>https://files.transkribus.eu/Get?fileType=thumb&amp;id=WXBWPDIPKRCDOZCJQDEYBBSI</thumbUrl>
+    <status>0</status>
+    <fimgStoreColl>TrpDoc_DEA_1515124</fimgStoreColl>
+    <origDocId>0</origDocId>
+    <collectionList>
+        <colList>
+            <colId>221243</colId>
+            <colName>ATM Amsterdam Diaries</colName>
+            <description>created by j.aerts@uva.nl</description>
+            <crowdsourcing>false</crowdsourcing>
+            <elearning>false</elearning>
+            <nrOfDocuments>0</nrOfDocuments>
+        </colList>
+    </collectionList>
+    <mainColId>221243</mainColId>
+</trpDocMetadata>

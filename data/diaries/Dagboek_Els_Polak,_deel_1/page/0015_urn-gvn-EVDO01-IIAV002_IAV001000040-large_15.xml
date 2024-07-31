@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=08_12_2023_12:38</Creator>
+        <Created>2023-12-02T01:20:42.320+01:00</Created>
+        <LastChange>2024-04-22T23:44:40.014+02:00</LastChange>
+        <TranskribusMetadata docId="1687897" pageId="61988546" pageNr="15" tsid="159833543" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=YUHFNDJXSDWMGCWAMFHNPQAA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YESXVQSRSCEVQEFHHMBSAELM" imageId="50105354"/>
+    </Metadata>
+    <Page imageFilename="0015_urn-gvn-EVDO01-IIAV002_IAV001000040-large_15.jpeg" imageWidth="1500" imageHeight="976">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1713945832380" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_9"/>
+                <RegionRefIndexed index="2" regionRef="r_18"/>
+                <RegionRefIndexed index="3" regionRef="r_28"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:paragraph;}">
+            <Coords points="761,928 150,928 150,86 761,86"/>
+            <TextLine id="r_tl_1" custom="readingOrder {index:0;} person {offset:8; length:3;}">
+                <Coords points="143,112 629,111 738,129 738,91 673,56 387,61 363,85 290,60 143,63"/>
+                <Baseline points="148,106 178,108 208,110 238,110 268,110 298,110 328,108 358,108 388,108 418,108 448,108 478,110 508,110 538,110 568,110 598,108 628,108 658,108 688,110 718,112 740,120"/>
+                <TextEquiv>
+                    <Unicode>was ik. Wim zou om 4.15 komen,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="137,148 368,159 637,145 702,161 702,120 632,110 137,122"/>
+                <Baseline points="142,144 172,144 202,148 232,148 262,148 292,146 322,146 352,146 382,144 412,144 442,146 472,144 502,144 532,144 562,144 592,142 622,142 652,142 682,142 704,148"/>
+                <TextEquiv>
+                    <Unicode>en ik was als de dood dat ik dan</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="139,186 303,186 341,209 372,184 743,187 743,155 711,169 644,146 597,164 513,147 369,160 139,147"/>
+                <Baseline points="144,178 174,180 204,184 234,184 264,184 294,182 324,182 354,182 384,182 414,182 444,180 474,180 504,180 534,180 564,182 594,180 624,178 654,178 684,178 714,178 744,180"/>
+                <TextEquiv>
+                    <Unicode>nog sterretjes zou zien, en dus niet</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="139,224 684,217 714,235 746,225 746,188 372,185 344,208 300,187 139,197"/>
+                <Baseline points="144,214 174,214 204,216 234,216 264,216 294,216 324,216 354,216 384,216 414,218 444,218 474,218 504,216 534,216 564,214 594,214 624,214 654,214 684,214 714,216 744,220 748,218"/>
+                <TextEquiv>
+                    <Unicode>in staat zou zijn hem te ontvangen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="147,276 221,254 266,270 311,253 741,259 742,221 712,236 690,218 636,231 519,220 499,240 414,218 301,231 148,218"/>
+                <Baseline points="152,252 182,252 212,252 242,252 272,252 302,252 332,252 362,252 392,254 422,252 452,254 482,252 512,250 542,248 572,248 602,248 632,248 662,248 692,246 722,248 742,252"/>
+                <TextEquiv>
+                    <Unicode>Gelukkig was dat niet zo, maar ik</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="135,293 258,288 294,304 356,289 416,309 495,288 617,289 632,303 647,289 724,294 724,257 135,270"/>
+                <Baseline points="140,284 170,286 200,286 230,286 260,286 290,286 320,286 350,286 380,286 410,288 440,290 470,288 500,286 530,284 560,286 590,284 620,284 650,284 680,284 710,284 726,290"/>
+                <TextEquiv>
+                    <Unicode>was zo opstandig, teneer geslagen etc.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="141,325 323,323 350,342 405,323 606,339 670,321 750,338 751,291 673,290 641,313 517,288 407,314 362,290 141,299"/>
+                <Baseline points="146,320 176,322 206,322 236,322 266,322 296,322 326,322 356,322 386,322 416,322 446,322 476,320 506,318 536,318 566,318 596,318 626,320 656,320 686,320 716,320 746,322 752,324"/>
+                <TextEquiv>
+                    <Unicode>en ik had zo'n ontzettende pijn, dat ik</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="137,358 441,369 510,355 593,377 617,356 728,363 728,333 673,322 606,339 421,323 351,342 323,323 137,331"/>
+                <Baseline points="142,354 172,354 202,356 232,358 262,358 292,358 322,356 352,356 382,356 412,356 442,354 472,354 502,354 532,354 562,352 592,354 622,352 652,352 682,354 712,356 730,358"/>
+                <TextEquiv>
+                    <Unicode>plotseling me niet meer goed kon</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="131,399 298,397 314,412 465,393 499,416 522,396 622,391 690,411 732,393 733,365 616,356 571,379 512,356 399,358 307,362 274,389 238,362 132,378"/>
+                <Baseline points="136,390 164,392 194,394 224,394 254,396 284,396 314,396 344,392 374,392 404,390 434,390 464,390 494,388 524,388 554,388 584,388 614,388 644,388 674,390 704,390 734,388"/>
+                <TextEquiv>
+                    <Unicode>houden. De engel heeft me toen ge-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_10" custom="readingOrder {index:9;} date {offset:30; length:9;} textStyle {offset:32; length:1;superscript:true;}">
+                <Coords points="141,437 745,434 735,394 688,411 575,392 497,415 441,394 314,412 295,396 241,408 141,394"/>
+                <Baseline points="146,426 176,426 206,428 236,428 266,428 296,426 326,426 356,424 386,424 416,426 446,424 476,424 506,424 536,422 566,424 596,424 626,424 656,422 686,424 716,422 746,422"/>
+                <TextEquiv>
+                    <Unicode>troost. Hij moet Donderdag de 10e. Oct.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="127,467 721,466 721,437 648,426 596,451 545,425 432,446 292,427 260,452 127,434"/>
+                <Baseline points="132,460 162,460 192,462 222,462 252,462 282,462 312,462 342,460 372,462 402,462 432,462 462,462 492,460 522,460 552,460 582,460 612,462 642,460 672,458 702,458 722,460"/>
+                <TextEquiv>
+                    <Unicode>examen doen voor semi arts.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="139,500 279,498 308,514 324,500 565,498 623,518 666,498 708,505 708,466 691,461 454,463 426,478 139,465"/>
+                <Baseline points="144,494 174,496 204,496 234,496 264,496 294,494 324,494 354,496 384,496 414,496 444,496 474,494 504,496 534,496 564,496 594,496 624,496 654,494 684,494 710,494"/>
+                <TextEquiv>
+                    <Unicode>Hij is dood zenuwachtig en dit</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="139,541 179,537 205,559 282,534 720,540 720,509 660,503 272,514 139,500"/>
+                <Baseline points="144,530 174,530 204,532 234,532 264,532 294,534 324,534 354,532 384,532 414,532 444,532 474,532 504,532 534,532 564,532 594,532 624,532 654,532 684,532 714,530 722,532"/>
+                <TextEquiv>
+                    <Unicode>heeft een verderfelijk invloed op</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="141,569 289,587 350,568 661,568 685,588 732,574 732,544 628,535 239,536 205,559 179,537 141,546"/>
+                <Baseline points="146,568 164,568 194,568 224,568 254,570 284,570 314,570 344,566 374,566 404,566 434,566 464,566 494,564 524,566 554,566 584,566 614,566 644,566 674,566 704,566 734,566"/>
+                <TextEquiv>
+                    <Unicode>z'n suiker. Ik zal hem daarom</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_15" custom="readingOrder {index:14;} unclear {offset:29; length:3;}">
+                <Coords points="143,612 728,610 734,571 687,588 660,568 556,584 471,569 413,587 381,569 293,586 143,577"/>
+                <Baseline points="148,604 166,604 196,606 226,606 256,606 286,604 316,604 346,602 376,602 406,602 436,602 466,602 496,602 526,602 556,602 586,602 616,602 646,602 676,600 706,602 736,600"/>
+                <TextEquiv>
+                    <Unicode>maar wat bloemetjes en houte kat</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_16" custom="readingOrder {index:15;} organization {offset:14; length:6;}">
+                <Coords points="143,640 723,650 724,610 707,603 501,619 469,603 376,620 144,610"/>
+                <Baseline points="148,638 156,640 186,638 216,640 246,638 276,638 306,638 336,638 366,638 396,638 426,638 456,638 486,638 516,638 546,636 576,636 606,636 636,636 666,636 696,636 726,636"/>
+                <TextEquiv>
+                    <Unicode>jarig uit een N.S.B. winkel n.b.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="147,677 291,677 323,700 356,673 383,689 532,673 607,697 626,685 627,647 516,639 418,661 369,640 354,651 270,639 148,649"/>
+                <Baseline points="152,676 178,674 208,672 238,672 268,672 298,672 328,672 358,672 388,672 418,672 448,672 478,672 508,670 538,670 568,670 598,670 628,668"/>
+                <TextEquiv>
+                    <Unicode>gaan brengen ter opvrolijking.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_18" custom="readingOrder {index:17;} date {offset:0; length:6;}">
+                <Coords points="139,712 723,715 730,671 608,698 533,672 511,687 455,675 391,689 362,674 326,699 286,677 139,682"/>
+                <Baseline points="144,706 162,708 192,706 222,708 252,708 282,708 312,706 342,706 372,706 402,708 432,706 462,706 492,706 522,706 552,706 582,706 612,706 642,706 672,704 702,704 732,704"/>
+                <TextEquiv>
+                    <Unicode>Zondag ben ik op bezoek geweest bij</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_19" custom="readingOrder {index:18;} person {offset:0; length:12;}">
+                <Coords points="141,745 214,760 252,745 357,759 624,745 652,766 746,745 746,714 716,708 525,724 499,712 476,729 390,709 141,711"/>
+                <Baseline points="146,744 148,742 178,742 208,742 238,742 268,742 298,742 328,742 358,742 388,742 418,742 448,744 478,744 508,744 538,742 568,742 598,742 628,742 658,742 688,740 718,740 748,742"/>
+                <TextEquiv>
+                    <Unicode>Mej. Ramondt, m'n zeer geëerde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_20" custom="readingOrder {index:19;} organization {offset:18; length:9;}">
+                <Coords points="137,786 345,793 429,779 461,801 491,786 638,776 638,753 595,745 517,757 408,745 360,759 252,745 214,760 137,745"/>
+                <Baseline points="142,776 160,776 190,776 220,776 250,776 280,776 310,776 340,776 370,776 400,776 430,776 460,778 490,778 520,778 550,776 580,774 610,774 640,774"/>
+                <TextEquiv>
+                    <Unicode>directrice van de Godelinde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_21" custom="readingOrder {index:20;} person {offset:35; length:2; continued:true;}">
+                <Coords points="147,814 291,816 344,840 366,818 445,813 708,825 708,766 525,797 499,785 478,801 429,779 333,794 147,780"/>
+                <Baseline points="152,810 182,810 212,812 242,812 272,812 302,812 332,814 362,812 392,812 422,812 452,812 482,814 512,812 542,812 572,810 602,808 632,808 662,808 692,808 710,810"/>
+                <TextEquiv>
+                    <Unicode>Het was erg gezellig, (evenals bij A.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_22" custom="readingOrder {index:21;} person {offset:0; length:9; continued:true;} abbrev {offset:15; length:4;}">
+                <Coords points="141,852 292,849 321,867 403,847 728,855 728,818 687,827 651,811 446,836 365,818 337,840 296,816 141,815"/>
+                <Baseline points="146,848 176,848 206,848 236,846 266,846 296,846 326,848 356,848 386,848 416,846 446,848 476,848 506,846 536,846 566,848 596,848 626,848 656,846 686,846 716,848 730,848"/>
+                <TextEquiv>
+                    <Unicode>Middekoop, een mej., die me met</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_23" custom="readingOrder {index:22;} person {offset:23; length:4;}">
+                <Coords points="145,906 177,886 392,890 431,906 479,885 552,881 644,899 660,896 660,852 588,849 570,864 549,848 403,847 318,866 294,848 242,863 188,855 145,876"/>
+                <Baseline points="150,884 180,882 210,884 240,884 270,882 300,882 330,882 360,882 390,882 420,884 450,882 480,882 510,882 540,880 570,880 600,882 630,882 660,886 662,886"/>
+                <TextEquiv>
+                    <Unicode>huiswerk hielp) en bij Boof.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_tl_24" custom="readingOrder {index:23;} date {offset:0; length:9;} person {offset:15; length:3;}">
+                <Coords points="117,921 182,938 280,938 305,921 369,944 397,921 495,947 579,922 738,938 738,882 575,901 552,881 481,885 431,906 117,893"/>
+                <Baseline points="122,918 152,922 182,920 212,920 242,920 272,918 302,918 332,916 362,916 392,918 422,918 452,918 482,918 512,918 542,916 572,918 602,918 632,918 662,918 692,920 722,918 740,918"/>
+                <TextEquiv>
+                    <Unicode>'s Avonds zijn Lex en ik samen naar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="460,963 412,963 412,929 460,929"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="411,957 435,958 452,957 451,945 435,946 411,945"/>
+                <Baseline points="411,957 435,958 452,957"/>
+                <TextEquiv>
+                    <Unicode>26</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_18" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="1487,924 867,924 867,62 1487,62"/>
+            <TextLine id="r_18_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="867,116 974,114 992,130 1060,109 1462,121 1462,90 1427,66 1393,82 1365,65 1240,73 1187,50 1151,71 1127,56 1050,71 1021,52 975,73 867,65"/>
+                <Baseline points="872,104 902,104 932,106 962,106 992,108 1022,106 1052,106 1082,106 1112,106 1142,106 1172,106 1202,106 1232,104 1262,104 1292,104 1322,106 1352,108 1382,106 1412,104 1442,106 1464,106"/>
+                <TextEquiv>
+                    <Unicode>huis gegaan. Het stroomde en we za-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="878,147 1421,154 1431,133 1340,109 1323,121 1205,109 1184,126 1058,109 1025,133 879,111"/>
+                <Baseline points="884,138 914,140 944,144 974,142 1004,142 1034,142 1064,142 1094,142 1124,142 1154,140 1184,140 1214,138 1244,140 1274,138 1304,138 1334,140 1364,140 1394,140 1424,144 1432,144"/>
+                <TextEquiv>
+                    <Unicode>ten in een boordevolle, donkere en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="877,182 1056,194 1124,178 1146,188 1262,178 1288,201 1309,182 1340,192 1341,150 1113,147 1083,165 1063,150 877,147"/>
+                <Baseline points="882,176 892,176 922,178 952,180 982,182 1012,180 1042,178 1072,176 1102,176 1132,176 1162,174 1192,174 1222,174 1252,174 1282,174 1312,174 1342,174"/>
+                <TextEquiv>
+                    <Unicode>benauwd-warme coupé.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_4" custom="readingOrder {index:3;} atm_food {offset:23; length:4;}">
+                <Coords points="877,218 1064,217 1086,236 1133,215 1448,218 1448,188 1400,193 1349,173 1288,201 1229,178 1057,194 877,182"/>
+                <Baseline points="882,210 912,210 942,210 972,212 1002,212 1032,212 1062,210 1092,212 1122,212 1152,210 1182,210 1212,210 1242,210 1272,208 1302,208 1332,210 1362,210 1392,210 1422,212 1450,214"/>
+                <TextEquiv>
+                    <Unicode>Hij is toen nog bij me thee komen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="873,255 1213,248 1263,265 1311,250 1350,269 1390,249 1428,273 1450,258 1450,223 1422,213 1319,231 1201,214 1138,237 1124,223 1062,237 1043,217 1015,237 976,218 939,235 873,225"/>
+                <Baseline points="878,248 908,246 938,246 968,246 998,248 1028,248 1058,248 1088,248 1118,248 1148,246 1178,246 1208,246 1238,246 1268,246 1298,246 1328,248 1358,246 1388,244 1418,244 1448,248 1452,248"/>
+                <TextEquiv>
+                    <Unicode>drinken en we hebben een plaatje</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_6" custom="readingOrder {index:5;} abbrev {offset:14; length:5;}">
+                <Coords points="869,285 897,298 1154,287 1177,304 1290,286 1325,311 1359,288 1460,289 1460,252 1430,272 1382,250 1306,271 1211,248 970,275 869,251"/>
+                <Baseline points="874,284 904,284 934,284 964,282 994,282 1024,284 1054,284 1084,284 1114,284 1144,282 1174,282 1204,282 1234,282 1264,282 1294,282 1324,284 1354,282 1384,282 1414,280 1444,282 1462,284"/>
+                <TextEquiv>
+                    <Unicode>op m'n nieuwe gram. gedraaid.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_7" custom="readingOrder {index:6;} person {offset:13; length:6;}">
+                <Coords points="867,322 1076,322 1096,338 1122,321 1472,329 1472,290 1430,283 1332,311 1291,287 1178,303 1155,287 897,298 867,285"/>
+                <Baseline points="872,316 902,316 932,316 962,316 992,318 1022,318 1052,316 1082,318 1112,316 1142,316 1172,318 1202,318 1232,318 1262,318 1292,318 1322,320 1352,320 1382,318 1412,318 1442,318 1472,322 1474,322"/>
+                <TextEquiv>
+                    <Unicode>De trui voor Willem wordt fantastisch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="871,357 986,371 1036,359 1073,377 1093,360 1157,357 1212,381 1247,355 1362,359 1362,329 1335,325 1168,333 1124,322 1082,340 1062,322 1019,337 1002,321 871,325"/>
+                <Baseline points="876,352 906,352 936,352 966,352 996,352 1026,352 1056,352 1086,354 1116,354 1146,354 1176,354 1206,354 1236,352 1266,352 1296,352 1326,354 1356,356 1364,356"/>
+                <TextEquiv>
+                    <Unicode>mooi, warm en practisch.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_9" custom="readingOrder {index:8;} date {offset:0; length:9;}">
+                <Coords points="873,396 1457,394 1457,365 1418,353 1279,354 1212,381 1176,361 1093,360 1073,377 1054,361 926,370 873,356"/>
+                <Baseline points="878,386 908,386 938,388 968,388 998,388 1028,388 1058,390 1088,390 1118,390 1148,390 1178,388 1208,388 1238,388 1268,386 1298,388 1328,390 1358,390 1388,390 1418,388 1448,390 1458,392"/>
+                <TextEquiv>
+                    <Unicode>Vanavond was er voor het eerst in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_10" custom="readingOrder {index:9;} place {offset:27; length:5;}">
+                <Coords points="869,427 941,441 986,426 1018,452 1098,428 1124,451 1142,434 1249,425 1468,430 1468,402 1424,392 869,401"/>
+                <Baseline points="874,422 904,424 934,424 964,426 994,424 1024,424 1054,424 1084,424 1114,426 1144,424 1174,422 1204,422 1234,422 1264,422 1294,422 1324,424 1354,422 1384,422 1414,422 1444,422 1470,424"/>
+                <TextEquiv>
+                    <Unicode>mijn bijzijn luchtalarm in A'dam.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_11" custom="readingOrder {index:10;} unclear {offset:14; length:6;} person {offset:25; length:3;}">
+                <Coords points="871,461 1446,465 1446,426 1401,445 1340,423 1143,436 1122,452 1092,437 1022,452 982,427 941,440 871,427"/>
+                <Baseline points="876,458 878,458 908,458 938,458 968,460 998,458 1028,458 1058,458 1088,458 1118,458 1148,458 1178,458 1208,458 1238,458 1268,458 1298,458 1328,454 1358,454 1388,454 1418,456 1448,456"/>
+                <TextEquiv>
+                    <Unicode>Ik zat in m'n huis@@ bij Fem en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_12" custom="readingOrder {index:11;} person {offset:0; length:6;} atm_food {offset:23; length:12; continued:true;}">
+                <Coords points="871,496 985,496 1016,518 1066,496 1460,502 1460,459 1385,473 1314,456 1271,477 1248,463 1164,481 1141,461 871,461"/>
+                <Baseline points="876,492 906,490 936,490 966,492 996,494 1026,494 1056,494 1086,494 1116,494 1146,492 1176,492 1206,492 1236,494 1266,492 1296,492 1326,492 1356,492 1386,492 1416,494 1446,494 1462,494"/>
+                <TextEquiv>
+                    <Unicode>Frits nog te breien en bouillon met</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_13" custom="readingOrder {index:12;} atm_food {offset:0; length:7; continued:true;} person {offset:25; length:6;}">
+                <Coords points="871,531 1072,536 1093,557 1147,530 1215,544 1242,530 1374,535 1393,553 1422,536 1462,553 1462,503 1443,498 1165,509 1066,495 1015,516 984,496 871,496"/>
+                <Baseline points="876,524 906,526 936,526 966,528 996,530 1026,528 1056,528 1086,528 1116,528 1146,528 1176,528 1206,526 1236,526 1266,526 1296,528 1326,528 1356,528 1386,528 1416,528 1446,530 1464,528"/>
+                <TextEquiv>
+                    <Unicode>zoutjes (overblijfsel van Ruths verjaardag)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="873,565 1345,567 1373,591 1448,581 1448,546 1424,537 1391,551 1374,534 1299,544 1276,531 1224,547 1150,530 1094,558 1060,537 873,530"/>
+                <Baseline points="878,562 908,562 938,562 968,564 998,564 1028,564 1058,566 1088,564 1118,564 1148,564 1178,564 1208,564 1238,564 1268,564 1298,566 1328,566 1358,564 1388,564 1418,566 1448,570 1450,570"/>
+                <TextEquiv>
+                    <Unicode>te eten toen we het hoorden. We gingen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="874,600 1145,618 1366,600 1395,617 1416,601 1439,613 1440,588 1372,590 1346,568 1095,584 1073,570 875,568"/>
+                <Baseline points="880,598 910,598 940,598 970,600 1000,600 1030,600 1060,600 1090,600 1120,600 1150,600 1180,602 1210,602 1240,602 1270,598 1300,598 1330,598 1360,596 1390,598 1420,598 1442,600"/>
+                <TextEquiv>
+                    <Unicode>toen met z'n allen de keuken in,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_16" custom="readingOrder {index:15;} person {offset:0; length:4;} person {offset:13; length:5;} person {offset:22; length:4;}">
+                <Coords points="877,638 1295,650 1360,631 1464,647 1464,611 1415,601 1392,619 1366,601 1145,618 877,600"/>
+                <Baseline points="882,632 912,632 942,632 972,634 1002,634 1032,634 1062,636 1092,636 1122,636 1152,634 1182,634 1212,634 1242,634 1272,634 1302,634 1332,634 1362,630 1392,630 1422,630 1452,632 1466,632"/>
+                <TextEquiv>
+                    <Unicode>Edda kwam met Ruth en Huib van</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="873,671 1097,674 1116,693 1154,673 1216,689 1274,671 1368,689 1447,674 1446,656 1361,631 1300,650 1016,635 986,657 872,637"/>
+                <Baseline points="878,668 908,666 938,666 968,668 998,668 1028,668 1058,668 1088,668 1118,670 1148,670 1178,670 1208,670 1238,668 1268,670 1298,670 1328,670 1358,666 1388,666 1418,666 1448,668"/>
+                <TextEquiv>
+                    <Unicode>boven. Het was pas 9.30 uur. Daar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="875,713 1028,707 1068,730 1114,709 1223,721 1369,706 1397,728 1436,713 1436,680 1413,674 1369,688 1273,671 1216,689 1154,673 1117,693 1007,672 875,677"/>
+                <Baseline points="880,702 910,702 940,702 970,704 1000,704 1030,704 1060,706 1090,704 1120,704 1150,704 1180,704 1210,706 1240,706 1270,706 1300,704 1330,702 1360,702 1390,704 1420,706 1438,704"/>
+                <TextEquiv>
+                    <Unicode>hebben we precies een half uur ge-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="875,744 1050,746 1079,764 1202,743 1242,761 1360,739 1447,754 1462,705 1398,730 1345,705 1169,726 1117,709 1073,730 1028,707 875,713"/>
+                <Baseline points="880,740 910,738 940,738 970,740 1000,742 1030,742 1060,742 1090,740 1120,738 1150,738 1180,738 1210,740 1240,742 1270,738 1300,738 1330,736 1360,738 1390,738 1420,740 1450,740 1464,740"/>
+                <TextEquiv>
+                    <Unicode>wacht. Er gebeurde gelukkig niets </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="879,777 975,792 1060,781 1073,795 1097,782 1135,805 1175,779 1446,779 1429,741 1242,762 1202,743 1082,764 1014,744 982,764 945,742 879,754"/>
+                <Baseline points="884,774 914,776 944,776 974,776 1004,778 1034,778 1064,778 1094,776 1124,776 1154,776 1184,774 1214,776 1244,776 1274,774 1304,774 1334,774 1364,774 1394,772 1424,774 1448,778"/>
+                <TextEquiv>
+                    <Unicode>en toen het veiligsein weer klonk</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="881,815 907,828 1231,817 1311,833 1344,813 1365,830 1422,814 1422,795 1314,777 1171,783 1142,805 1097,781 1081,794 881,783"/>
+                <Baseline points="886,810 916,812 946,812 976,812 1006,812 1036,812 1066,810 1096,810 1126,810 1156,812 1186,812 1216,810 1246,810 1276,810 1306,810 1336,808 1366,808 1396,808 1424,812"/>
+                <TextEquiv>
+                    <Unicode>zijn we maar naar bed gegaan.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_22" custom="readingOrder {index:21;}">
+                <Coords points="877,847 1178,847 1204,866 1241,847 1416,845 1461,861 1474,788 1302,833 997,814 907,828 877,809"/>
+                <Baseline points="882,846 912,844 942,844 972,844 1002,844 1032,844 1062,844 1092,846 1122,846 1152,846 1182,846 1212,846 1242,846 1272,846 1302,844 1332,844 1362,842 1392,842 1422,844 1452,846 1476,850"/>
+                <TextEquiv>
+                    <Unicode>Direct daarna kwam ons lieve Engels</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_23" custom="readingOrder {index:22;}">
+                <Coords points="879,887 965,897 1009,883 1042,900 1066,883 1171,883 1237,897 1302,880 1375,882 1396,901 1423,879 1468,893 1468,860 1411,845 1205,865 1177,847 1143,863 879,847"/>
+                <Baseline points="884,878 914,878 944,880 974,880 1004,880 1034,880 1064,882 1094,882 1124,882 1154,882 1184,882 1214,882 1244,882 1274,880 1304,878 1334,880 1364,878 1394,878 1424,878 1454,880 1470,882"/>
+                <TextEquiv>
+                    <Unicode>mannetje weer boven ons hoofd ron-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_18_tl_24" custom="readingOrder {index:23;}">
+                <Coords points="881,922 1212,921 1241,943 1277,923 1304,938 1361,918 1399,938 1470,925 1469,891 1423,879 1398,900 1375,881 1251,883 1236,897 1062,883 1025,903 998,887 956,902 881,885"/>
+                <Baseline points="886,914 916,914 946,914 976,910 1006,912 1036,914 1066,916 1096,916 1126,916 1156,916 1186,916 1216,916 1246,916 1276,914 1306,914 1336,914 1366,912 1396,910 1426,910 1456,912 1472,916"/>
+                <TextEquiv>
+                    <Unicode>ken en klonk het afweergeschut weer.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_28" custom="readingOrder {index:3;} structure {type:page-number;}">
+            <Coords points="1195,962 1158,962 1158,947 1158,928 1195,928"/>
+            <TextLine id="l_1029" custom="readingOrder {index:0;}">
+                <Coords points="1166,948 1183,949 1188,948 1186,936 1182,937 1167,936"/>
+                <Baseline points="1166,948 1183,949 1188,948"/>
+                <TextEquiv>
+                    <Unicode>27</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

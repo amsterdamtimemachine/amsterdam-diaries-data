@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-07-28T17:14:38.403+02:00</Created>
+        <LastChange>2024-04-11T14:18:03.188+02:00</LastChange>
+        <TranskribusMetadata docId="1515126" pageId="58235995" pageNr="12" tsid="158020353" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=YXQGOXTTHELNEBOIPMTWALGB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MQLBKCMKZHLUFYMFDEKGUGEL" imageId="47162910"/>
+    </Metadata>
+    <Page imageFilename="0012_urn-gvn-EVDO01-IIAV002_IAV001000031-large_12.jpeg" imageWidth="1500" imageHeight="1194">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712890524554" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_18"/>
+                <RegionRefIndexed index="1" regionRef="r_64"/>
+                <RegionRefIndexed index="2" regionRef="r_73"/>
+                <RegionRefIndexed index="3" regionRef="r_82"/>
+                <RegionRefIndexed index="4" regionRef="r_91"/>
+                <RegionRefIndexed index="5" regionRef="r_100"/>
+                <RegionRefIndexed index="6" regionRef="r_109"/>
+                <RegionRefIndexed index="7" regionRef="r_120"/>
+                <RegionRefIndexed index="8" regionRef="r_131"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r_18" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="997,19 1153,19 1153,49 997,49"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1001,40 1025,40 1046,40 1071,39 1111,41 1148,38 1146,2 1111,5 1071,3 1045,4 1025,4 1001,4"/>
+                <Baseline points="1001,40 1025,40 1046,40 1071,39 1111,41 1148,38"/>
+                <TextEquiv>
+                    <Unicode>Ik ben een held (II)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_64" custom="readingOrder {index:1;} structure {type:visual;}">
+            <Coords points="768,23 1203,15 1203,413 770,440"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_73" custom="readingOrder {index:2;} structure {type:visual;}">
+            <Coords points="1194,15 1470,15 1470,432 1194,432"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_82" custom="readingOrder {index:3;} structure {type:visual;}">
+            <Coords points="750,443 1168,412 1193,708 753,732"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_91" custom="readingOrder {index:4;} structure {type:visual;}">
+            <Coords points="1176,432 1470,432 1470,658 1176,658"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_100" custom="readingOrder {index:5;} structure {type:visual;}">
+            <Coords points="770,733 1094,716 1106,998 769,1006"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_109" custom="readingOrder {index:6;} structure {type:visual;}">
+            <Coords points="1089,711 1181,702 1183,661 1476,661 1476,818 1100,831"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_120" custom="readingOrder {index:7;} structure {type:visual;}">
+            <Coords points="915,1008 1088,982 1091,815 1482,816 1484,1122 907,1121"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_131" custom="readingOrder {index:8;} structure {type:marginalia;}">
+            <Coords points="1231,1125 1488,1125 1488,1178 1231,1178"/>
+            <TextLine id="l_140" custom="readingOrder {index:0;}">
+                <Coords points="1282,1169 1340,1169 1340,1133 1282,1133"/>
+                <Baseline points="1282,1169 1340,1169"/>
+                <TextEquiv>
+                    <Unicode>Vervolg</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

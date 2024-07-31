@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-01-12T15:25:42.955+01:00</Created>
+        <LastChange>2024-04-25T13:15:10.762+02:00</LastChange>
+        <TranskribusMetadata docId="1744898" pageId="63299868" pageNr="1" tsid="160414626" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=EOAQWPZGIWUZKKHTKVRMCCDX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WGRGIIJKNUJVNIYQJZJXCSHK" imageId="51197873"/>
+    </Metadata>
+    <Page imageFilename="0001_p001.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1714088094426" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_48"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r_48" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="481,2211 1959,2211 1959,2602 481,2602"/>
+            <TextLine id="l_57" custom="readingOrder {index:0;}">
+                <Coords points="694,2349 1821,2365 1818,2364 1799,2367 1801,2377 1818,2374 1792,2357 694,2329"/>
+                <Baseline points="694,2344 1821,2360 1818,2359 1799,2362"/>
+                <TextEquiv>
+                    <Unicode>Berdi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_83" custom="readingOrder {index:1;}">
+                <Coords points="670,2484 1817,2488 1817,2468 670,2464"/>
+                <Baseline points="670,2479 1817,2483"/>
+                <TextEquiv>
+                    <Unicode>Dagboeken over een onderduikstertje</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_97" custom="readingOrder {index:2;}">
+                <Coords points="1029,2557 1427,2560 1427,2540 1029,2537"/>
+                <Baseline points="1029,2552 1427,2555"/>
+                <TextEquiv>
+                    <Unicode>1942-1945</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

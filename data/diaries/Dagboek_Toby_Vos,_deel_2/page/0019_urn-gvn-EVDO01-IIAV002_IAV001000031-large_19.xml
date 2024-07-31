@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=50786:lm=none:date=02_04_2024_12:06</Creator>
+        <Created>2023-07-28T17:14:39.306+02:00</Created>
+        <LastChange>2024-04-05T17:46:58.815+02:00</LastChange>
+        <TranskribusMetadata docId="1515126" pageId="58236002" pageNr="19" tsid="157093395" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=YJSUBBLWYFLTWQETIKLAJHGA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=HXJIZJFSZTKFRCGKVFTIPQCS" imageId="47162917"/>
+    </Metadata>
+    <Page imageFilename="0019_urn-gvn-EVDO01-IIAV002_IAV001000031-large_19.jpeg" imageWidth="1500" imageHeight="1197">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712890631574" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_9"/>
+                <RegionRefIndexed index="2" regionRef="r_33"/>
+                <RegionRefIndexed index="3" regionRef="r_18"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:visual;}">
+            <Coords points="78,249 335,249 336,447 421,448 420,550 335,549 335,901 78,901"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:1;} structure {type:caption;}">
+            <Coords points="344,563 682,563 682,876 344,876"/>
+            <TextLine id="l_151" custom="readingOrder {index:0;}">
+                <Coords points="367,718 415,703 436,696 458,688 481,680 505,672 546,659 542,640 500,652 477,661 453,668 431,676 410,683 363,699"/>
+                <Baseline points="367,713 415,698 436,691 458,683 481,675 505,667 546,654"/>
+                <TextEquiv>
+                    <Unicode>Daar ben ik weer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_195" custom="readingOrder {index:1;} person {offset:0; length:6;}">
+                <Coords points="370,759 396,747 427,736 422,716 390,728 363,740"/>
+                <Baseline points="370,754 396,742 427,731"/>
+                <TextEquiv>
+                    <Unicode>Toppie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_215" custom="readingOrder {index:2;}">
+                <Coords points="384,801 414,789 443,775 469,767 514,750 536,740 581,716 618,701 612,682 575,697 529,722 508,731 465,747 438,756 407,770 378,782"/>
+                <Baseline points="384,796 414,784 443,770 469,762 514,745 536,735 581,711 618,696"/>
+                <TextEquiv>
+                    <Unicode>Ik heb je iets prachtigs</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_265" custom="readingOrder {index:3;}">
+                <Coords points="383,846 415,832 442,820 474,807 498,795 524,785 560,765 605,750 643,740 639,720 601,731 554,746 518,766 492,777 468,788 436,801 409,813 377,827"/>
+                <Baseline points="383,841 415,827 442,815 474,802 498,790 524,780 560,760 605,745 643,735"/>
+                <TextEquiv>
+                    <Unicode>en iets geks te vertellen ...</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_33" custom="readingOrder {index:2;} structure {type:visual;}">
+            <Coords points="768,523 1486,523 1486,1187 768,1187"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_18" custom="readingOrder {index:3;} structure {type:caption;}">
+            <Coords points="276,1123 752,1123 752,1190 276,1190"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="290,1167 311,1169 329,1167 359,1167 383,1168 418,1168 439,1167 459,1167 477,1167 509,1165 522,1165 557,1167 574,1165 594,1167 610,1162 631,1162 650,1165 676,1169 678,1149 653,1145 632,1142 607,1142 592,1147 574,1145 557,1147 522,1145 508,1145 476,1147 459,1147 439,1147 418,1148 383,1148 359,1147 328,1147 311,1149 291,1147"/>
+                <Baseline points="290,1162 311,1164 329,1162 359,1162 383,1163 418,1163 439,1162 459,1162 477,1162 509,1160 522,1160 557,1162 574,1160 594,1162 610,1157 631,1157 650,1160 676,1164"/>
+                <TextEquiv>
+                    <Unicode>Ik was juist een brief aan het schrijven</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

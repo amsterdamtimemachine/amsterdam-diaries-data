@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=05_12_2023_14:19</Creator>
+        <Created>2023-12-02T01:20:39.257+01:00</Created>
+        <LastChange>2024-04-22T23:32:02.573+02:00</LastChange>
+        <TranskribusMetadata docId="1687897" pageId="61988530" pageNr="1" tsid="159833361" status="FINAL" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=KPWKPXUCTNCYPEHCDRJJEVDF&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ULKCTNOCFPEXUVPXAATXJIXV" imageId="50105338"/>
+    </Metadata>
+    <Page imageFilename="0001_urn-gvn-EVDO01-IIAV002_IAV001000040-large_01.jpeg" imageWidth="1500" imageHeight="1902">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1713945831463" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_9"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r_9" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="1159,1083 284,1098 274,565 1166,569"/>
+            <TextLine id="r_9_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="507,771 582,768 612,772 642,772 672,772 702,772 732,772 762,770 792,772 822,770 852,776 855,763 823,756 792,758 762,756 732,758 702,758 672,758 642,758 613,758 583,754 506,757"/>
+                <Baseline points="507,771 582,768 612,772 642,772 672,772 702,772 732,772 762,770 792,772 822,770 852,776"/>
+                <TextEquiv>
+                    <Unicode>Dagboek </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_tl_2" custom="readingOrder {index:1;} date {offset:6; length:26;}">
+                <Coords points="353,958 445,973 495,938 535,963 662,940 794,989 992,921 1100,930 1100,852 1045,828 912,873 719,842 683,858 631,834 544,886 353,834"/>
+                <Baseline points="358,910 388,914 418,910 448,912 478,912 508,912 538,914 568,916 598,914 628,912 658,914 688,912 718,912 748,914 778,914 808,916 838,916 868,912 898,910 928,910 958,910 988,912 1018,912 1048,910 1078,912 1102,916"/>
+                <TextEquiv>
+                    <Unicode>begin 9 Sept. 1940 - 5 Febr. '41</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_tl_3" custom="readingOrder {index:2;} person {offset:0; length:9;}">
+                <Coords points="678,1048 706,1046 736,1046 766,1046 796,1044 826,1042 856,1044 886,1042 987,1041 987,1027 885,1028 856,1030 826,1028 795,1030 766,1032 736,1032 706,1032 677,1034"/>
+                <Baseline points="678,1048 706,1046 736,1046 766,1046 796,1044 826,1042 856,1044 886,1042 987,1041"/>
+                <TextEquiv>
+                    <Unicode>Els Polak</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

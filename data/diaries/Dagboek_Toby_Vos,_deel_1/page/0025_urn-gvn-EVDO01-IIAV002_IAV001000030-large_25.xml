@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-07-28T17:11:25.312+02:00</Created>
+        <LastChange>2024-04-05T13:26:18.600+02:00</LastChange>
+        <TranskribusMetadata docId="1515124" pageId="58235971" pageNr="25" tsid="157056846" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=FAYTFENZTXUJFCHRYIEHBNRY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DTNZZUMHQGOFUSCSFHWKHGAS" imageId="47162886"/>
+    </Metadata>
+    <Page imageFilename="0025_urn-gvn-EVDO01-IIAV002_IAV001000030-large_25.jpeg" imageWidth="1500" imageHeight="1170">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1713945885139" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_95"/>
+                <RegionRefIndexed index="2" regionRef="r_99"/>
+                <RegionRefIndexed index="3" regionRef="r_100"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:visual;}">
+            <Coords points="778,29 1436,26 1446,473 776,476"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_95" custom="readingOrder {index:1;} structure {type:visual;}">
+            <Coords points="1428,475 1428,560 1189,570 1188,600 864,590 861,476"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_99" custom="readingOrder {index:2;} structure {type:visual;}">
+            <Coords points="1454,607 1456,850 776,846 779,587"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_100" custom="readingOrder {index:3;}">
+            <Coords points="944,852 944,884 867,884 776,884 778,853"/>
+            <TextLine id="tr_1_tl_19" custom="readingOrder {index:0;} date {offset:0; length:12;when:19\u0020juli\u00201946;} place {offset:13; length:11;wikiData:Q19482917; country:Nederland; placeName:Rozenstraat;}">
+                <Coords points="776,829 784,829 814,827 844,825 874,823 904,823 934,823 934,873 904,873 874,873 844,875 814,877 784,879 776,879"/>
+                <Baseline points="776,874 784,874 814,872 844,870 874,868 904,868 934,868"/>
+                <TextEquiv>
+                    <Unicode>19 Juli 1946 Rozenstraat.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

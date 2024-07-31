@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-07-28T16:53:53.217+02:00</Created>
+        <LastChange>2024-04-22T11:36:43.806+02:00</LastChange>
+        <TranskribusMetadata docId="1515108" pageId="58235749" pageNr="47" tsid="159741108" status="IN_PROGRESS" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=GXYLVRRFTTXRADKUIZXWMPVZ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=URFQJONVAPWLSFETIHTHDNQG" imageId="47162670"/>
+    </Metadata>
+    <Page imageFilename="0047_urn-gvn-EVDO01-VMA01_KBN007000011-large_047.jpeg" imageWidth="1500" imageHeight="1101">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1713946269611" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_9"/>
+                <RegionRefIndexed index="2" regionRef="r_18"/>
+                <RegionRefIndexed index="3" regionRef="r_27"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="1397,23 1480,23 1480,72 1397,72"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1407,51 1470,53 1470,29 1408,28"/>
+                <Baseline points="1407,51 1470,53"/>
+                <TextEquiv>
+                    <Unicode>90.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:1;} structure {type:visual;}">
+            <Coords points="933,69 1318,69 1318,413 933,413"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_18" custom="readingOrder {index:2;} structure {type:caption;}">
+            <Coords points="878,422 1415,422 1415,542 878,542"/>
+            <TextLine id="l_51" custom="readingOrder {index:0;} atm_food {offset:0; length:9;} unclear {offset:14; length:4;} person {offset:14; length:4;} place {offset:22; length:5;}">
+                <Coords points="894,465 947,466 1004,467 1059,465 1114,466 1165,465 1248,460 1310,459 1403,463 1404,439 1310,435 1247,436 1164,441 1114,442 1059,441 1004,443 948,442 894,441"/>
+                <Baseline points="894,465 947,466 1004,467 1059,465 1114,466 1165,465 1248,460 1310,459 1403,463"/>
+                <TextEquiv>
+                    <Unicode>Dineertje bij Coks in Delft, ter gelegen-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_107" custom="readingOrder {index:1;} textStyle {offset:13; length:1;underlined:true; superscript:true;} person {offset:30; length:7; continued:true;}">
+                <Coords points="896,492 950,494 1012,494 1067,492 1109,492 1169,491 1235,490 1282,489 1349,489 1391,490 1392,467 1349,465 1281,465 1234,467 1169,468 1109,469 1067,469 1012,471 951,471 897,469"/>
+                <Baseline points="896,492 950,494 1012,494 1067,492 1109,492 1169,491 1235,490 1282,489 1349,489 1391,490"/>
+                <TextEquiv>
+                    <Unicode>heid van de 4e verjaardag van Prinses</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_169" custom="readingOrder {index:2;} textStyle {offset:0; length:7;underlined:true;} person {offset:0; length:7; continued:true;}">
+                <Coords points="1017,527 1082,528 1180,526 1179,502 1082,504 1018,503"/>
+                <Baseline points="1017,527 1082,528 1180,526"/>
+                <TextEquiv>
+                    <Unicode>Beatrix.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_27" custom="readingOrder {index:3;} structure {type:visual;}">
+            <Coords points="778,578 1456,578 1456,1018 778,1018"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

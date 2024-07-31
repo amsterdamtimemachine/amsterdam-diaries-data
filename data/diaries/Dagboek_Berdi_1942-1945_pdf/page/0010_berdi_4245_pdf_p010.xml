@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-01-12T15:25:44.807+01:00</Created>
+        <LastChange>2024-04-25T15:52:13.399+02:00</LastChange>
+        <TranskribusMetadata docId="1744898" pageId="63299877" pageNr="10" tsid="160470908" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=QEBTZGUIJPRAWRUOOICNVJQJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=TCKTLXYMPZLTWYHJEEZUAWIX" imageId="51197882"/>
+    </Metadata>
+    <Page imageFilename="0010_p010.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1714088094496" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_9"/>
+                <RegionRefIndexed index="2" regionRef="r_18"/>
+                <RegionRefIndexed index="3" regionRef="r_27"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:visual;}">
+            <Coords points="564,549 2057,549 2057,1278 564,1278"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:1;} structure {type:caption;}">
+            <Coords points="876,1285 1768,1285 1768,1388 876,1388"/>
+            <TextLine id="l" custom="readingOrder {index:0;} person {offset:15; length:21;}">
+                <Coords points="899,1342 1019,1342 1144,1342 1260,1342 1342,1342 1434,1342 1533,1342 1628,1347 1713,1347 1713,1302 1629,1302 1534,1298 1434,1298 1342,1298 1260,1298 1144,1298 1019,1298 899,1298"/>
+                <Baseline points="899,1342 1019,1342 1144,1342 1260,1342 1342,1342 1434,1342 1533,1342 1628,1347 1713,1347"/>
+                <TextEquiv>
+                    <Unicode>Geboortebewijs Berdina Sere Hennekam</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_18" custom="readingOrder {index:2;} structure {type:visual;}">
+            <Coords points="803,1422 1814,1422 1814,2755 803,2755"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_27" custom="readingOrder {index:3;} structure {type:caption;}">
+            <Coords points="796,2781 1810,2781 1810,2967 796,2967"/>
+            <TextLine id="l_91" custom="readingOrder {index:0;} date {offset:9; length:4;} person {offset:29; length:6;} person {offset:39; length:5;}">
+                <Coords points="811,2851 946,2856 1085,2856 1227,2858 1337,2856 1458,2858 1564,2858 1649,2858 1776,2858 1776,2814 1649,2814 1564,2814 1458,2814 1337,2811 1226,2814 1085,2811 947,2811 813,2807"/>
+                <Baseline points="811,2851 946,2856 1085,2856 1227,2858 1337,2856 1458,2858 1564,2858 1649,2858 1776,2858"/>
+                <TextEquiv>
+                    <Unicode>Berdi in 1943 in de tuin bij Kokkie en Mammi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

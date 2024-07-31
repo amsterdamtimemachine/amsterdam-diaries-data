@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=50786:lm=none:date=02_04_2024_12:12</Creator>
+        <Created>2023-07-28T17:14:38.788+02:00</Created>
+        <LastChange>2024-04-02T14:20:22.614+02:00</LastChange>
+        <TranskribusMetadata docId="1515126" pageId="58235998" pageNr="15" tsid="156703804" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=RINJUSHMUAWTGAWLCDJEQYCP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XEKYXSVUVXHELGULLZIXUGHN" imageId="47162913"/>
+    </Metadata>
+    <Page imageFilename="0015_urn-gvn-EVDO01-IIAV002_IAV001000031-large_15.jpeg" imageWidth="1198" imageHeight="1500">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1712890550849" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;} structure {type:caption;}">
+            <Coords points="463,775 460,846 1053,854 1055,786"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;} date {offset:0; length:8;}">
+                <Coords points="480,827 501,842 579,827 634,849 661,826 701,850 746,829 769,849 920,834 961,857 1029,834 1020,797 902,810 773,787 479,793"/>
+                <Baseline points="485,818 512,818 539,820 566,819 594,818 621,819 648,820 675,820 703,821 730,822 757,822 784,824 812,826 839,826 866,826 893,827 921,829 948,830 975,831 1002,832 1030,832"/>
+                <Word id="tr_1_tl_1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="479,778 479,838 507,838 507,778 479,778 479,778"/>
+                    <TextEquiv>
+                        <Unicode>Ze</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="526,779 526,839 530,839 530,779 526,779 526,779"/>
+                    <TextEquiv>
+                        <Unicode>4</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w3" custom="readingOrder {index:2;}">
+                    <Coords points="563,778 563,838 610,838 610,778 563,778 563,778"/>
+                    <TextEquiv>
+                        <Unicode>tenove</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w4" custom="readingOrder {index:3;}">
+                    <Coords points="618,779 618,839 635,839 635,779 618,779 618,779"/>
+                    <TextEquiv>
+                        <Unicode>mij</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w5" custom="readingOrder {index:4;}">
+                    <Coords points="643,780 643,840 679,840 679,780 643,780 643,780"/>
+                    <TextEquiv>
+                        <Unicode>wonen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w6" custom="readingOrder {index:5;}">
+                    <Coords points="691,780 691,840 711,840 711,780 691,780 691,780"/>
+                    <TextEquiv>
+                        <Unicode>nog</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w7" custom="readingOrder {index:6;}">
+                    <Coords points="716,781 716,841 736,841 736,781 716,781 716,781"/>
+                    <TextEquiv>
+                        <Unicode>toe</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w8" custom="readingOrder {index:7;}">
+                    <Coords points="748,782 748,842 773,842 773,782 748,782 748,782"/>
+                    <TextEquiv>
+                        <Unicode>vand</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w9" custom="readingOrder {index:8;}">
+                    <Coords points="788,784 788,844 806,844 806,784 788,784 788,784"/>
+                    <TextEquiv>
+                        <Unicode>die</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w10" custom="readingOrder {index:9;}">
+                    <Coords points="815,786 815,846 834,846 834,786 815,786 815,786"/>
+                    <TextEquiv>
+                        <Unicode>ook</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w11" custom="readingOrder {index:10;}">
+                    <Coords points="846,786 846,846 869,846 869,786 846,786 846,786"/>
+                    <TextEquiv>
+                        <Unicode>wet</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w12" custom="readingOrder {index:11;}">
+                    <Coords points="882,787 882,847 918,847 918,787 882,787 882,787"/>
+                    <TextEquiv>
+                        <Unicode>benen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w13" custom="readingOrder {index:12;}">
+                    <Coords points="927,789 927,849 964,849 964,789 927,789 927,789"/>
+                    <TextEquiv>
+                        <Unicode>depen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="tr_1_tl_1_w14" custom="readingOrder {index:13;}">
+                    <Coords points="979,791 979,851 1017,851 1017,791 979,791 979,791"/>
+                    <TextEquiv>
+                        <Unicode>seller</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Sept '47 Tegenover mij wonen nog twee mensen die ook niet kunnen slapen. Lekker!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:visual;}">
+            <Coords points="17,922 1086,922 1086,1482 17,1482"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
