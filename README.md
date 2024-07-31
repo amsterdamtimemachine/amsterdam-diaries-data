@@ -1,185 +1,19 @@
-# Amsterdam Diaries Project
-Documentation and files for Amsterdam Diaries Project
+# Amsterdam Diaries Time Machine
 
-- [Amsterdam Diaries Project](#amsterdam-diaries-project)
-  - [Project Description](#project-description)
-  - [Data](#data)
-  - [Annotation](#annotation)
-    - [Transkribus](#transkribus)
-      - [Structural markup (images + text regions and lines)](#structural-markup-images--text-regions-and-lines)
-      - [Textual markup](#textual-markup)
-      - [Tags (entities)](#tags-entities)
+The Amsterdam Diaries Time Machine project is a public web application developed by the Amsterdam Time Machine at the University of Amsterdam. The goal of the project is to make the life narratives of ordinary people in Amsterdam more accessible and to strengthen the infrastructure for connecting a wide range of personal histories using open standards. In the first phase of the project, we focused on the diaries of six women living in Amsterdam during the Second World War.
 
+For more information, please visit the project website: https://diaries.amsterdamtimemachine.nl/
 
-## Project Description
+## Project Overview
 
+Digital scans of the diaries are publicly available online, hosted by various heritage institutions. With the help of four student assistants, we transcribed the scans and tagged all instances of people, places, organizations, and dates within the transcriptions. These entities were subsequently linked to external datasets such as Adamlink (for places), Amsterdam City Archives (for people), and Wikidata (for all other places and people). Additionally, we tagged references to food and drinks as a thematic category.
 
-## Data
+All metadata associated with the diaries, including entries, transcriptions, and recognized entities, is modeled as Linked Open Data (RDF) using the schema.org and Web Annotation vocabularies. This structured data is integrated into the knowledge graph of the Amsterdam Time Machine, which powers the project website Amsterdam Diaries Time Machine, designed to showcase our findings to a broader audience.
 
-### Source data
+## Contributing and Replication
 
-### Data model
-```plantuml
+By providing access to these enriched personal documents and the pipeline that allows them to be further annotated and interlinked with other digital heritage, we encourage other projects and local time machines to replicate our approach and contribute to a web of interlinked cultural data.
 
-@startuml
-hide circle
+## License
 
-'Classes
-
-class Thing as "Thing (schema:Thing)" {
-}
-
-class Archive as "Archive (schema:ArchiveOrganization)" {
---
-name (schema:name)
-}
-
-class Collection as "Collection (schema:Collection)" #wheat {
-* URI
---
-name (schema:name)
-
-}
-
-package Diaries {
-
-class Diary as "Diary (schema:Book)" #salmon {
-* URI
---
-name (schema:name)
-author (schema:author)
-date (schema:temporalCoverage)
-}
-
-' Or Manuscript if everything is written?
-class Entry as "Entry (schema:CreativeWork)" #thistle {
-* URI
---
-name (schema:name)
-date (schema:temporalCoverage)
-text (schema:text)
-}
-
-class Scan as "Scan (schema:ImageObject)" #lightgreen {
-* URI
---
-name (schema:name)
-}
-
-}
-
-package "External data" {
-
-class Person as "Person (schema:Person)" #lightblue {
-* URI
---
-
-}
-
-class PersonName as "PersonName (pnv:PersonName)" {
---
-givenName (pnv:givenName)
-surnamePrefix (pnv:surnamePrefix)
-baseSurname (pnv:baseSurname)
-literalName (pnv:literalName)
-}
-
-class Location as "Location (schema:Place)" #lightblue{
-* URI
---
-
-}
-
-class Concept as "Concept (skos:Concept)" #lightblue {
-* URI
---
-
-}
-
-}
-
-' Web Annotation stuff
-package WADM as "Annotation" {
-
-class Annotation as "Annotation (oa:Annotation)" #silver {
-* URI
---
-body (oa:hasBody)
-target (oa:hasTarget)
-}
-
-class SpecificResource as "SpecificResource (oa:SpecificResource)" #silver {
---
-purpose (oa:hasPurpose)
-}
-
-class TextualBody as "TextualBody (oa:TextualBody)" #silver {
---
-purpose (oa:hasPurpose)
-}
-
-class Selector as "Selector (oa:Selector)" #silver {
---
-conformsTo (dcterms:conformsTo)
-value (rdf:value)
-
-}
-
-}
-
-
-
-
-
-'Relations
-
-Collection -l-> Archive: schema:holdingArchive
-
-Diary -u--> Collection: schema:isPartOf
-Entry -u--> Diary: schema:isPartOf
-
-Entry --|> Thing
-Entry ---> Thing: schema:about
-Entry --l-> Scan: schema:image
-
-Scan --|> Thing
-
-Person --u-|> Thing
-Location --u-|> Thing
-Concept --u-|> Thing
-
-Person --> PersonName: pnv:hasName
-
-Annotation ---> TextualBody: oa:hasBody
-Annotation ---> SpecificResource: oa:hasBody
-Annotation ---> SpecificResource: oa:hasTarget
-
-SpecificResource ---> Thing: oa:hasSource
-SpecificResource ---> Selector: oa:hasSelector
-
-```
-
-## Annotation
-
-### Transkribus
-We load the data in Transkribus and run a basic layout analysis over the pages using their `Transkribus LA` model.
-#### Structural markup (images + text regions and lines)
-
-* Visual
-* Header
-* Heading
-* Paragraph
-* Page number
-
-#### Textual markup
-
-* Strikethrough
-
-#### Tags (entities)
-
-* Date
-* Person
-* Place
-
-
-
+TBA
