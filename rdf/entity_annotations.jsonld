@@ -1017,7 +1017,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/04f8dd3f-2025-4c45-aeb1-5221fc2e8356",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7333d205-2c44-4dac-8aef-cfa19d348984",
         "type": "Annotation",
         "body": [
             {
@@ -2630,7 +2630,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/50aa138d-5cc7-4b7d-b1cb-127c3b1cda6c",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/671fa24d-139d-451e-924d-a59685513dc9",
         "type": "Annotation",
         "body": [
             {
@@ -2958,7 +2958,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/2787a38c-e9e7-4ec8-840a-fd2b34c6a3b8",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/00dc46a8-97e7-446f-a91c-4cbaf84bda37",
         "type": "Annotation",
         "body": [
             {
@@ -3532,7 +3532,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5eac755d-771f-46d2-9ce3-527cf98c782c",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/2a69bfd5-475c-4010-82d7-dc4234a63a59",
         "type": "Annotation",
         "body": [
             {
@@ -3565,7 +3565,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f9805f4a-c728-460d-b420-28ac6929f89d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a05d229a-440d-4115-8a43-383198f1a22b",
         "type": "Annotation",
         "body": [
             {
@@ -3713,7 +3713,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ee4bb2a1-c020-449f-b517-63e79b832856",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ea457b6d-ee67-417f-afdc-610064c80ace",
         "type": "Annotation",
         "body": [
             {
@@ -3746,7 +3746,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c3a81f71-1e8a-428d-9e17-3bf356047f17",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1fc81509-3842-4c43-92cd-b751ffb2983d",
         "type": "Annotation",
         "body": [
             {
@@ -3779,7 +3779,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/72b2c9ed-1cc8-40c9-9185-b8143bbbd5e9",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f513871c-e8e4-4754-a41d-dedcb30d4c34",
         "type": "Annotation",
         "body": [
             {
@@ -3812,7 +3812,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/02ba2b46-d800-42bd-838f-b0232c24fc83",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/34a97758-46ac-486d-8fb5-8e77034ebd15",
         "type": "Annotation",
         "body": [
             {
@@ -3845,7 +3845,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/21bac7ff-807d-4b2c-8075-15983f23e31a",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/61c40cda-0099-4b89-9507-65c4dd7f7f51",
         "type": "Annotation",
         "body": [
             {
@@ -3878,7 +3878,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c0068604-e388-4e22-a33e-14926a9c5527",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/897f472f-3ed1-4d81-b926-53d7d635dbd4",
         "type": "Annotation",
         "body": [
             {
@@ -3911,7 +3911,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5532bed2-6fdd-4020-94d1-5564d6db70b2",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/153bbdd4-6259-4ed1-9dd6-a6d9cb2d8d2f",
         "type": "Annotation",
         "body": [
             {
@@ -3944,7 +3944,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d7e3a497-582c-449b-a499-049c5a85d593",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a29839e0-8a8a-4b38-ae0e-79f41b5f0517",
         "type": "Annotation",
         "body": [
             {
@@ -3977,7 +3977,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5b6c3646-75c6-498e-888a-0fc6bea8aa4a",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8f7e3adb-b9ef-440b-8d93-5aca067859db",
         "type": "Annotation",
         "body": [
             {
@@ -4010,7 +4010,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/9dc2f2cf-f119-4e78-90ae-951cf5addde9",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e4c96aa4-7c63-4f06-88a5-bef12be7d023",
         "type": "Annotation",
         "body": [
             {
@@ -4043,7 +4043,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f4862725-8fd3-4618-bf2c-30e80ea85424",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c0811db8-289c-4f10-adc6-343a90efcde9",
         "type": "Annotation",
         "body": [
             {
@@ -4076,7 +4076,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f2a8da3c-bcc7-4afb-8354-869671562842",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e6f3b2fe-79c1-4742-a464-7178a87b1e03",
         "type": "Annotation",
         "body": [
             {
@@ -4109,7 +4109,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/30528294-8d03-4aae-8183-1ed5d77f1141",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/cfee1276-ce9f-4112-b121-91594091c5e8",
         "type": "Annotation",
         "body": [
             {
@@ -4175,7 +4175,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d8ac6f38-8020-4a22-98f7-24b56ac83a73",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b65531b0-a8f7-4039-9129-68220bea46dd",
         "type": "Annotation",
         "body": [
             {
@@ -4208,7 +4208,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6a89f5bb-595d-4529-8ae2-c176f2fda745",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c401aa30-8ee1-4ad4-8ef9-ec15c10ed249",
         "type": "Annotation",
         "body": [
             {
@@ -4241,7 +4241,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4c564597-fd1c-4f63-954a-055f7c46688a",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5140ba25-7a7f-4a5d-bb0e-b528050e693b",
         "type": "Annotation",
         "body": [
             {
@@ -4274,7 +4274,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ea784232-f953-4a6c-8db8-7203aac0524d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/af1c2363-a7f2-4c02-97f7-6b19e476e5ba",
         "type": "Annotation",
         "body": [
             {
@@ -4307,7 +4307,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ed12376b-4897-49cf-9296-19800b6848ad",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c87fa200-90dd-4a86-b52d-483b22056a8f",
         "type": "Annotation",
         "body": [
             {
@@ -4373,7 +4373,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/fe7b3c14-3ec2-4501-85aa-45b01bdbce61",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5a7cadc4-44be-4925-9b25-333d2f31b682",
         "type": "Annotation",
         "body": [
             {
@@ -4406,7 +4406,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ac61c4f0-ac15-4feb-b627-c3acfdad7a41",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4835900c-0e87-4c7d-a36a-71b0bf5247a6",
         "type": "Annotation",
         "body": [
             {
@@ -4439,7 +4439,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/03661a62-4ae4-47ee-a14f-ad1fa7121ddf",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/079becc1-4859-432b-bfed-c550d79d53b0",
         "type": "Annotation",
         "body": [
             {
@@ -4472,7 +4472,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/60df1a94-e702-43dd-9aae-5c1aae6a8cb5",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/70e0a247-ef63-4817-89f8-f840dd14abd4",
         "type": "Annotation",
         "body": [
             {
@@ -4505,7 +4505,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/2677b2a9-ec18-49be-9ea1-c20fdc72fa76",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c2cba800-55ce-4d0b-890e-64f4f82eaac9",
         "type": "Annotation",
         "body": [
             {
@@ -4538,7 +4538,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a06a21a2-4069-4612-9ec3-e89edd3423d7",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/dbb7c340-233e-4954-a1dc-84727a6975ad",
         "type": "Annotation",
         "body": [
             {
@@ -4686,7 +4686,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/da20f110-2f67-4f7e-b515-97e3bd6b3c8e",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/dc2b5adc-29e1-4b73-b6b7-af7b388a0ce8",
         "type": "Annotation",
         "body": [
             {
@@ -4826,7 +4826,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3e3efdb3-6859-4321-b075-747a6d8fa534",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c3daf0b0-e530-438c-a0a7-8fa21936e032",
         "type": "Annotation",
         "body": [
             {
@@ -4859,7 +4859,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3f6bf8f5-bbbf-44a0-9cc4-9244d80451cf",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6f1cd3b7-9668-4938-89aa-eebf1498646e",
         "type": "Annotation",
         "body": [
             {
@@ -4892,7 +4892,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/384d5abe-cbb5-4fe0-80da-52c7818d3dfb",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5b90af1b-af80-4085-b8d9-0df95216bc17",
         "type": "Annotation",
         "body": [
             {
@@ -4925,7 +4925,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1a6f4fbe-2897-476f-a9b1-a6bce6d3d587",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a0d5781a-dbbc-4dbc-bd53-62b556b1702f",
         "type": "Annotation",
         "body": [
             {
@@ -4958,7 +4958,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c4d67eee-a829-464d-8ade-67fabf569714",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/70e6be6a-66d3-4086-93a0-fed522b9a754",
         "type": "Annotation",
         "body": [
             {
@@ -5080,7 +5080,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/000831a6-3832-49c3-907d-660ce6d52bd0",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d2664aad-7dd9-4a25-94c1-91bddc221b7a",
         "type": "Annotation",
         "body": [
             {
@@ -5113,7 +5113,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/53237e09-da08-45bd-a214-8e638216632e",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/aff196a4-acfb-4f2a-b13a-d2698e5c71d0",
         "type": "Annotation",
         "body": [
             {
@@ -5401,7 +5401,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c1382e64-7b18-4095-9089-494fe2e53b85",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a855641a-8654-40b9-a3ea-80c77ddb4a92",
         "type": "Annotation",
         "body": [
             {
@@ -5763,7 +5763,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f1e5e069-f28d-44cd-9208-b92d1655cab8",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6d3636f2-3773-4d5c-ac96-aac16e1a47b3",
         "type": "Annotation",
         "body": [
             {
@@ -5829,7 +5829,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e350bab9-d5c7-4cbb-b4d3-d97f92eb99e9",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b672ab60-2bfc-41ea-b62e-92bb7b65751f",
         "type": "Annotation",
         "body": [
             {
@@ -5936,7 +5936,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/af02866f-fdf1-4384-9a38-fd534271a44c",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a65a7ee5-b397-4fca-8684-a5f5c33c1cf7",
         "type": "Annotation",
         "body": [
             {
@@ -6706,7 +6706,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f4e3830e-1520-4fdd-ba42-3b0a98a23997",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/77461eb0-780b-4ce4-b7bf-060494c69c2b",
         "type": "Annotation",
         "body": [
             {
@@ -6739,7 +6739,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/71e201d7-a2ee-4d92-9cb4-c6b758a162bd",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f9582d6a-739f-4bfb-847c-aad3249e34d0",
         "type": "Annotation",
         "body": [
             {
@@ -6887,7 +6887,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d59b9eb8-943d-461c-b217-ab15a999e861",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ade40178-d1b9-4ca9-95ad-15aa76a4edbb",
         "type": "Annotation",
         "body": [
             {
@@ -7158,7 +7158,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8a278c1e-5a2c-4fad-8edb-54baae4d49f9",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8a2df2a8-f8ce-4e5b-a21b-008d629b6590",
         "type": "Annotation",
         "body": [
             {
@@ -8742,7 +8742,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f4ac8991-b5bd-4cbc-9292-16cb446c5226",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/695d2a0a-df39-49bb-abf4-8ce1213d9355",
         "type": "Annotation",
         "body": [
             {
@@ -9152,7 +9152,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8ee31d9c-5b10-41ad-815f-33ad8f478d2e",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a4a0799d-c6b7-4d01-a5a4-f24804a69039",
         "type": "Annotation",
         "body": [
             {
@@ -9407,7 +9407,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/59b3f471-a709-4197-b141-ac9095679171",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4273aedb-1be8-4c4c-bfdf-1af806bd8047",
         "type": "Annotation",
         "body": [
             {
@@ -9440,7 +9440,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/fe5cb987-0467-46fa-83ba-cfee1b134ec7",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b9e714a0-02f9-4e37-a7ff-0f711bf67ea0",
         "type": "Annotation",
         "body": [
             {
@@ -9710,7 +9710,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a91b315a-fa70-4995-ac40-f106dc9dbe82",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4aed52ea-92f7-48b8-aab6-5f7dffb7c377",
         "type": "Annotation",
         "body": [
             {
@@ -10771,7 +10771,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1166318e-59df-48b8-b552-c3bf3db657e1",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/78df5f87-e9e4-4106-8b77-ec9f16cccddf",
         "type": "Annotation",
         "body": [
             {
@@ -11459,7 +11459,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7d4b5b1d-4b29-489d-b757-109524c3f5c8",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/33d58106-3403-47e4-99a0-1fa68a7e711d",
         "type": "Annotation",
         "body": [
             {
@@ -12130,7 +12130,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f4aeb9cb-85e1-4884-aa0b-9579ccefed10",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/55ba1b76-d813-4d6e-a29a-329a18f7b295",
         "type": "Annotation",
         "body": [
             {
@@ -12870,7 +12870,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/9ba302ef-05cb-4d46-8028-062151e3bb90",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c82c410f-2ba4-4432-8fc0-d0c88b3c0cd8",
         "type": "Annotation",
         "body": [
             {
@@ -12969,7 +12969,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c7d8b4b3-7331-4820-85f7-0976d0ed48b4",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4e260b5d-bc1a-4d9b-bce5-afb5372f3b88",
         "type": "Annotation",
         "body": [
             {
@@ -13002,7 +13002,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/dee1ec88-9e00-482b-8d72-4f81077693d7",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/eb087089-d825-4a29-8b18-465bfccdf6a8",
         "type": "Annotation",
         "body": [
             {
@@ -13076,7 +13076,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a7429e67-c5a5-42a6-865f-3122ca155200",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1abc9321-3929-4109-a695-44417a70fd45",
         "type": "Annotation",
         "body": [
             {
@@ -13109,7 +13109,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7a98cb9f-31ee-48b3-b5c8-1e058acbeafa",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c22415df-66e1-478a-ba81-ee02a41cc5a7",
         "type": "Annotation",
         "body": [
             {
@@ -13379,7 +13379,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/2dc17d95-e1dd-410b-aa2b-c2605790fd05",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ec203566-283f-4fc0-a0ff-7f1e7ee79f17",
         "type": "Annotation",
         "body": [
             {
@@ -14455,7 +14455,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c5f0a19f-b89e-4aae-ad22-011393b59440",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1af3b871-7b1d-4342-8554-e510c33a51ae",
         "type": "Annotation",
         "body": [
             {
@@ -15005,7 +15005,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6241075d-4997-472f-97ab-001c370634db",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4613d405-359f-4e49-87d1-9c7d6c0b33e4",
         "type": "Annotation",
         "body": [
             {
@@ -15398,7 +15398,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d0f0754d-2062-44e0-8594-ff99cbbd2f2d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/45f0ff6d-7adb-43da-9c8a-489df750d4b2",
         "type": "Annotation",
         "body": [
             {
@@ -15610,7 +15610,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/44cbc02b-941c-4994-85c2-785c44d0be8a",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f5718134-d91f-4c2d-8602-23190c08410b",
         "type": "Annotation",
         "body": [
             {
@@ -16145,7 +16145,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/59a8a6ef-1693-42bb-b1dc-afb72501dc7c",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/226f9920-c919-476f-b3c5-dc3c8af91542",
         "type": "Annotation",
         "body": [
             {
@@ -16497,7 +16497,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1c181396-8c53-4dbe-9967-6c81bc43391f",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/072b3fed-836e-471c-b292-9f5e5fa7ebd0",
         "type": "Annotation",
         "body": [
             {
@@ -16596,7 +16596,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/45ea0deb-86ca-486c-a137-83f6c9761d28",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/30cf4db7-0632-4462-806c-eb2a1fd983de",
         "type": "Annotation",
         "body": [
             {
@@ -17006,7 +17006,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d35ae6bf-fee3-4220-a955-c75f796c3750",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/02bb1c52-cb7e-4465-b3b3-313500cfaa97",
         "type": "Annotation",
         "body": [
             {
@@ -17351,7 +17351,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/900018bf-598b-4978-af97-b399fc401ec7",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/65e6e784-1f10-4175-82e9-8e59937b631f",
         "type": "Annotation",
         "body": [
             {
@@ -18463,7 +18463,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a272bda3-74a4-462f-855f-074bde0a4fb8",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/19fb79b6-1841-4502-b950-05a1a22e01bb",
         "type": "Annotation",
         "body": [
             {
@@ -19825,7 +19825,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c0487596-0c77-4ada-9a60-2984c0c5b19d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7da58ab6-c8c0-4382-a0c6-38527ea4d314",
         "type": "Annotation",
         "body": [
             {
@@ -20490,7 +20490,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/da13bed5-89c0-40cf-8400-6848b1d261cb",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/793962ef-648e-47e7-8392-c95aa2bd55dc",
         "type": "Annotation",
         "body": [
             {
@@ -22747,7 +22747,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3b5db1e3-601e-44d5-a6da-64974116d06a",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/33da2776-b05a-4d4b-a93e-8f1c15099631",
         "type": "Annotation",
         "body": [
             {
@@ -22813,7 +22813,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/322083b8-ccf7-4e65-bfbf-184c669485be",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/78635bef-27e9-4653-9ec0-cc3cd29d0386",
         "type": "Annotation",
         "body": [
             {
@@ -22945,7 +22945,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ebdd5038-47a7-44e5-8804-4d81540dbe90",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f687f515-c016-40e6-af75-dbd6baff68e6",
         "type": "Annotation",
         "body": [
             {
@@ -23241,7 +23241,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c5e481dd-9a10-40f2-a678-ffab1caf6c07",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3333e63e-5b82-4cfb-b142-9abb353b7a93",
         "type": "Annotation",
         "body": [
             {
@@ -23422,7 +23422,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c8811880-c902-4b88-9800-4bb7605a1138",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ac2d5388-85f8-425d-9548-3152b59142d2",
         "type": "Annotation",
         "body": [
             {
@@ -23849,7 +23849,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b1be182f-382b-475c-8bd3-cfd9f3eb0fc3",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e2af2657-defb-4dec-9c96-9ee59b2c367e",
         "type": "Annotation",
         "body": [
             {
@@ -24482,7 +24482,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c382c47b-3e63-4bc8-8850-e3d3d8ae38ae",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/947bde48-5d0c-4731-81d4-bd0ae9ec60c1",
         "type": "Annotation",
         "body": [
             {
@@ -24908,7 +24908,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/9407d06c-72dc-4def-9ab7-4599a6cc6af4",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c2fc77c6-28d0-4aa2-90b2-c7fa37071dcc",
         "type": "Annotation",
         "body": [
             {
@@ -25007,7 +25007,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c9bea877-752d-4410-a558-c8519d79c800",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4c7c0816-6a22-442d-8793-26940a5c5c31",
         "type": "Annotation",
         "body": [
             {
@@ -27659,7 +27659,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ed3c7d0b-509b-4b17-9b70-834b4104b133",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b9c191bf-21bd-4058-ba2d-19c296d8ac73",
         "type": "Annotation",
         "body": [
             {
@@ -29160,7 +29160,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ec7067a7-b264-444f-a705-f3c069984a4f",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1b297651-01af-4e54-b2db-4c0ade63a038",
         "type": "Annotation",
         "body": [
             {
@@ -30006,7 +30006,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e504dece-e6c9-47a8-91d9-8b4162326359",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e61f2f8f-d864-4f4a-8ebc-25c2f6f4493f",
         "type": "Annotation",
         "body": [
             {
@@ -30087,7 +30087,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a7c6d567-3fb1-493d-a2ea-4a924de22985",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/32415ba2-a32e-4561-b253-4b1fbe110031",
         "type": "Annotation",
         "body": [
             {
@@ -30536,7 +30536,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/27b30f0b-b82e-4b32-bb51-470176900eb9",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1d2ab031-9b7a-43da-87a5-92c4d93eca9a",
         "type": "Annotation",
         "body": [
             {
@@ -31832,7 +31832,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8962f495-f8a2-426f-bc7b-7f4fc8a145c4",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c3f1151a-b13c-4ab1-b8fb-a1a6cbf6b66a",
         "type": "Annotation",
         "body": [
             {
@@ -31865,7 +31865,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c4b09cc6-9776-4874-9402-09e28f407735",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5227ede2-8d23-441b-99de-f9613953e212",
         "type": "Annotation",
         "body": [
             {
@@ -31898,7 +31898,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/334fa48f-34ef-4da0-b159-8dc3fae83132",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/17c587a6-51ea-4c78-b75e-9a6c6a3b4b74",
         "type": "Annotation",
         "body": [
             {
@@ -31931,7 +31931,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/cf36e581-45fa-4310-894b-27d77ecff924",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/41d887ce-9d26-40d2-b255-68863157a1c3",
         "type": "Annotation",
         "body": [
             {
@@ -31964,7 +31964,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/282692c7-19fd-4286-a066-40b516462ca4",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/612f1b0a-561a-4e6a-b651-ccf9529d4813",
         "type": "Annotation",
         "body": [
             {
@@ -31997,7 +31997,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4d26d3f9-8dce-4402-ae05-a2c853b2fe66",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/42247a15-6d44-4e5f-9577-463e025e9b3d",
         "type": "Annotation",
         "body": [
             {
@@ -32194,7 +32194,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ae562480-3cec-46bb-90c0-872528d133e3",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/318851d1-8cfc-421e-b9f9-b41cbcb1969e",
         "type": "Annotation",
         "body": [
             {
@@ -32227,7 +32227,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7aaabd2f-4d66-4a34-9409-ac681f734d07",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c5cc1ef3-ad83-468c-8fc2-4873423aba9d",
         "type": "Annotation",
         "body": [
             {
@@ -32260,7 +32260,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/83f93a83-6bf0-4fb9-b26d-3f1d882f1853",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f741031d-49cc-4470-a7c0-10c7403eda58",
         "type": "Annotation",
         "body": [
             {
@@ -32293,7 +32293,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c7edfe69-32ee-4e6d-9510-b0b6abfc8dc4",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0d6db6e7-e6ea-45d1-b8fe-4eca138b28cc",
         "type": "Annotation",
         "body": [
             {
@@ -32613,7 +32613,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/38507556-04aa-4662-aeea-fd490e0913dd",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c7935e97-8389-40e8-9957-a93e5b47feca",
         "type": "Annotation",
         "body": [
             {
@@ -32646,7 +32646,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a1921e65-b8b1-4160-b8b8-16e3ee003fa0",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/2d4577c4-4567-49e8-9d77-5e08293c8cd3",
         "type": "Annotation",
         "body": [
             {
@@ -35857,7 +35857,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/01af37ef-f415-45a4-b9db-3a48d2e4afcb",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/da1cb6d9-21ba-423b-9d19-cb027a37749c",
         "type": "Annotation",
         "body": [
             {
@@ -36768,7 +36768,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/042eac40-f5da-4311-bfb1-a40d3b7a9eab",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/73fb7ad5-0548-44e9-a7ad-d54fe458e8aa",
         "type": "Annotation",
         "body": [
             {
@@ -36842,7 +36842,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/34dd07c1-bdb7-44e7-b7c1-7d8c7009cb47",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a3aad0d8-5a79-4317-b7ac-2ff68eb7d354",
         "type": "Annotation",
         "body": [
             {
@@ -36982,7 +36982,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8dc998ca-7b6e-4363-a6ec-7d145071df46",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4b8ad1ea-2f5f-42ee-a7da-8221fdc92db5",
         "type": "Annotation",
         "body": [
             {
@@ -37108,7 +37108,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/44198370-eb97-4c4c-9fe9-6c5b113a7482",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a9f9cd2e-d531-46b2-9861-ff3ff1b083b3",
         "type": "Annotation",
         "body": [
             {
@@ -37182,7 +37182,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b5635997-f4ca-4af7-a5c2-b9b3af1250c7",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/73a75045-25d4-4d6c-ad67-e24a6c34d6aa",
         "type": "Annotation",
         "body": [
             {
@@ -37419,7 +37419,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/fcd70e2c-5871-42bd-8ed4-c9f1d8238f19",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/265dbfa4-deec-4900-8a85-2dc6e6be58b2",
         "type": "Annotation",
         "body": [
             {
@@ -37452,7 +37452,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ef3b517b-3ae1-40ba-8311-e2b0bb3eec6d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e0b2672e-f676-4acd-9221-724df3e18b49",
         "type": "Annotation",
         "body": [
             {
@@ -37715,7 +37715,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1a5fa8db-115b-4975-b604-e302b0bd118f",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e22260f0-dffc-484f-b7dd-7bec262e4daa",
         "type": "Annotation",
         "body": [
             {
@@ -37970,7 +37970,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e1a20c35-01e4-44ed-a351-3872496c5d0c",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1a27ffb6-0849-4218-a903-f0e5360f8dc9",
         "type": "Annotation",
         "body": [
             {
@@ -38184,7 +38184,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/71df295e-3621-458b-b4f0-03e1bf9ab15d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/13d424b5-ae21-46cb-91c3-d754d079a46b",
         "type": "Annotation",
         "body": [
             {
@@ -38258,7 +38258,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1677da67-7d2a-4d31-bb4a-60d28bde6846",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/761d2a34-da24-4201-b4b9-25dcc493bd46",
         "type": "Annotation",
         "body": [
             {
@@ -39703,7 +39703,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/90299f95-65fd-427e-9a95-a26bdb42bca3",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6b88ff02-07db-448e-b06b-d03150d29bba",
         "type": "Annotation",
         "body": [
             {
@@ -39736,7 +39736,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0983f0fe-8ead-4bff-bdf9-65759fade344",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/70cf7a64-6d98-4ea6-a852-e21527474a42",
         "type": "Annotation",
         "body": [
             {
@@ -40458,7 +40458,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1eba3c08-6825-4bcb-a116-c1d889befc0c",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4f4d2501-d7c9-4595-92c0-b7a24c13539d",
         "type": "Annotation",
         "body": [
             {
@@ -40835,7 +40835,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/03676779-3970-4c1d-83b0-a967cdc4c1c1",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ee19eeb4-d785-48ae-94de-35858e68d1a5",
         "type": "Annotation",
         "body": [
             {
@@ -40934,7 +40934,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/2b66b40c-441d-422a-972a-9a6c848bc963",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d47c2ea7-e3fb-4162-8037-3512402755d0",
         "type": "Annotation",
         "body": [
             {
@@ -41163,7 +41163,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b9d10b37-7b42-42dd-8bf2-9d889a12acc4",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ef7252e7-c387-4e27-be53-75dd87e1ca3b",
         "type": "Annotation",
         "body": [
             {
@@ -41244,7 +41244,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0aba79f1-1d26-42c3-b4cd-b5272c4cd3dd",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c031009d-48d0-428b-8e77-18eb9a1e51f1",
         "type": "Annotation",
         "body": [
             {
@@ -41333,7 +41333,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/74c04374-fe0f-4698-85fb-8012e3e8f979",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/569209bf-26b8-4642-8df0-06495e601a05",
         "type": "Annotation",
         "body": [
             {
@@ -41455,7 +41455,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/efa4ccf2-3da8-44f1-9a85-977060394d07",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5c08a057-7805-4934-bd85-23c8e3ac7f7c",
         "type": "Annotation",
         "body": [
             {
@@ -41562,7 +41562,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ee7f1f03-0de6-447e-b05a-bbcf0a2d9ea1",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4749e2e6-5d40-48f5-a149-0d534a1f0980",
         "type": "Annotation",
         "body": [
             {
@@ -41684,7 +41684,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/61150ece-3aa4-4cfc-b608-25698081adf0",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4c18bc59-fa03-457e-954e-d83199d43026",
         "type": "Annotation",
         "body": [
             {
@@ -41717,7 +41717,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/370c1ed5-411d-4f08-9b40-bb983691815e",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/49c7c42c-5a75-4861-b71a-a937012ca408",
         "type": "Annotation",
         "body": [
             {
@@ -41987,7 +41987,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6f875573-396c-478a-8399-9baf13b59992",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/32cb4b7e-8891-45fe-b731-76d00832551d",
         "type": "Annotation",
         "body": [
             {
@@ -42143,7 +42143,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/49e98abc-e796-4099-a77c-38cba5eb40f1",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d3a4046d-a24f-4bba-bc07-8b94b693c04b",
         "type": "Annotation",
         "body": [
             {
@@ -42258,7 +42258,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d87868b0-3523-4c4b-9fbb-0571e5cff43d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7e9b853a-61a1-4b29-81dd-385e1a9fbcad",
         "type": "Annotation",
         "body": [
             {
@@ -42757,7 +42757,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/94e23161-daa3-4f7a-add7-ed6b1f4bd71e",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/2cc9286b-ae4d-4947-a304-16d4576c28a0",
         "type": "Annotation",
         "body": [
             {
@@ -43590,7 +43590,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4369b4c4-01eb-4678-812b-21efe5081ca5",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/92cc75c6-badf-4263-8974-5196e217ffe1",
         "type": "Annotation",
         "body": [
             {
@@ -45332,7 +45332,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/30cf4ae0-211c-4141-9dab-74175903f1e4",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/62e12484-90be-4210-a478-a9d36d5f42b1",
         "type": "Annotation",
         "body": [
             {
@@ -45611,7 +45611,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8e8ca422-eed9-4d45-b619-cb68df975e67",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e3596fd6-bdbf-49c0-9a4c-a0b6af1e741f",
         "type": "Annotation",
         "body": [
             {
@@ -45759,7 +45759,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8db2a1b3-f7a7-47de-b4e8-7833a6db9b29",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/58f4af84-a0cb-41d7-9e31-44be38c50859",
         "type": "Annotation",
         "body": [
             {
@@ -48598,7 +48598,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/2db21f59-520a-43e9-b21f-2809e96cc3e7",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0cbf8956-8fec-4908-827e-6c3d427eeca7",
         "type": "Annotation",
         "body": [
             {
@@ -48664,7 +48664,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f62380a7-b76b-4296-bfbd-bf72f1b74326",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c8cf4a00-93aa-470a-ae78-a627f099e7a2",
         "type": "Annotation",
         "body": [
             {
@@ -53455,7 +53455,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/86d64faa-2d36-4282-9a34-5339385c5b66",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/fc79476f-c1a6-4ab2-8030-805bc5da4a16",
         "type": "Annotation",
         "body": [
             {
@@ -54817,7 +54817,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5220c187-ff77-474d-8aa8-4a4987a7349e",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b69c68d6-71c7-484b-a46e-6044206727c6",
         "type": "Annotation",
         "body": [
             {
@@ -54939,7 +54939,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d134853d-2fa5-45b1-9b6f-e242ae3163c7",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/24a2cb45-f9cb-44df-9425-4a8f1b895768",
         "type": "Annotation",
         "body": [
             {
@@ -55079,7 +55079,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b6ef2383-eb82-4e81-91d6-e20345b87e38",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0e556c86-210f-4383-8561-ff286b87a55b",
         "type": "Annotation",
         "body": [
             {
@@ -55112,7 +55112,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d2b24270-c207-4e34-b87d-b56c2cf782f3",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6c73d2a0-76fd-4e96-8bca-4c2285298ec5",
         "type": "Annotation",
         "body": [
             {
@@ -55145,7 +55145,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e4d8c00b-8536-40e1-b558-69a40efdc713",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c98c01dd-cc7f-4cec-8e58-32c45184d8d6",
         "type": "Annotation",
         "body": [
             {
@@ -55211,7 +55211,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/9a32abeb-b02b-4c69-8f9b-deed015708ef",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8cc280a3-d078-44b1-93da-395a9ad092fa",
         "type": "Annotation",
         "body": [
             {
@@ -55244,7 +55244,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/07c4ae44-14ad-4141-be32-10449ea3da1b",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ebface46-06f5-4adb-b5ad-fdd9885735cc",
         "type": "Annotation",
         "body": [
             {
@@ -55277,7 +55277,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/2f3f725b-f299-44c1-88c6-bc7a6ef2e6ee",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1d8c5375-5783-49f4-be06-f0deef2c5d02",
         "type": "Annotation",
         "body": [
             {
@@ -55351,7 +55351,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7d8f080c-cfcb-4f45-9b19-134d69b3980d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ec8ae60d-5a5f-41e8-b120-a96c068a3b46",
         "type": "Annotation",
         "body": [
             {
@@ -55417,7 +55417,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/cba92e12-65fa-4356-b8c8-18dd80b9972c",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ebe6a6a8-b989-451a-aca7-815b5e0aa90e",
         "type": "Annotation",
         "body": [
             {
@@ -55483,7 +55483,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/1262f1fd-26ec-4e4e-99a3-8d7dda17ce71",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7adc76ea-d974-41bc-9cb3-35d56e01f434",
         "type": "Annotation",
         "body": [
             {
@@ -55844,7 +55844,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3ca7228b-bcc6-49a2-a9f3-a0f8cb84f450",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b9efd4a9-44df-4416-8758-9c4aa017cf46",
         "type": "Annotation",
         "body": [
             {
@@ -56420,7 +56420,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/baca23b3-268f-4c75-8d98-60701274d6df",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/37ecdc67-f5ab-4993-a602-92f5d053b1c2",
         "type": "Annotation",
         "body": [
             {
@@ -56682,7 +56682,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ad6e913e-c199-4307-8b88-4825a9631a7e",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5df58ad8-327f-4987-b534-f69c14ff5295",
         "type": "Annotation",
         "body": [
             {
@@ -56748,7 +56748,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3d16339d-bdfc-40fb-bea8-d9f7f9ae84d2",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b73397e6-ffa6-4227-a569-ed4b6471745e",
         "type": "Annotation",
         "body": [
             {
@@ -56781,7 +56781,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0235f5fa-0afa-4569-9d27-7275f1d06dc8",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/52daf5bd-c81f-433d-b1fd-fa0b8940d306",
         "type": "Annotation",
         "body": [
             {
@@ -57003,7 +57003,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/bc57224e-b001-4d4c-8726-b634c7f51984",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/88a3ff0c-f484-465b-9030-6208769b10d3",
         "type": "Annotation",
         "body": [
             {
@@ -57192,7 +57192,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/15c53bc5-ea2d-46bd-a2fe-ef5e5b8c79d1",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e236e59b-2bc9-46f5-83f6-89ebf23c47d5",
         "type": "Annotation",
         "body": [
             {
@@ -57348,7 +57348,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7dd971b4-a0df-4f62-983e-27e131f813b0",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8251be34-3018-426d-9a12-c8208eab8043",
         "type": "Annotation",
         "body": [
             {
@@ -57816,7 +57816,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7060a189-043f-43aa-a841-0704cb3f5a71",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e028ecf7-8fde-46f5-8ac6-cfcad5a06119",
         "type": "Annotation",
         "body": [
             {
@@ -58900,7 +58900,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/37bcdf1f-d336-4163-9504-f546ebc9e55d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/26ba497c-eb23-4b39-9fd8-9429dfbbc313",
         "type": "Annotation",
         "body": [
             {
@@ -58933,7 +58933,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/47c53266-7a34-44a2-8238-b14d9b656c46",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/841176f9-13f5-43d8-be90-7bbbd71380e6",
         "type": "Annotation",
         "body": [
             {
@@ -59104,7 +59104,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c57978fb-f1e4-4f4b-84f4-b64218a5a7df",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8229fd99-4986-4002-92d2-32d4c58cf911",
         "type": "Annotation",
         "body": [
             {
@@ -59203,7 +59203,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/fc1030e9-674e-4eba-b9ff-48ff8c037fb9",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/bfdd48bb-074e-4d7c-9868-35bd43079021",
         "type": "Annotation",
         "body": [
             {
@@ -59236,7 +59236,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/bcf395da-b171-44a2-b221-a8cb84cdfccf",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/cfcef3aa-7a6a-42c9-b991-4b662b8e3d4b",
         "type": "Annotation",
         "body": [
             {
@@ -59317,7 +59317,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8038bcb6-459d-4feb-9187-5a79ce689463",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8743caf8-a706-43dc-bbfc-9a1f284c4e51",
         "type": "Annotation",
         "body": [
             {
@@ -59391,7 +59391,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8393fabb-8820-4cda-8a07-04d4d06eaf1f",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c4a2977b-654d-4e31-9cfa-b58810d66c36",
         "type": "Annotation",
         "body": [
             {
@@ -59424,7 +59424,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/cb32854d-42a3-45f7-b14d-e61d5593af90",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/570ae1f5-2323-4f92-8aa8-1300da126f6f",
         "type": "Annotation",
         "body": [
             {
@@ -59579,7 +59579,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6a1a7bd4-0830-462f-af5f-35b24414801c",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/015ecbac-d548-49db-9b90-e0ad5be1b4c4",
         "type": "Annotation",
         "body": [
             {
@@ -59735,7 +59735,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e5731add-88d3-4de5-8ffd-333a893cff76",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7bb60c0a-6e2e-4e2e-b685-c4667b6e1f4c",
         "type": "Annotation",
         "body": [
             {
@@ -59850,7 +59850,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ff22d9ef-8076-4409-b6f9-3c40cf1d8c49",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/158a8cef-055e-40be-ace1-02ae6515016a",
         "type": "Annotation",
         "body": [
             {
@@ -59883,7 +59883,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3eec81a2-9a22-48f1-8d68-7a783c6ad93e",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d2ae6c3f-34af-46bf-86df-c79f2925640c",
         "type": "Annotation",
         "body": [
             {
@@ -59916,7 +59916,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7f80f22a-cab9-40e1-b969-f4d901ddcbf1",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/737f29cc-31d1-4f75-970d-f0610784e0f6",
         "type": "Annotation",
         "body": [
             {
@@ -59949,7 +59949,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a7eaecce-4419-45b1-a085-1b70bf9cd907",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/8f8c2afa-751c-40f7-b930-9626ca570736",
         "type": "Annotation",
         "body": [
             {
@@ -60064,7 +60064,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5ae2f1f9-cbfb-4fe2-b8c9-32ee0eb066be",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c093412d-b4d7-47fe-bd34-48da96734a06",
         "type": "Annotation",
         "body": [
             {
@@ -60505,7 +60505,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f59e3c43-8df2-42d1-8713-9b8ec1964253",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e6a01d9e-6115-4b29-be60-ba30105e251b",
         "type": "Annotation",
         "body": [
             {
@@ -60702,7 +60702,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/228dbc85-a869-4bff-aa6a-10093e475a76",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e81e3cf2-fc92-4308-b83e-214d8e9498b4",
         "type": "Annotation",
         "body": [
             {
@@ -60809,7 +60809,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/aeed1404-1928-496b-b49a-f210e8c8a997",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e7a34ce8-5fe8-4923-9241-0fb86b37dcf6",
         "type": "Annotation",
         "body": [
             {
@@ -60842,7 +60842,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/966b8bbc-8b70-4108-bcb5-4895dc085db4",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c5df80af-e345-4f3c-94f6-433ab01f72e6",
         "type": "Annotation",
         "body": [
             {
@@ -61079,7 +61079,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/7ae92307-5281-41e4-92b1-bda39c902753",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0f529ad3-5672-4a85-8486-5c8f46f515f8",
         "type": "Annotation",
         "body": [
             {
@@ -61112,7 +61112,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3419777a-f646-45a4-8921-3f02ff235075",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/16112afa-e2df-409a-8979-1f08c2be505b",
         "type": "Annotation",
         "body": [
             {
@@ -61145,7 +61145,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f0ce4f48-b18d-4e9b-9249-09a6d6b8b28d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6434911e-4fa4-46ff-bd01-b2ac51727950",
         "type": "Annotation",
         "body": [
             {
@@ -61375,7 +61375,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3368d6a5-d2fe-4c16-9a88-b34b74f9f732",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/71b5ffe9-a049-4797-acc2-894e3192f702",
         "type": "Annotation",
         "body": [
             {
@@ -61474,7 +61474,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/285dfd8e-d224-4f42-a830-84b8c80ef3f5",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/86249e02-2b46-413a-b8de-351ab7961b17",
         "type": "Annotation",
         "body": [
             {
@@ -61548,7 +61548,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/888fb34f-88d6-465a-ab1b-d914dd3d520b",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/293368ee-b575-435f-a56f-c27c24a0a89f",
         "type": "Annotation",
         "body": [
             {
@@ -61785,7 +61785,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/dc5bed63-979e-49d3-b055-ede7beef0b85",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ec25fea8-0204-46c3-ac37-c4912dbbb12f",
         "type": "Annotation",
         "body": [
             {
@@ -61851,7 +61851,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c2c5f613-318a-457d-8909-57819165ad3c",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/856361e9-e57f-4147-b8aa-289841ec9057",
         "type": "Annotation",
         "body": [
             {
@@ -62081,7 +62081,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d5bd6ed9-2baa-4282-b7d0-c831582a03b2",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/96c24189-5362-4f9f-a349-2b40570ad2b7",
         "type": "Annotation",
         "body": [
             {
@@ -62114,7 +62114,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ff8ee281-6b1d-491a-b28f-d690b8cd5e3d",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/05407cae-33ed-45c6-af08-5cc576eb3694",
         "type": "Annotation",
         "body": [
             {
@@ -62558,7 +62558,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b57cb5cb-5508-4fc5-ae0a-1b8b19ffb706",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3d8a705a-67cc-411d-b188-fa5d95a58bd4",
         "type": "Annotation",
         "body": [
             {
@@ -62780,7 +62780,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c625e02d-a41f-482c-8405-4f38f318cdf3",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/20e92c86-dfec-401f-95cc-fe418f01141d",
         "type": "Annotation",
         "body": [
             {
@@ -62813,7 +62813,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0c131895-bcb3-48f0-aadb-80207c3b0900",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6cc09c94-8af3-454e-9c0e-28588e2302bd",
         "type": "Annotation",
         "body": [
             {
@@ -63009,7 +63009,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/132bf7bb-1345-4cf2-bad6-fc5800f6dbb7",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/667ce044-5010-4feb-984d-e01bea46f0af",
         "type": "Annotation",
         "body": [
             {
@@ -63264,7 +63264,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/fbbb11f9-cc46-40ff-8b46-3248680f9023",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/48d59124-1a0d-49fc-b5f7-fd8de374ace0",
         "type": "Annotation",
         "body": [
             {
@@ -65283,7 +65283,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/6d445aae-4930-494b-a108-eac1465759d2",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/cc2346cb-a54e-4e64-b6b4-11a4ae603af1",
         "type": "Annotation",
         "body": [
             {
@@ -68952,7 +68952,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4e2e5aa4-29c7-41b9-b045-c2dfe2e52722",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/88246bcc-852c-4789-803f-e81821acb3b5",
         "type": "Annotation",
         "body": [
             {
@@ -70701,7 +70701,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/47d8a92c-ad84-4c77-812f-52b8ba219f5b",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/87ef607c-d14e-43d0-a5b3-eb5954fcd52d",
         "type": "Annotation",
         "body": [
             {
@@ -90821,7 +90821,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3ccbf0de-979a-48cd-ad51-68d5a8c2f452",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4cdef674-b5c2-4a2d-aee6-afbd87f20403",
         "type": "Annotation",
         "body": [
             {
@@ -90895,7 +90895,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/16b03136-3c80-4714-97fc-7f55a5f251d0",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/20ce1315-e239-4ac2-89a1-745b4d2f5991",
         "type": "Annotation",
         "body": [
             {
@@ -91002,7 +91002,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c55d1b74-a6f5-4977-a060-ad95c9e61673",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a38df5e3-07c7-4a96-be72-390653b86e72",
         "type": "Annotation",
         "body": [
             {

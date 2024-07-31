@@ -179,32 +179,15 @@ regiontype2resource = {
 }
 
 
-def getSVG(
-    coordinates,
-    color="#BD0032",
-    opacity="0.1",
-    stroke_width="1",
-    stroke_color="#BD0032",
-):
+def getSVG(coordinates):
 
-    points = "M "  # start at this point
-    points += " L ".join(
-        [f"{int(x)},{int(y)}" for x, y in coordinates]
-    )  # then move from point to point
-    points += " Z"  # close
+    points = [f"{int(x)},{int(y)}" for x, y in coordinates + [coordinates[0]]]
 
     svg = etree.Element("svg", xmlns="http://www.w3.org/2000/svg")
     _ = etree.SubElement(
         svg,
-        "path",
-        **{
-            "fill-rule": "evenodd",
-            "fill": color,
-            "stroke": stroke_color,
-            "stroke-width": stroke_width,
-            "fill-opacity": opacity,
-            "d": points,
-        },
+        "polygon",
+        points=" ".join(points),
     )
 
     return etree.tostring(svg, encoding=str)
@@ -908,7 +891,7 @@ def main():
             a,
             df_annotation_identifiers,
             diaryname2fileprefix,
-            skip_tags=("add", "unclear", "blackening", "speech", "gap", "sic"),
+            # skip_tags=("add", "unclear", "blackening", "speech", "gap", "sic"),
         )
         new_entity_annotations.append(a)
 
