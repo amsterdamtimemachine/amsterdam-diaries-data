@@ -100,6 +100,10 @@ def generate_concept_metadata(csv_concepts):
                 "type": "@type",
                 "label": "http://www.w3.org/2000/01/rdf-schema#label",
                 "@vocab": "http://www.w3.org/2004/02/skos/core#",
+                "depiction": {
+                    "@id": "http://xmlns.com/foaf/0.1/depiction",
+                    "@type": "@id",
+                },
             },
             "id": r.uri,
             "type": "Concept",
@@ -122,6 +126,9 @@ def generate_concept_metadata(csv_concepts):
 
         if not pd.isna(r.broader):
             concept["broader"] = r.broader
+
+        if not pd.isna(r.depiction):
+            concept["depiction"] = r.depiction
 
         resources.append(concept)
 
