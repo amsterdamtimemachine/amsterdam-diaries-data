@@ -391,11 +391,16 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
                 "name": r["deathPlace_name"],
             }
 
+        if not pd.isna(r["image"]):
+            person["image"] = {
+                "@id": r["image"],
+                "type": "ImageObject",
+                "contentUrl": r["image"] + "/full/max/0/default.jpg",
+                "thumbnailUrl": r["image"] + "/full/96,/0/default.jpg",
+            }
+
         if not pd.isna(r["description"]):
             person["description"] = r["description"]
-
-        if not pd.isna(r["image"]):
-            person["image"] = r["image"]
 
         # if not pd.isna(r["image_other"]):
         #     person["image_other"] = r["image_other"]
