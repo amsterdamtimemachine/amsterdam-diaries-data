@@ -23,6 +23,7 @@ ANNOTATION_IDENTIFIERS = "data/annotations_linking.csv"
 
 body2length = dict()
 
+region2line_annotation = defaultdict(list)
 region2textualbody = defaultdict(list)
 diary2scan = defaultdict(list)
 
@@ -281,12 +282,12 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
         ].iterrows():
 
             # Regions
-            regiontargets = []
-            textualbodies = []
+            region_annotations = []
+            line_annotations = []
             for region in e["regions"].split("\n"):
                 region = f"{PREFIX}annotations/regions/{region.replace('.xml ', '/')}"  # the space after .xml is important
-                regiontargets.append(region + "-target")
-                textualbodies += region2textualbody[region]
+                region_annotations.append(region)
+                line_annotations += region2line_annotation[region]
 
             # Entry
             entry = {
@@ -305,7 +306,7 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
                     "@id": book["@id"],
                     "@type": "Book",
                 },  # shallow
-                "text": textualbodies,
+                "text": line_annotations,
             }
 
             entries.append({"@id": entry["@id"], "@type": entry["@type"]})
@@ -352,7 +353,7 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
                 "type": "Annotation",
                 "body": [entry],
                 # "target": {"type": "oa:List", "items": regiontargets},
-                "target": regiontargets,
+                "target": region_annotations,
             }
 
             resources.append(entry_annotation)
@@ -414,6 +415,7 @@ def parse_pagexml(
     diary,
     pagexml_file_path,
     region2textualbody=region2textualbody,
+    region2line_annotation=region2line_annotation,
     diary2scan=diary2scan,
     body2length=body2length,
 ):
@@ -507,6 +509,7 @@ def parse_pagexml(
                 body2length[body_id] = 0
 
             if "empty" not in line_id:
+                region2line_annotation[region_id].append(line_id)
                 region2textualbody[region_id].append(body_id)
 
             line_annotation = {
@@ -839,7 +842,12 @@ def main():
                 filepath = os.path.join(page_xml_path, file)
 
                 textual_annotations += parse_pagexml(
-                    diary, filepath, region2textualbody, diary2scan, body2length
+                    diary,
+                    filepath,
+                    region2textualbody,
+                    region2line_annotation,
+                    diary2scan,
+                    body2length,
                 )
 
     with open("rdf/textual_annotations.jsonld", "w") as outfile:
