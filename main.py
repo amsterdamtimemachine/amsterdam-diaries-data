@@ -12,7 +12,7 @@ import pandas as pd
 
 # FOLDER = "data/"
 PREFIX = "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/"
-IIIF_PREFIX = "https://images.diaries.amsterdamtimemachine.nl/iiif/"
+IIIF_PREFIX = "https://images.diaries.amsterdamtimemachine.nl/iiif/test/"
 
 METADATA_DIARIES = "data/metadata_diaries.csv"
 METADATA_ENTRIES = "data/metadata_entries.csv"
