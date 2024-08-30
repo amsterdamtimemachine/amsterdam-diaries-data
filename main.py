@@ -306,6 +306,7 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
                 },
                 "@id": f"{PREFIX}annotations/entries/{e.identifier}",
                 "@type": "Manuscript",
+                "hasPart": region_annotations,
                 "isPartOf": {
                     "@id": book["@id"],
                     "@type": "Book",
