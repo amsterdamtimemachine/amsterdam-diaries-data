@@ -5,8 +5,8 @@
             "type": "@type",
             "label": "http://www.w3.org/2000/01/rdf-schema#label",
             "@vocab": "http://www.w3.org/2004/02/skos/core#",
-            "depiction": {
-                "@id": "http://xmlns.com/foaf/0.1/depiction",
+            "image": {
+                "@id": "https://schema.org/image",
                 "@type": "@id"
             }
         },
