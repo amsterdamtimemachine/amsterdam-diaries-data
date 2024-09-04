@@ -1,1 +1,468 @@
-[]
+[
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://adamlink.nl/geo/street/rozenstraat/3901",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://archief.amsterdam/indexen/deeds/985333e5-6e80-56a3-e053-b784100ade19?person=985333e5-6e81-56a3-e053-b784100ade19",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://adamlink.nl/geo/street/roelof-hartplein/3856",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://adamlink.nl/geo/street/gerrit-van-der-veenstraat/1497",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://archief.amsterdam/indexen/deeds/12251b6e-2f8f-4018-bf57-48e86923842a?person=98533436-f496-56a3-e053-b784100ade19",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://archief.amsterdam/indexen/deeds/985333df-c5af-56a3-e053-b784100ade19?person=985333df-c5b0-56a3-e053-b784100ade19",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://archief.amsterdam/indexen/deeds/98533402-55ea-56a3-e053-b784100ade19?person=98533402-55eb-56a3-e053-b784100ade19",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q1019527",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q966898",
+        "@type": "Organization"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q701",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q124987744",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q124991822",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q124972258",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://adamlink.nl/geo/building/koninklijk-concertgebouw/30",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q727",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://archief.amsterdam/indexen/deeds/98533409-e081-56a3-e053-b784100ade19?person=98533409-e082-56a3-e053-b784100ade19",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q64",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://archief.amsterdam/indexen/deeds/985333ea-3ba5-56a3-e053-b784100ade19?person=985333ea-3ba6-56a3-e053-b784100ade19",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://archief.amsterdam/indexen/deeds/9853345b-a55c-56a3-e053-b784100ade19?person=9853345b-a55d-56a3-e053-b784100ade19",
+        "@type": "Person",
+        "description": "https://www.geni.com/people/Dr-Peter-Laqueur/4760570525790120365"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://archief.amsterdam/indexen/deeds/98533449-dc3a-56a3-e053-b784100ade19?person=98533449-dc3b-56a3-e053-b784100ade19",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q183",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q34370",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q352",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q690",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q36600",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q9920",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://adamlink.nl/geo/building/centraal-station/1208",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://adamlink.nl/geo/street/damrak/882",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "https://adamlink.nl/geo/street/dam/880",
+        "@type": "Place"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q223183",
+        "@type": "Person"
+    },
+    {
+        "@context": {
+            "@vocab": "https://schema.org/",
+            "latitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/latitude"
+            },
+            "longitude": {
+                "@type": "http://www.w3.org/2001/XMLSchema#double",
+                "@id": "https://schema.org/longitude"
+            }
+        },
+        "@id": "http://www.wikidata.org/entity/Q36704",
+        "@type": "Place"
+    }
+]

@@ -1,5 +1,372 @@
 [
     {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            {
+                "target": {
+                    "@id": "oa:hasTarget",
+                    "@type": "@id",
+                    "@container": "@list"
+                }
+            }
+        ],
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test1-annotation",
+        "motivation": "classifying",
+        "type": "Annotation",
+        "body": [
+            {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "text": {
+                        "@id": "https://schema.org/text",
+                        "@type": "@id",
+                        "@container": "@list"
+                    },
+                    "name": "https://schema.org/name"
+                },
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test1",
+                "@type": "Manuscript",
+                "hasPart": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_11",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_46",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_56",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_2",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_131"
+                ],
+                "isPartOf": {
+                    "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/0",
+                    "@type": "Book"
+                },
+                "text": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_11-l_33",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_56-l_110",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_56-l_121",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_2-l_149",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_2-l_130",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_131-l_254",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_131-l_389",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_131-l_510",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_131-l_577",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_131-l_669"
+                ],
+                "name": "Woensdag 5 April. 1944.",
+                "dateCreated": {
+                    "@type": "http://www.w3.org/2001/XMLSchema#date",
+                    "@value": "1944-04-05"
+                }
+            }
+        ],
+        "target": [
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_11",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_46",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_56",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_2",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_131"
+        ]
+    },
+    {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            {
+                "target": {
+                    "@id": "oa:hasTarget",
+                    "@type": "@id",
+                    "@container": "@list"
+                }
+            }
+        ],
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test2-annotation",
+        "motivation": "classifying",
+        "type": "Annotation",
+        "body": [
+            {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "text": {
+                        "@id": "https://schema.org/text",
+                        "@type": "@id",
+                        "@container": "@list"
+                    },
+                    "name": "https://schema.org/name"
+                },
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test2",
+                "@type": "Manuscript",
+                "hasPart": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_140",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15"
+                ],
+                "isPartOf": {
+                    "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/0",
+                    "@type": "Book"
+                },
+                "text": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_140-l_270",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670-l_757",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670-l_863",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670-l_942",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670-l_1048",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670-l_1140",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670-l_1246",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670-l_1283",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670-l_1362",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15-l_111",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15-l_203",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15-l_295",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15-l_416",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15-l_522",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15-l_628",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15-l_707",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15-l_786",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15-l_815"
+                ],
+                "name": "25-3-'41.",
+                "dateCreated": {
+                    "@type": "http://www.w3.org/2001/XMLSchema#date",
+                    "@value": "1941-03-25"
+                }
+            }
+        ],
+        "target": [
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_140",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_670",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_15"
+        ]
+    },
+    {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            {
+                "target": {
+                    "@id": "oa:hasTarget",
+                    "@type": "@id",
+                    "@container": "@list"
+                }
+            }
+        ],
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test3-annotation",
+        "motivation": "classifying",
+        "type": "Annotation",
+        "body": [
+            {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "text": {
+                        "@id": "https://schema.org/text",
+                        "@type": "@id",
+                        "@container": "@list"
+                    },
+                    "name": "https://schema.org/name"
+                },
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test3",
+                "@type": "Manuscript",
+                "hasPart": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_817",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_864",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_1338",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_905",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_867",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_3",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_7",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r"
+                ],
+                "isPartOf": {
+                    "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/0",
+                    "@type": "Book"
+                },
+                "text": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_817-l_854",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_905-l_1281",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_905-l_1337",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_3-l_102",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_3-l_208",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_3-l_329",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_3-l_340",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_3-l_407",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_3-l_486",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_3-l_592",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r-l",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r-l_199",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r-l_353",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r-l_474",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r-l_628",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r-l_734",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r-l_855",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r-l_934"
+                ],
+                "name": "Zondag 14 mei 1944.",
+                "dateCreated": {
+                    "@type": "http://www.w3.org/2001/XMLSchema#date",
+                    "@value": "1944-05-14"
+                }
+            }
+        ],
+        "target": [
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_817",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_864",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_1338",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_905",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_867",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_001/r_3",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_7",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r"
+        ]
+    },
+    {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            {
+                "target": {
+                    "@id": "oa:hasTarget",
+                    "@type": "@id",
+                    "@container": "@list"
+                }
+            }
+        ],
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test4-annotation",
+        "motivation": "classifying",
+        "type": "Annotation",
+        "body": [
+            {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "text": {
+                        "@id": "https://schema.org/text",
+                        "@type": "@id",
+                        "@container": "@list"
+                    },
+                    "name": "https://schema.org/name"
+                },
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test4",
+                "@type": "Manuscript",
+                "hasPart": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_8",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_10",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_12",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1028",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1970"
+                ],
+                "isPartOf": {
+                    "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/0",
+                    "@type": "Book"
+                },
+                "text": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_8-l_980",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_12-l_1026",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1123",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1202",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1308",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1400",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1467",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1546",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1638",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1717",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1854",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034-l_1946",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_2132",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_2323",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_2555",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_2622",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_2743",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_2849",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_2986",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3092",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3229",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3335",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3456",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3535",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3614",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3749",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3771",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3850",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3929",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948-l_3940"
+                ],
+                "name": "Vrijdag 30 juni 1944.",
+                "dateCreated": {
+                    "@type": "http://www.w3.org/2001/XMLSchema#date",
+                    "@value": "1944-06-30"
+                }
+            }
+        ],
+        "target": [
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_8",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_10",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_12",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1028",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1034",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1948",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_1970"
+        ]
+    },
+    {
+        "@context": [
+            "http://www.w3.org/ns/anno.jsonld",
+            {
+                "target": {
+                    "@id": "oa:hasTarget",
+                    "@type": "@id",
+                    "@container": "@list"
+                }
+            }
+        ],
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test5-annotation",
+        "motivation": "classifying",
+        "type": "Annotation",
+        "body": [
+            {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "text": {
+                        "@id": "https://schema.org/text",
+                        "@type": "@id",
+                        "@container": "@list"
+                    },
+                    "name": "https://schema.org/name"
+                },
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test5",
+                "@type": "Manuscript",
+                "hasPart": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_3941",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_3975",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4013",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4022",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4023",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4136",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4137",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4138"
+                ],
+                "isPartOf": {
+                    "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/0",
+                    "@type": "Book"
+                },
+                "text": [
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_3941-l_3974",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_3975-l_4004",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4022-l_4106",
+                    "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4022-l_4135"
+                ],
+                "name": "Zondag 27 Aug. 1944.",
+                "dateCreated": {
+                    "@type": "http://www.w3.org/2001/XMLSchema#date",
+                    "@value": "1944-08-27"
+                }
+            }
+        ],
+        "target": [
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_3941",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_3975",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4013",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4022",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4023",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4136",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4137",
+            "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0002_002/r_4138"
+        ]
+    },
+    {
         "@context": {
             "@vocab": "https://schema.org/",
             "sameAs": {
@@ -45,7 +412,28 @@
                 "name": "Atria"
             }
         },
-        "hasPart": [],
+        "hasPart": [
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test1",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test2",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test3",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test4",
+                "@type": "Manuscript"
+            },
+            {
+                "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/entries/test5",
+                "@type": "Manuscript"
+            }
+        ],
         "description": "Dagboek van Toby Vos, geschreven te Amsterdam, 26-27 jaar, betreffende de oorlog en haar buren, 1944-1945. Tijdens de oorlog was Toby als koerierster actief in het verzet (Paroolgroep). Het dagboek is geillustreerd met tekeningen.",
         "temporalCoverage": "1944/1945",
         "dateCreated": "1944-06-01",
