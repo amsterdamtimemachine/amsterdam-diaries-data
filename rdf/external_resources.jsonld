@@ -12,7 +12,13 @@
             }
         },
         "@id": "https://adamlink.nl/geo/street/rozenstraat/3901",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Rozenstraat",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.37242,
+            "longitude": 4.879634
+        }
     },
     {
         "@context": {
@@ -42,7 +48,13 @@
             }
         },
         "@id": "https://adamlink.nl/geo/street/roelof-hartplein/3856",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Roelof Hartplein",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.353031,
+            "longitude": 4.882458
+        }
     },
     {
         "@context": {
@@ -57,7 +69,13 @@
             }
         },
         "@id": "https://adamlink.nl/geo/street/gerrit-van-der-veenstraat/1497",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Gerrit van der Veenstraat",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.348888,
+            "longitude": 4.874659
+        }
     },
     {
         "@context": {
@@ -117,7 +135,14 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q1019527",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Reuver",
+        "description": "dorp in de Limburgse gemeente Beesel, Nederland",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.285,
+            "longitude": 6.079167
+        }
     },
     {
         "@context": {
@@ -132,7 +157,9 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q966898",
-        "@type": "Organization"
+        "@type": "Organization",
+        "name": "Algemeen Nederlands Persbureau",
+        "description": "grootste Nederlandse persbureau"
     },
     {
         "@context": {
@@ -147,7 +174,14 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q701",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Noord-Holland",
+        "description": "provincie van Nederland",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.666667,
+            "longitude": 4.833333
+        }
     },
     {
         "@context": {
@@ -177,7 +211,8 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q124991822",
-        "@type": "Person"
+        "@type": "Person",
+        "name": "Cornelia Hennekam"
     },
     {
         "@context": {
@@ -207,7 +242,13 @@
             }
         },
         "@id": "https://adamlink.nl/geo/building/koninklijk-concertgebouw/30",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Koninklijk Concertgebouw",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.356244,
+            "longitude": 4.879046
+        }
     },
     {
         "@context": {
@@ -222,7 +263,14 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q727",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Amsterdam",
+        "description": "hoofdstad van Nederland, stad in Noord-Holland",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.372778,
+            "longitude": 4.893611
+        }
     },
     {
         "@context": {
@@ -252,7 +300,14 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q64",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Berlijn",
+        "description": "hoofdstad en deelstaat van Duitsland",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.516667,
+            "longitude": 13.383333
+        }
     },
     {
         "@context": {
@@ -282,8 +337,7 @@
             }
         },
         "@id": "https://archief.amsterdam/indexen/deeds/9853345b-a55c-56a3-e053-b784100ade19?person=9853345b-a55d-56a3-e053-b784100ade19",
-        "@type": "Person",
-        "description": "https://www.geni.com/people/Dr-Peter-Laqueur/4760570525790120365"
+        "@type": "Person"
     },
     {
         "@context": {
@@ -313,7 +367,14 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q183",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Duitsland",
+        "description": "land in West- en Centraal-Europa",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.0,
+            "longitude": 10.0
+        }
     },
     {
         "@context": {
@@ -328,7 +389,14 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q34370",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Rotterdam",
+        "description": "havenstad in Zuid-Holland, Nederland",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.92,
+            "longitude": 4.48
+        }
     },
     {
         "@context": {
@@ -343,7 +411,9 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q352",
-        "@type": "Person"
+        "@type": "Person",
+        "name": "Adolf Hitler",
+        "description": "dictator van nazi-Duitsland (1889\u20131945)"
     },
     {
         "@context": {
@@ -358,7 +428,14 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q690",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Delft",
+        "description": "stad en gemeente in Zuid-Holland, Nederland",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.011667,
+            "longitude": 4.359167
+        }
     },
     {
         "@context": {
@@ -373,7 +450,14 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q36600",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Den Haag",
+        "description": "stad en gemeente in Zuid-Holland, Nederland",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.08,
+            "longitude": 4.31
+        }
     },
     {
         "@context": {
@@ -388,7 +472,14 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q9920",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Haarlem",
+        "description": "stad en gemeente in Noord-Holland, Nederland",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.380278,
+            "longitude": 4.640556
+        }
     },
     {
         "@context": {
@@ -403,7 +494,13 @@
             }
         },
         "@id": "https://adamlink.nl/geo/building/centraal-station/1208",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Centraal Station",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.378889,
+            "longitude": 4.900556
+        }
     },
     {
         "@context": {
@@ -418,7 +515,13 @@
             }
         },
         "@id": "https://adamlink.nl/geo/street/damrak/882",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Damrak",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.375347,
+            "longitude": 4.896011
+        }
     },
     {
         "@context": {
@@ -433,7 +536,13 @@
             }
         },
         "@id": "https://adamlink.nl/geo/street/dam/880",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Dam",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.37297,
+            "longitude": 4.893053
+        }
     },
     {
         "@context": {
@@ -448,7 +557,9 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q223183",
-        "@type": "Person"
+        "@type": "Person",
+        "name": "Peter II van Joegoslavi\u00eb",
+        "description": "koning van Joegoslavi\u00eb van 1934 tot 1945 (1923-1970)"
     },
     {
         "@context": {
@@ -463,6 +574,13 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q36704",
-        "@type": "Place"
+        "@type": "Place",
+        "name": "Joegoslavi\u00eb",
+        "description": "tussen 1918 en 2003 de naam van meerdere opeenvolgende staten in Zuid-Europa op de Balkan. De hoofdstad was telkens Belgrado",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.820556,
+            "longitude": 20.462222
+        }
     }
 ]
