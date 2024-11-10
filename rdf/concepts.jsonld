@@ -12,15 +12,246 @@
         },
         "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_food",
         "type": "Concept",
-        "label": "Etenswaren",
+        "label": "Eten en drinken",
         "prefLabel": {
             "@language": "nl",
-            "@value": "Etenswaren"
+            "@value": "Eten en drinken"
         },
         "notation": "atm_food",
+        "altLabel": [
+            "Etenswaar",
+            "Eten",
+            "Voedsel",
+            "Drinken",
+            "Drank",
+            "Maaltijd",
+            "Spijs",
+            "Voeding",
+            "Voedingsmiddelen",
+            "Maal"
+        ],
+        "definition": "Eten en drinken zijn een belangrijk thema in de oorlogsdagboeken. Tijdens de oorlog is voedsel erg schaars, etenswaren gaan op de bon, er wordt gesmokkeld en tijdens de hongerwinter trekken vele Amsterdammers naar het platteland op zoek naar eten. Tegelijkertijd zorgt eten ook voor kleine momentjes van geluk en kan het gedeeld worden met vrienden en familie.",
         "closeMatch": [
             "http://vocab.getty.edu/aat/300254496",
             "http://data.beeldengeluid.nl/gtaa/217707"
-        ]
+        ],
+        "image": {
+            "type": "ImageObject",
+            "contentUrl": "https://archief.amsterdam/beeldbank/detail/645474ee-34f1-6de6-e9f1-bc3fc6ed87bd/full/max/0/default.jpg",
+            "thumbnailUrl": "https://archief.amsterdam/beeldbank/detail/645474ee-34f1-6de6-e9f1-bc3fc6ed87bd/full/,250/0/default.jpg"
+        }
+    },
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id"
+            }
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_home",
+        "type": "Concept",
+        "label": "Thuis",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Thuis"
+        },
+        "notation": "atm_home",
+        "altLabel": [
+            "Wonen"
+        ],
+        "image": {
+            "type": "ImageObject",
+            "contentUrl": "https://archief.amsterdam/beeldbank/detail/d5c62dee-ac82-35f7-12fe-fd4a8a4edc73/full/max/0/default.jpg",
+            "thumbnailUrl": "https://archief.amsterdam/beeldbank/detail/d5c62dee-ac82-35f7-12fe-fd4a8a4edc73/full/,250/0/default.jpg"
+        }
+    },
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id"
+            }
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_out",
+        "type": "Concept",
+        "label": "Op stap",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Op stap"
+        },
+        "notation": "atm_out"
+    },
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id"
+            }
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_news",
+        "type": "Concept",
+        "label": "Nieuwtjes",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Nieuwtjes"
+        },
+        "notation": "atm_news",
+        "image": {
+            "type": "ImageObject",
+            "contentUrl": "https://archief.amsterdam/beeldbank/detail/abade54e-4934-7a90-f626-7402a7931635/full/max/0/default.jpg",
+            "thumbnailUrl": "https://archief.amsterdam/beeldbank/detail/abade54e-4934-7a90-f626-7402a7931635/full/,250/0/default.jpg"
+        }
+    },
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id"
+            }
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_love",
+        "type": "Concept",
+        "label": "Liefde",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Liefde"
+        },
+        "notation": "atm_love"
+    },
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id"
+            }
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm-occupation",
+        "type": "Concept",
+        "label": "Bezettingsmaatregelen",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Bezettingsmaatregelen"
+        },
+        "notation": "atm_occupation",
+        "image": {
+            "type": "ImageObject",
+            "contentUrl": "https://archief.amsterdam/beeldbank/detail/51662957-52a8-dcec-aa9f-d4c520ffb226/full/max/0/default.jpg",
+            "thumbnailUrl": "https://archief.amsterdam/beeldbank/detail/51662957-52a8-dcec-aa9f-d4c520ffb226/full/,250/0/default.jpg"
+        }
+    },
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id"
+            }
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_shoah",
+        "type": "Concept",
+        "label": "Jodenvervolging",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Jodenvervolging"
+        },
+        "notation": "atm_shoah",
+        "image": {
+            "type": "ImageObject",
+            "contentUrl": "https://archief.amsterdam/beeldbank/detail/7224ad04-bd1d-696c-fd6d-619a1443f9a7/full/max/0/default.jpg",
+            "thumbnailUrl": "https://archief.amsterdam/beeldbank/detail/7224ad04-bd1d-696c-fd6d-619a1443f9a7/full/,250/0/default.jpg"
+        }
+    },
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id"
+            }
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_transport",
+        "type": "Concept",
+        "label": "Mobiliteit",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Mobiliteit"
+        },
+        "notation": "atm_transport",
+        "image": {
+            "type": "ImageObject",
+            "contentUrl": "https://archief.amsterdam/beeldbank/detail/88bbc59f-e731-99df-86ed-4ff3dda3ef68/full/max/0/default.jpg",
+            "thumbnailUrl": "https://archief.amsterdam/beeldbank/detail/88bbc59f-e731-99df-86ed-4ff3dda3ef68/full/,250/0/default.jpg"
+        }
+    },
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id"
+            }
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_senses",
+        "type": "Concept",
+        "label": "Zintuigen",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Zintuigen"
+        },
+        "notation": "atm_senses"
+    },
+    {
+        "@context": {
+            "id": "@id",
+            "type": "@type",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@vocab": "http://www.w3.org/2004/02/skos/core#",
+            "image": {
+                "@id": "https://schema.org/image",
+                "@type": "@id"
+            }
+        },
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_work",
+        "type": "Concept",
+        "label": "Werk en opleiding",
+        "prefLabel": {
+            "@language": "nl",
+            "@value": "Werk en opleiding"
+        },
+        "notation": "atm_work",
+        "image": {
+            "type": "ImageObject",
+            "contentUrl": "https://archief.amsterdam/beeldbank/detail/655ebcea-65ea-cb35-fc79-a7568eb8e572/full/max/0/default.jpg",
+            "thumbnailUrl": "https://archief.amsterdam/beeldbank/detail/655ebcea-65ea-cb35-fc79-a7568eb8e572/full/,250/0/default.jpg"
+        }
     }
 ]

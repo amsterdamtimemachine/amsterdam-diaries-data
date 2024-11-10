@@ -1,2 +1,11 @@
-notation,uri,prefLabel,altLabel,definition,broader,related,closeMatch,exactMatch,image
-atm_food,https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_food,Etenswaren,,,,,http://vocab.getty.edu/aat/300254496;http://data.beeldengeluid.nl/gtaa/217707,,
+"notation","uri","prefLabel","altLabel","definition","broader","related","closeMatch","exactMatch","image"
+"atm_food","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_food","Eten en drinken","Etenswaar;Eten;Voedsel;Drinken;Drank;Maaltijd;Spijs;Voeding;Voedingsmiddelen;Maal","Eten en drinken zijn een belangrijk thema in de oorlogsdagboeken. Tijdens de oorlog is voedsel erg schaars, etenswaren gaan op de bon, er wordt gesmokkeld en tijdens de hongerwinter trekken vele Amsterdammers naar het platteland op zoek naar eten. Tegelijkertijd zorgt eten ook voor kleine momentjes van geluk en kan het gedeeld worden met vrienden en familie.",,,"http://vocab.getty.edu/aat/300254496;http://data.beeldengeluid.nl/gtaa/217707",,"https://archief.amsterdam/beeldbank/detail/645474ee-34f1-6de6-e9f1-bc3fc6ed87bd"
+"atm_home","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_home","Thuis","Wonen",,,,,,"https://archief.amsterdam/beeldbank/detail/d5c62dee-ac82-35f7-12fe-fd4a8a4edc73"
+"atm_out","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_out","Op stap",,,,,,,
+"atm_news","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_news","Nieuwtjes",,,,,,,"https://archief.amsterdam/beeldbank/detail/abade54e-4934-7a90-f626-7402a7931635"
+"atm_love","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_love","Liefde",,,,,,,
+"atm_occupation","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm-occupation","Bezettingsmaatregelen",,,,,,,"https://archief.amsterdam/beeldbank/detail/51662957-52a8-dcec-aa9f-d4c520ffb226"
+"atm_shoah","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_shoah","Jodenvervolging",,,,,,,"https://archief.amsterdam/beeldbank/detail/7224ad04-bd1d-696c-fd6d-619a1443f9a7"
+"atm_transport","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_transport","Mobiliteit",,,,,,,"https://archief.amsterdam/beeldbank/detail/88bbc59f-e731-99df-86ed-4ff3dda3ef68"
+"atm_senses","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_senses","Zintuigen",,,,,,,
+"atm_work","https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_work","Werk en opleiding",,,,,,,"https://archief.amsterdam/beeldbank/detail/655ebcea-65ea-cb35-fc79-a7568eb8e572"
