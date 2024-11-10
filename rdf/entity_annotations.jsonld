@@ -731,6 +731,54 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/d2d74589-a95f-4496-b4ad-ba65b1056dec",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0003_urn-gvn-EVDO01-IIAV002_IAV001000041-large_03/r-r_tl_20-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Heer Harm"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 30,
+                        "end": 39
+                    }
+                ]
+            },
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0003_urn-gvn-EVDO01-IIAV002_IAV001000041-large_03/r-r_tl_21-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Afman"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 0,
+                        "end": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
         "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5a7c93b6-1bf5-40a3-a0a4-99445df37fef",
         "type": "Annotation",
         "body": [
@@ -2139,62 +2187,6 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/3705d9e9-3ac4-48ca-ad56-3ea5c57f7bc3",
-        "type": "Annotation",
-        "body": [
-            {
-                "type": "SpecificResource",
-                "source": {
-                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/date",
-                    "type": "skos:Concept",
-                    "label": "Date"
-                },
-                "purpose": "classifying"
-            },
-            {
-                "type": "TextualBody",
-                "value": {
-                    "@type": "http://www.w3.org/2001/XMLSchema#date",
-                    "@value": "http://www.wikidata.org/entity/Q39"
-                },
-                "purpose": "identifying"
-            }
-        ],
-        "target": [
-            {
-                "type": "SpecificResource",
-                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0006_urn-gvn-EVDO01-IIAV002_IAV001000041-large_06/r_9-r_9_tl_5-body",
-                "selector": [
-                    {
-                        "type": "TextQuoteSelector",
-                        "exact": "Zwitser-"
-                    },
-                    {
-                        "type": "TextPositionSelector",
-                        "start": 26,
-                        "end": 34
-                    }
-                ]
-            },
-            {
-                "type": "SpecificResource",
-                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0006_urn-gvn-EVDO01-IIAV002_IAV001000041-large_06/r_9-r_9_tl_6-body",
-                "selector": [
-                    {
-                        "type": "TextQuoteSelector",
-                        "exact": "land"
-                    },
-                    {
-                        "type": "TextPositionSelector",
-                        "start": 0,
-                        "end": 4
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "@context": "http://www.w3.org/ns/anno.jsonld",
         "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/61df4cb0-d5a9-47c9-9e09-45de107dd053",
         "type": "Annotation",
         "body": [
@@ -2729,39 +2721,6 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e5328428-ab89-45a0-b0af-12c62ef9b68c",
-        "type": "Annotation",
-        "body": [
-            {
-                "type": "SpecificResource",
-                "source": {
-                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/date",
-                    "type": "skos:Concept",
-                    "label": "Date"
-                },
-                "purpose": "classifying"
-            }
-        ],
-        "target": [
-            {
-                "type": "SpecificResource",
-                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0007_urn-gvn-EVDO01-IIAV002_IAV001000041-large_07/r_45-r_45_tl_11-body",
-                "selector": [
-                    {
-                        "type": "TextQuoteSelector",
-                        "exact": "'s Avonds"
-                    },
-                    {
-                        "type": "TextPositionSelector",
-                        "start": 0,
-                        "end": 9
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "@context": "http://www.w3.org/ns/anno.jsonld",
         "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a0144110-33ac-456d-aa75-19e1c11c27f1",
         "type": "Annotation",
         "body": [
@@ -2917,7 +2876,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0b24e042-5895-49b3-beee-00b1414529dc",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/26aa1cee-0b18-4f13-9034-1445fbe0ee76",
         "type": "Annotation",
         "body": [
             {
@@ -2928,14 +2887,6 @@
                     "label": "Date"
                 },
                 "purpose": "classifying"
-            },
-            {
-                "type": "TextualBody",
-                "value": {
-                    "@type": "http://www.w3.org/2001/XMLSchema#date",
-                    "@value": "1941-03-25"
-                },
-                "purpose": "identifying"
             }
         ],
         "target": [
@@ -2945,12 +2896,12 @@
                 "selector": [
                     {
                         "type": "TextQuoteSelector",
-                        "exact": "25-3-'4"
+                        "exact": "25-3-'41"
                     },
                     {
                         "type": "TextPositionSelector",
                         "start": 0,
-                        "end": 7
+                        "end": 8
                     }
                 ]
             }
@@ -4571,7 +4522,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a931d2e6-8545-4aeb-bd60-346b1bc4bbcb",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/67ed2afa-c2df-4532-8402-d7f83ada83ef",
         "type": "Annotation",
         "body": [
             {
@@ -4582,14 +4533,6 @@
                     "label": "Date"
                 },
                 "purpose": "classifying"
-            },
-            {
-                "type": "TextualBody",
-                "value": {
-                    "@type": "http://www.w3.org/2001/XMLSchema#date",
-                    "@value": "1944-10-01"
-                },
-                "purpose": "identifying"
             }
         ],
         "target": [
@@ -4599,7 +4542,7 @@
                 "selector": [
                     {
                         "type": "TextQuoteSelector",
-                        "exact": "Oct 1994"
+                        "exact": "Oct 1944"
                     },
                     {
                         "type": "TextPositionSelector",
@@ -5139,6 +5082,39 @@
                         "type": "TextPositionSelector",
                         "start": 13,
                         "end": 16
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/46b22a15-6095-4136-b0b5-ce67bfca943f",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0006_urn-gvn-EVDO01-IIAV002_IAV001000031-large_06/r_54-tr_1_tl_2-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "De vrouw van mijn eerste vriendje"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 0,
+                        "end": 33
                     }
                 ]
             }
@@ -6215,7 +6191,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/97864934-6fbc-411f-a6e0-8efa9ca3cefc",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/df28a7df-f958-403d-b31c-d2d6cb1d8119",
         "type": "Annotation",
         "body": [
             {
@@ -6226,14 +6202,6 @@
                     "label": "Date"
                 },
                 "purpose": "classifying"
-            },
-            {
-                "type": "TextualBody",
-                "value": {
-                    "@type": "http://www.w3.org/2001/XMLSchema#date",
-                    "@value": "1940-09-09/1941-02-05"
-                },
-                "purpose": "identifying"
             }
         ],
         "target": [
@@ -6243,11 +6211,44 @@
                 "selector": [
                     {
                         "type": "TextQuoteSelector",
-                        "exact": "9 Sept. 1940 - 5 Febr. '41"
+                        "exact": "9 Sept. 1940"
                     },
                     {
                         "type": "TextPositionSelector",
                         "start": 6,
+                        "end": 18
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/72aef1bd-2eb0-4b14-9cd1-6087537c6cde",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/date",
+                    "type": "skos:Concept",
+                    "label": "Date"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0001_urn-gvn-EVDO01-IIAV002_IAV001000040-large_01/r_9-r_9_tl_2-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "5 Febr. '41"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 21,
                         "end": 32
                     }
                 ]
@@ -8455,7 +8456,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/0b1d0e62-287e-46d9-9580-0be8d6d956f1",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/66a197f9-573b-4ef0-a3d3-6061adcaf71c",
         "type": "Annotation",
         "body": [
             {
@@ -8466,14 +8467,6 @@
                     "label": "Person"
                 },
                 "purpose": "classifying"
-            },
-            {
-                "type": "SpecificResource",
-                "source": {
-                    "id": "https://archief.amsterdam/indexen/deeds/985333f1-5654-56a3-e053-b784100ade19?person=985333f1-5655-56a3-e053-b784100ade19",
-                    "type": "https://schema.org/Person"
-                },
-                "purpose": "identifying"
             }
         ],
         "target": [
@@ -8483,7 +8476,7 @@
                 "selector": [
                     {
                         "type": "TextQuoteSelector",
-                        "exact": "Ina"
+                        "exact": "Ima"
                     },
                     {
                         "type": "TextPositionSelector",
@@ -8742,7 +8735,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/695d2a0a-df39-49bb-abf4-8ce1213d9355",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a91a50d7-e8c1-4871-a047-9dcb62f6f182",
         "type": "Annotation",
         "body": [
             {
@@ -8762,7 +8755,7 @@
                 "selector": [
                     {
                         "type": "TextQuoteSelector",
-                        "exact": "ondelu"
+                        "exact": "oudelu"
                     },
                     {
                         "type": "TextPositionSelector",
@@ -18644,6 +18637,39 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4481bae4-1612-45d5-a7a8-15f348a21e88",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_food",
+                    "type": "Concept",
+                    "label": "Etenswaren"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0019_urn-gvn-EVDO01-IIAV002_IAV001000040-large_19/r_18-r_18_tl_1-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "eten"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 5,
+                        "end": 9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
         "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/cb29a98c-926c-4d4c-a726-a9d15eb7998c",
         "type": "Annotation",
         "body": [
@@ -26749,6 +26775,534 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ff4a03f3-14c0-4bde-af6d-5273a74e2c75",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r-r_tl_4-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Mevr. Everts"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 5,
+                        "end": 17
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/c8092091-e64d-48dc-9ef1-01240ad33462",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_food",
+                    "type": "Concept",
+                    "label": "Etenswaren"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r-r_tl_15-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "ontbijt"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 4,
+                        "end": 11
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5b4c1686-bbeb-4c5d-aa9c-d2056ee98cbb",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/concepts/atm_food",
+                    "type": "Concept",
+                    "label": "Etenswaren"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r-r_tl_16-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "koffie"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 20,
+                        "end": 26
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/41df1ae7-2446-43cd-b751-ead068721a67",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/unclear",
+                    "type": "skos:Concept",
+                    "label": "Unclear"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r-r_tl_18-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "rell"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 28,
+                        "end": 32
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f9112c9e-6a3f-47ec-a03d-c3afdd48dc30",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r-r_tl_23-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Wilhelmien"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 10,
+                        "end": 20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/005bbb28-cba7-403e-94f1-63c548cc1bca",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/date",
+                    "type": "skos:Concept",
+                    "label": "Date"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_7-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "2e\u00a0Kerstdag"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 0,
+                        "end": 11
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/b3aabb18-428f-4c95-9cda-29ec2363b288",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/place",
+                    "type": "skos:Concept",
+                    "label": "Place"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_7-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "R'dam"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 24,
+                        "end": 29
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/a62ac303-1c92-46a7-bdc0-f7e9decc1e16",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_16-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Wim"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 0,
+                        "end": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/477fd83a-7577-49eb-9c21-d0be8d4f0506",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_16-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Map"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 7,
+                        "end": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/4a4e9a47-d129-4449-9559-c6714b0b757b",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_17-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Wim"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 15,
+                        "end": 18
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/fab206c5-2b08-4664-a775-84cece7e420f",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_19-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Map"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 11,
+                        "end": 14
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/99bbd25c-bbc9-4f61-aa14-0c0e34b22630",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/place",
+                    "type": "skos:Concept",
+                    "label": "Place"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_20-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "het kinderziekenhuis"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 0,
+                        "end": 20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f1fdc45a-51ea-4f6e-a7ac-76c929901cdc",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_20-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "oom"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 22,
+                        "end": 25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/e248cc07-3dca-47c8-8a34-1499a4ee8080",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_21-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "tante"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 0,
+                        "end": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/be93e011-2047-4c62-b2ac-a3270bfa2b64",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/organization",
+                    "type": "skos:Concept",
+                    "label": "Organization"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_22-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "het kantoor"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 13,
+                        "end": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/50f1b874-c446-4889-a7cc-a410e47a93ea",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0027_urn-gvn-EVDO01-IIAV002_IAV001000040-large_27/r_45-r_45_tl_24-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Wim"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 21,
+                        "end": 24
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
         "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/f0f53ea7-f5c8-40cc-b541-d2c079329d29",
         "type": "Annotation",
         "body": [
@@ -32514,7 +33068,7 @@
         "target": [
             {
                 "type": "SpecificResource",
-                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0009_urn-gvn-EVDO01-IIAV002_IAV001000030-large_09/r_21-l-body",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0009_urn-gvn-EVDO01-IIAV002_IAV001000030-large_09/r-l-body",
                 "selector": [
                     {
                         "type": "TextQuoteSelector",
@@ -32555,7 +33109,7 @@
         "target": [
             {
                 "type": "SpecificResource",
-                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0010_urn-gvn-EVDO01-IIAV002_IAV001000030-large_10/r_63-l_50-body",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0010_urn-gvn-EVDO01-IIAV002_IAV001000030-large_10/r-l_50-body",
                 "selector": [
                     {
                         "type": "TextQuoteSelector",
@@ -32596,7 +33150,7 @@
         "target": [
             {
                 "type": "SpecificResource",
-                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0010_urn-gvn-EVDO01-IIAV002_IAV001000030-large_10/r_63-l_50-body",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0010_urn-gvn-EVDO01-IIAV002_IAV001000030-large_10/r-l_50-body",
                 "selector": [
                     {
                         "type": "TextQuoteSelector",
@@ -46119,7 +46673,7 @@
     },
     {
         "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5ea67625-355e-4f7b-9760-98968080e7cc",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/72837295-8515-41d5-b711-11683825a052",
         "type": "Annotation",
         "body": [
             {
@@ -46130,14 +46684,6 @@
                     "label": "Person"
                 },
                 "purpose": "classifying"
-            },
-            {
-                "type": "SpecificResource",
-                "source": {
-                    "id": "http://www.wikidata.org/entity/Q220105",
-                    "type": "https://schema.org/Person"
-                },
-                "purpose": "identifying"
             }
         ],
         "target": [
@@ -46147,7 +46693,7 @@
                 "selector": [
                     {
                         "type": "TextQuoteSelector",
-                        "exact": "schoonzoon Liano"
+                        "exact": "schoonzoon Ciano"
                     },
                     {
                         "type": "TextPositionSelector",
@@ -53801,39 +54347,6 @@
                         "type": "TextPositionSelector",
                         "start": 40,
                         "end": 50
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "@context": "http://www.w3.org/ns/anno.jsonld",
-        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/5892deba-361a-4496-b629-30f36144d31f",
-        "type": "Annotation",
-        "body": [
-            {
-                "type": "SpecificResource",
-                "source": {
-                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/date",
-                    "type": "skos:Concept",
-                    "label": "Date"
-                },
-                "purpose": "classifying"
-            }
-        ],
-        "target": [
-            {
-                "type": "SpecificResource",
-                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0086_urn-gvn-EVDO01-VMA01_KBN007000011-large_086/r_2638-tr_3_tl_2-body",
-                "selector": [
-                    {
-                        "type": "TextQuoteSelector",
-                        "exact": "C L XVII"
-                    },
-                    {
-                        "type": "TextPositionSelector",
-                        "start": 0,
-                        "end": 8
                     }
                 ]
             }
@@ -63610,6 +64123,39 @@
                         "type": "TextPositionSelector",
                         "start": 15,
                         "end": 36
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/ce057920-8e23-4f51-9117-42dd2efd9790",
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/tags/entities/person",
+                    "type": "skos:Concept",
+                    "label": "Person"
+                },
+                "purpose": "classifying"
+            }
+        ],
+        "target": [
+            {
+                "type": "SpecificResource",
+                "source": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/annotations/regions/0010_berdi_4245_pdf_p010/r_27-l_91-body",
+                "selector": [
+                    {
+                        "type": "TextQuoteSelector",
+                        "exact": "Berdi"
+                    },
+                    {
+                        "type": "TextPositionSelector",
+                        "start": 0,
+                        "end": 5
                     }
                 ]
             }

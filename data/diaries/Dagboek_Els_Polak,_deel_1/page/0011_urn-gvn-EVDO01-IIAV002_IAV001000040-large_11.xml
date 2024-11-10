@@ -8,7 +8,7 @@
     </Metadata>
     <Page imageFilename="0011_urn-gvn-EVDO01-IIAV002_IAV001000040-large_11.jpeg" imageWidth="1500" imageHeight="974">
         <ReadingOrder>
-            <OrderedGroup id="ro_1713945832076" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976398336" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r_1633"/>
                 <RegionRefIndexed index="1" regionRef="r_10"/>
                 <RegionRefIndexed index="2" regionRef="r_1632"/>

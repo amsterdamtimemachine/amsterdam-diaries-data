@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2023-07-28T17:14:37.584+02:00</Created>
-        <LastChange>2024-04-02T14:19:25.864+02:00</LastChange>
-        <TranskribusMetadata docId="1515126" pageId="58235989" pageNr="6" tsid="156703720" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=IKNQFTVSYSTPEQQMAVYSWNBM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VTFHSLRHPUKNPZKCBBTHKDGI" imageId="47162904"/>
+        <LastChange>2024-04-17T13:55:59.217+02:00</LastChange>
+        <TranskribusMetadata docId="1515126" pageId="58235989" pageNr="6" tsid="159019149" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=IKNQFTVSYSTPEQQMAVYSWNBM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BUNOJHLCIIVEKTMLEQTOYHOU" imageId="47162904"/>
     </Metadata>
     <Page imageFilename="0006_urn-gvn-EVDO01-IIAV002_IAV001000031-large_06.jpeg" imageWidth="1500" imageHeight="1204">
         <ReadingOrder>
-            <OrderedGroup id="ro_1712890495076" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976420748" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
                 <RegionRefIndexed index="1" regionRef="r_53"/>
                 <RegionRefIndexed index="2" regionRef="r_54"/>
@@ -37,7 +37,7 @@
         </TextRegion>
         <TextRegion id="r_54" custom="readingOrder {index:2;} structure {type:caption;}">
             <Coords points="834,582 837,647 1329,645 1329,582"/>
-            <TextLine id="tr_1_tl_2" custom="readingOrder {index:0;}">
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:0;} person {offset:0; length:33;}">
                 <Coords points="840,604 866,604 893,604 919,604 946,604 972,605 999,606 1025,606 1052,608 1078,606 1105,604 1131,604 1158,604 1184,604 1211,604 1269,604 1269,589 1211,589 1184,589 1158,589 1131,589 1104,589 1077,591 1052,593 1026,591 999,591 973,590 946,589 919,589 893,589 866,589 840,589"/>
                 <Baseline points="840,604 866,604 893,604 919,604 946,604 972,605 999,606 1025,606 1052,608 1078,606 1105,604 1131,604 1158,604 1184,604 1211,604 1269,604"/>
                 <TextEquiv>

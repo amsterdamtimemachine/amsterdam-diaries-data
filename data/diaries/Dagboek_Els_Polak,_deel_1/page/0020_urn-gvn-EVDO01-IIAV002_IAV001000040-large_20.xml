@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=03_01_2024_15:06</Creator>
         <Created>2023-12-02T01:20:42.944+01:00</Created>
-        <LastChange>2024-04-23T00:07:00.235+02:00</LastChange>
-        <TranskribusMetadata docId="1687897" pageId="61988552" pageNr="20" tsid="159835259" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=PDXAKLUCDEDVWCPEJGOOXMIA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OXSLTPJNVMWLVRPMQBBELKLQ" imageId="50105360"/>
+        <LastChange>2024-04-24T10:31:03.785+02:00</LastChange>
+        <TranskribusMetadata docId="1687897" pageId="61988552" pageNr="20" tsid="160068859" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=PDXAKLUCDEDVWCPEJGOOXMIA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CTZILCLJZPAOCYPEORVUMZBD" imageId="50105360"/>
     </Metadata>
     <Page imageFilename="0020_urn-gvn-EVDO01-IIAV002_IAV001000040-large_20.jpeg" imageWidth="1500" imageHeight="977">
         <ReadingOrder>
-            <OrderedGroup id="ro_1713945832485" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976398794" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r_1598"/>
                 <RegionRefIndexed index="1" regionRef="r_18"/>
                 <RegionRefIndexed index="2" regionRef="r_27"/>
@@ -223,7 +223,7 @@
                 <Coords points="859,127 886,112 1098,107 1162,133 1314,107 1458,121 1459,65 1347,52 1272,84 1230,61 1190,82 1160,59 1068,50 977,88 915,46 860,57"/>
                 <Baseline points="864,106 894,106 924,106 954,106 985,106 1015,106 1045,106 1075,104 1105,104 1135,102 1165,102 1195,104 1225,102 1255,102 1285,102 1315,102 1345,104 1375,104 1405,102 1435,104 1459,106"/>
                 <TextEquiv>
-                    <Unicode>Gisterenmiddag zijn we naar Utrecht.</Unicode>
+                    <Unicode>Gisterenmiddag zijn we naar Utrecht</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r_36_tl_2" custom="readingOrder {index:1;}">

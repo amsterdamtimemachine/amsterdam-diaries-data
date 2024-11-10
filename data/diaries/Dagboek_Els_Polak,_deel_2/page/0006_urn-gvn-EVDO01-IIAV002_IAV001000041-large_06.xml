@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=TrHtr:version=2.9.0:model_id=51170:date=25_01_2024_15:21</Creator>
         <Created>2023-12-02T01:28:57.769+01:00</Created>
-        <LastChange>2024-04-10T13:39:49.465+02:00</LastChange>
-        <TranskribusMetadata docId="1687900" pageId="61988579" pageNr="6" tsid="157815639" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=GNJHCXKPECRAUIRFBXCVOEGV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UTPGOIKGMFOIRZOFNEXQPWIZ" imageId="50105387"/>
+        <LastChange>2024-04-26T17:08:30.576+02:00</LastChange>
+        <TranskribusMetadata docId="1687900" pageId="61988579" pageNr="6" tsid="160852886" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=GNJHCXKPECRAUIRFBXCVOEGV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CIMQBSDFNXQQFQTGXAUDFXDN" imageId="50105387"/>
     </Metadata>
     <Page imageFilename="0006_urn-gvn-EVDO01-IIAV002_IAV001000041-large_06.jpeg" imageWidth="1500" imageHeight="976">
         <ReadingOrder>
-            <OrderedGroup id="ro_1712755214578" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976400697" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
                 <RegionRefIndexed index="1" regionRef="r_9"/>
                 <RegionRefIndexed index="2" regionRef="r_18"/>
@@ -61,14 +61,14 @@
                     <Unicode>punt met koffieblad (theeblad) voor</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r_9_tl_5" custom="readingOrder {index:4;} date {offset:26; length:8; continued:true;}">
+            <TextLine id="r_9_tl_5" custom="readingOrder {index:4;}">
                 <Coords points="135,251 527,267 669,248 722,263 722,218 465,218 423,240 273,213 237,238 157,215 135,231"/>
                 <Baseline points="140,244 170,246 200,250 230,250 260,250 290,248 320,250 350,248 380,248 410,246 440,246 470,246 500,246 530,244 560,244 590,244 620,246 650,244 680,246 710,246 724,248"/>
                 <TextEquiv>
                     <Unicode>zich. (Denk aan zondag in Zwitser-</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r_9_tl_6" custom="readingOrder {index:5;} date {offset:0; length:4; continued:true;}">
+            <TextLine id="r_9_tl_6" custom="readingOrder {index:5;}">
                 <Coords points="130,288 141,291 147,287 154,290 159,284 169,291 187,289 201,293 211,285 216,285 222,290 230,288 229,265 215,264 198,257 190,262 175,251 160,254 150,249 146,253 128,254"/>
                 <Baseline points="134,280 164,282 194,282 224,284 232,284"/>
                 <TextEquiv>

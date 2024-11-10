@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=TrHtr:version=2.9.0:model_id=51170:date=25_01_2024_15:53</Creator>
         <Created>2023-12-02T01:28:57.886+01:00</Created>
-        <LastChange>2024-04-10T13:50:35.130+02:00</LastChange>
-        <TranskribusMetadata docId="1687900" pageId="61988580" pageNr="7" tsid="157817243" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=NXKYSNKTVBGVHTCZPURZLLON&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UQZUQKNMBSHRMSIIGDSSBTON" imageId="50105388"/>
+        <LastChange>2024-04-26T17:05:57.353+02:00</LastChange>
+        <TranskribusMetadata docId="1687900" pageId="61988580" pageNr="7" tsid="160852325" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=NXKYSNKTVBGVHTCZPURZLLON&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YWQTVZFCKLJIVKAJXOJSLMKX" imageId="50105388"/>
     </Metadata>
     <Page imageFilename="0007_urn-gvn-EVDO01-IIAV002_IAV001000041-large_07.jpeg" imageWidth="1500" imageHeight="977">
         <ReadingOrder>
-            <OrderedGroup id="ro_1712755214609" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976400716" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r_45"/>
                 <RegionRefIndexed index="1" regionRef="r_9"/>
                 <RegionRefIndexed index="2" regionRef="r_54"/>
@@ -83,7 +83,7 @@
                     <Unicode>Ik hoop dat dit doorgaat.</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r_45_tl_11" custom="readingOrder {index:9;} date {offset:0; length:9;}">
+            <TextLine id="r_45_tl_11" custom="readingOrder {index:9;}">
                 <Coords points="127,433 656,424 718,442 718,398 692,388 550,411 504,393 127,395"/>
                 <Baseline points="132,426 162,424 192,424 222,424 252,424 282,424 312,424 342,424 372,424 402,424 432,424 462,422 492,422 522,422 552,422 582,422 612,422 642,422 672,422 702,424 720,428"/>
                 <TextEquiv>
@@ -138,7 +138,7 @@
         </TextRegion>
         <TextRegion id="r_9" custom="readingOrder {index:1;} structure {type:heading;}">
             <Coords points="136,691 85,691 42,691 42,633 136,633"/>
-            <TextLine id="r_9_tl_1" custom="readingOrder {index:0;} date {offset:0; length:7;}">
+            <TextLine id="r_9_tl_1" custom="readingOrder {index:0;} date {offset:0; length:8;}">
                 <Coords points="35,674 47,680 55,675 73,682 85,681 90,674 102,674 112,683 133,682 130,609 118,609 110,614 90,610 64,629 55,625 34,625"/>
                 <Baseline points="40,666 70,666 100,668 130,668 134,670"/>
                 <TextEquiv>

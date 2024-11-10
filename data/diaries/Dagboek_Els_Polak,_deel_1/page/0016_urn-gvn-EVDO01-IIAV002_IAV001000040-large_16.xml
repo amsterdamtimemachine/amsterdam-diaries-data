@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=08_12_2023_13:10</Creator>
         <Created>2023-12-02T01:20:42.459+01:00</Created>
-        <LastChange>2024-04-22T23:49:18.355+02:00</LastChange>
-        <TranskribusMetadata docId="1687897" pageId="61988548" pageNr="16" tsid="159834902" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=AXRIXVHMWPDURZVYDOGKGHDY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LUDRUUFGCZLMVOTOYJSBCYGQ" imageId="50105356"/>
+        <LastChange>2024-04-24T10:27:42.754+02:00</LastChange>
+        <TranskribusMetadata docId="1687897" pageId="61988548" pageNr="16" tsid="160069355" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=AXRIXVHMWPDURZVYDOGKGHDY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZYSYMLSHULPXATESFLRHWPNZ" imageId="50105356"/>
     </Metadata>
     <Page imageFilename="0016_urn-gvn-EVDO01-IIAV002_IAV001000040-large_16.jpeg" imageWidth="1500" imageHeight="975">
         <ReadingOrder>
-            <OrderedGroup id="ro_1713945832414" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976398712" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
                 <RegionRefIndexed index="1" regionRef="r_9"/>
                 <RegionRefIndexed index="2" regionRef="r_1715"/>
@@ -272,7 +272,7 @@
                 <Coords points="814,317 839,313 869,317 899,317 931,313 931,313 963,313 992,315 1022,315 1052,313 1082,313 1112,313 1142,313 1172,317 1202,317 1232,317 1262,317 1292,317 1322,315 1352,313 1382,315 1412,315 1442,313 1464,315 1465,303 1442,301 1412,303 1382,303 1352,301 1321,303 1292,305 1262,305 1232,305 1202,305 1173,305 1143,301 1112,301 1082,301 1052,301 1022,303 992,303 963,301 931,301 930,301 898,305 870,305 839,301 812,305"/>
                 <Baseline points="814,317 839,313 869,317 899,317 931,313 931,313 963,313 992,315 1022,315 1052,313 1082,313 1112,313 1142,313 1172,317 1202,317 1232,317 1262,317 1292,317 1322,315 1352,313 1382,315 1412,315 1442,313 1464,315"/>
                 <TextEquiv>
-                    <Unicode>Gisteren avond, toen ik weer in bed.</Unicode>
+                    <Unicode>Gisteren avond, toen ik weer in bed</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r_19_tl_8" custom="readingOrder {index:1;}">
