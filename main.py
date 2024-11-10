@@ -638,7 +638,7 @@ def add_entity_identifier(
             break
 
     # identifying
-    identifier, identifier_type, annotation_id, identifier_df = (
+    identifier, identifier_type, identifier_label, annotation_id, identifier_df = (
         get_annotation_identifier(
             diary, source, tag, text, annotation_id, identifier_df
         )
@@ -674,6 +674,7 @@ def add_entity_identifier(
                     "source": {
                         "id": identifier,
                         "type": identifier_type,
+                        "label": identifier_label,
                     },
                     "purpose": "identifying",
                 }
@@ -762,6 +763,8 @@ def get_annotation_identifier(diary, source_body, tag, text, annotation_id, df):
     else:
         annotation_id = results.iloc[0]["annotation"]
 
+        identifier_label = results.iloc[0]["label"]
+
         identifier = (
             results.iloc[0]["uri"] if not pd.isna(results.iloc[0]["uri"]) else None
         )
@@ -780,7 +783,7 @@ def get_annotation_identifier(diary, source_body, tag, text, annotation_id, df):
         else:
             identifier_type = None
 
-    return identifier, identifier_type, annotation_id, df
+    return identifier, identifier_type, identifier_label, annotation_id, df
 
 
 def generate_external_data(df):

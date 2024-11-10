@@ -10766,12 +10766,12 @@
         "@id": "https://id.amsterdamtimemachine.nl/ark:/81741/amsterdam-diaries/diaries/19",
         "@type": "Book",
         "author": {
-            "@id": "http://www.wikidata.org/entity/Q125019911",
+            "@id": "http://www.wikidata.org/entity/Q108534152",
             "@type": "Person",
             "name": "Celina Veffer"
         },
         "about": {
-            "@id": "http://www.wikidata.org/entity/Q125019911",
+            "@id": "http://www.wikidata.org/entity/Q108534152",
             "@type": "Person",
             "name": "Celina Veffer"
         },
@@ -19300,7 +19300,7 @@
         "@context": {
             "@vocab": "https://schema.org/"
         },
-        "@id": "http://www.wikidata.org/entity/Q125019911",
+        "@id": "http://www.wikidata.org/entity/Q108534152",
         "@type": "Person",
         "name": "Celina Veffer",
         "birthDate": "1927-12-02",
