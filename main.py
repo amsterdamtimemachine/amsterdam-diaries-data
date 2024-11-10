@@ -484,7 +484,7 @@ def parse_pagexml(
                 "selector": [
                     {
                         "type": "FragmentSelector",
-                        "value": f"xywh={max(0, region.coords.x)},{max(0, region.coords.y)},{min(page.coords.w - region.coords.x, region.coords.w)},{min(page.coords.h - region.coords.y, region.coords.h)}",
+                        "value": f"xywh={max(0, region.coords.x)},{max(0, region.coords.y)},{min(page.coords.w - max(0, region.coords.x), region.coords.w)},{min(page.coords.h - max(0, region.coords.y), region.coords.h)}",
                         "conformsTo": "http://www.w3.org/TR/media-frags/",
                     },
                     {
