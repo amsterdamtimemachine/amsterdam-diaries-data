@@ -19232,10 +19232,10 @@
             "name": "Tr\u00f6bitz"
         },
         "image": {
-            "@id": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/gerda-oestreicher-laqueur/profile/1.jpg/full/max/0/default.jpg",
+            "@id": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/gerda-oestreicher-laqueur/profile/1.jpg",
             "type": "ImageObject",
-            "contentUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/gerda-oestreicher-laqueur/profile/1.jpg/full/max/0/default.jpg/full/max/0/default.jpg",
-            "thumbnailUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/gerda-oestreicher-laqueur/profile/1.jpg/full/max/0/default.jpg/full/96,/0/default.jpg"
+            "contentUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/gerda-oestreicher-laqueur/profile/1.jpg/full/max/0/default.jpg",
+            "thumbnailUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/gerda-oestreicher-laqueur/profile/1.jpg/full/96,/0/default.jpg"
         },
         "description": "Gerda Oestreicher-Laqueur (1906-1945) komt uit een Duits Joods gezin. Zij woont vanaf haar zestiende in Amsterdam en gaat daar naar de HBS. Ze studeert Duits in Groningen. In 1930 trouwt ze in Amsterdam, verhuist naar Karlsbad en krijgt daar drie dochters. Als jong meisje hield ze al een dagboek bij en in 1938 pakt ze, na een vlucht naar Nederland, de pen weer op. Haar dagboek telt 9 delen en beslaat de periode 1918-1939. De originelen bevinden zich in het Amsterdamse Stadsarchief.  "
     },
@@ -19337,10 +19337,10 @@
             "name": "New York"
         },
         "image": {
-            "@id": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/els-polak/profile/1.jpg/full/max/0/default.jpg",
+            "@id": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/els-polak/profile/1.jpg",
             "type": "ImageObject",
-            "contentUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/els-polak/profile/1.jpg/full/max/0/default.jpg/full/max/0/default.jpg",
-            "thumbnailUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/els-polak/profile/1.jpg/full/max/0/default.jpg/full/96,/0/default.jpg"
+            "contentUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/els-polak/profile/1.jpg/full/max/0/default.jpg",
+            "thumbnailUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/els-polak/profile/1.jpg/full/96,/0/default.jpg"
         },
         "description": "Els Polak (1922-1965), geboren in Nederlands-Indi\u00eb, verhuist in 1940 na haar eindexamen van Hilversum naar Amsterdam. Ze volgt de opleiding tot Montessori-kleuterleidster en heeft een kamer op de Prinsengracht. Daar begint zij een dagboek, waarin ze schrijft over haar nieuwe, vrije leven in Amsterdam, over vriendschap, liefde, de oorlog en de situatie van de Joden. In 1942 gaat zij terug naar haar moeder en zusje in Hilversum. Haar dagboek bestaat uit 2 delen, geschreven in 1940-1941. Beide dagboeken zijn onderdeel van de collectie van Atria."
     },
@@ -19364,10 +19364,10 @@
             "name": "Amsterdam"
         },
         "image": {
-            "@id": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/neeltje-toby-vos/profile/1.jpg/full/max/0/default.jpg",
+            "@id": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/neeltje-toby-vos/profile/1.jpg",
             "type": "ImageObject",
-            "contentUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/neeltje-toby-vos/profile/1.jpg/full/max/0/default.jpg/full/max/0/default.jpg",
-            "thumbnailUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/neeltje-toby-vos/profile/1.jpg/full/max/0/default.jpg/full/96,/0/default.jpg"
+            "contentUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/neeltje-toby-vos/profile/1.jpg/full/max/0/default.jpg",
+            "thumbnailUrl": "https://images.diaries.amsterdamtimemachine.nl/iiif/profile-overview/neeltje-toby-vos/profile/1.jpg/full/96,/0/default.jpg"
         },
         "description": "Neeltje (Toby) Vos (1918-2019), geboren en getogen Amsterdamse, volgt de opleiding toegepaste kunst aan het Instituut voor Kunstnijverheidsonderwijs. Tijdens de oorlog is ze zeer actief in het verzet. In juni 1944 begint ze een dagboek, dat ze in kleur illustreert met tekeningen van haar huis in de Rozenstraat en gebeurtenissen uit haar leven. Het dagboek bestaat uit twee delen: het \u2018Blauw-Boek 1944-1945\u2019 en een tweede notitieboek met aantekeningen en tekeningen (1944-1966). Beide zijn te vinden bij Atria.  "
     }
