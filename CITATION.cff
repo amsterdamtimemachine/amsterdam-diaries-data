@@ -1,0 +1,76 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Amsterdam Diaries Time Machine - Data
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Leon
+    name-particle: van
+    family-names: Wissen
+    email: l.vanwissen@uva.nl
+    affiliation: University of Amsterdam
+    orcid: 'https://orcid.org/0000-0001-8672-025X'
+  - given-names: Janna
+    family-names: Aerts
+    email: j.aerts@uva.nl
+    affiliation: University of Amsterdam
+    orcid: 'https://orcid.org/0000-0002-5184-5738'
+  - given-names: Boudewijn
+    family-names: Koopmans
+    email: i.b.koopmans@uva.nl
+    affiliation: University of Amsterdam
+    orcid: 'https://orcid.org/0000-0002-4708-071X'
+  - given-names: Ingeborg
+    family-names: Verheul
+    email: i.a.m.verheul@uva.nl
+    affiliation: University of Amsterdam
+    orcid: 'https://orcid.org/0000-0003-4093-3190'
+  - given-names: Marleen
+    family-names: Rensen
+    orcid: 'https://orcid.org/0000-0002-6541-0022'
+    email: m.j.m.rensen@uva.nl
+    affiliation: University of Amsterdam
+  - name: Amsterdam Time Machine
+    email: amsterdamtimemachine@uva.nl
+    website: 'https://www.amsterdamtimemachine.nl/'
+repository-code: >-
+  https://github.com/amsterdamtimemachine/amsterdam-diaries-data
+url: 'https://diaries.amsterdamtimemachine.nl/'
+abstract: >-
+  The Amsterdam Diaries Time Machine project is a public web
+  application developed by the Amsterdam Time Machine at the
+  University of Amsterdam. The project aims to make the life
+  narratives of ordinary people in Amsterdam more accessible
+  and to enhance the infrastructure for connecting diverse
+  personal histories using open standards. In its first
+  phase, the project focused on the diaries of six women who
+  lived in Amsterdam during the Second World War.
+
+  By providing access to these enriched personal documents
+  and the pipeline that enables further annotation and
+  interlinking with other digital heritage resources, we aim
+  to inspire other projects and local time machines to adopt
+  our approach and contribute to a web of interconnected
+  cultural data.
+
+  This dataset includes that data. All metadata associated
+  with the diaries, including diary entries, transcriptions,
+  and recognized entities, is modeled as Linked Open Data
+  (RDF) using the schema.org and Web Annotation
+  vocabularies. This structured data is integrated into the
+  knowledge graph of the Amsterdam Time Machine, which
+  powers the Amsterdam Diaries Time Machine website. The
+  site is designed to present our findings to a broader
+  audience.
+keywords:
+  - diaries
+  - linked-open-data
+  - life-narratives
+  - digital-cultural-heritage
+license: CC-BY-4.0
+version: '1.0'
+date-released: '2024-12-12'
