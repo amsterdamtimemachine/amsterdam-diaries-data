@@ -23,6 +23,7 @@ ANNOTATION_IDENTIFIERS = "data/annotations_linking.csv"
 
 body2length = dict()
 
+region2line_annotation = defaultdict(list)
 region2textualbody = defaultdict(list)
 diary2scan = defaultdict(list)
 
@@ -100,8 +101,8 @@ def generate_concept_metadata(csv_concepts):
                 "type": "@type",
                 "label": "http://www.w3.org/2000/01/rdf-schema#label",
                 "@vocab": "http://www.w3.org/2004/02/skos/core#",
-                "depiction": {
-                    "@id": "http://xmlns.com/foaf/0.1/depiction",
+                "image": {
+                    "@id": "https://schema.org/image",
                     "@type": "@id",
                 },
             },
@@ -127,8 +128,12 @@ def generate_concept_metadata(csv_concepts):
         if not pd.isna(r.broader):
             concept["broader"] = r.broader
 
-        if not pd.isna(r.depiction):
-            concept["depiction"] = r.depiction
+        if not pd.isna(r.image):
+            concept["image"] = {
+                "type": "ImageObject",
+                "contentUrl": r.image + "/full/max/0/default.jpg",
+                "thumbnailUrl": r.image + "/full/,250/0/default.jpg",
+            }
 
         resources.append(concept)
 
@@ -281,12 +286,12 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
         ].iterrows():
 
             # Regions
-            regiontargets = []
-            textualbodies = []
+            region_annotations = []
+            line_annotations = []
             for region in e["regions"].split("\n"):
                 region = f"{PREFIX}annotations/regions/{region.replace('.xml ', '/')}"  # the space after .xml is important
-                regiontargets.append(region + "-target")
-                textualbodies += region2textualbody[region]
+                region_annotations.append(region)
+                line_annotations += region2line_annotation[region]
 
             # Entry
             entry = {
@@ -301,11 +306,12 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
                 },
                 "@id": f"{PREFIX}annotations/entries/{e.identifier}",
                 "@type": "Manuscript",
+                "hasPart": region_annotations,
                 "isPartOf": {
                     "@id": book["@id"],
                     "@type": "Book",
                 },  # shallow
-                "text": textualbodies,
+                "text": line_annotations,
             }
 
             entries.append({"@id": entry["@id"], "@type": entry["@type"]})
@@ -352,7 +358,7 @@ def generate_metadata(csv_diaries, csv_entries, csv_persons, diary2scan=diary2sc
                 "type": "Annotation",
                 "body": [entry],
                 # "target": {"type": "oa:List", "items": regiontargets},
-                "target": regiontargets,
+                "target": region_annotations,
             }
 
             resources.append(entry_annotation)
@@ -414,6 +420,7 @@ def parse_pagexml(
     diary,
     pagexml_file_path,
     region2textualbody=region2textualbody,
+    region2line_annotation=region2line_annotation,
     diary2scan=diary2scan,
     body2length=body2length,
 ):
@@ -477,7 +484,7 @@ def parse_pagexml(
                 "selector": [
                     {
                         "type": "FragmentSelector",
-                        "value": f"xywh={max(0, region.coords.x)},{max(0, region.coords.y)},{min(page.coords.w - region.coords.x, region.coords.w)},{min(page.coords.h - region.coords.y, region.coords.h)}",
+                        "value": f"xywh={max(0, region.coords.x)},{max(0, region.coords.y)},{min(page.coords.w - max(0, region.coords.x), region.coords.w)},{min(page.coords.h - max(0, region.coords.y), region.coords.h)}",
                         "conformsTo": "http://www.w3.org/TR/media-frags/",
                     },
                     {
@@ -507,6 +514,7 @@ def parse_pagexml(
                 body2length[body_id] = 0
 
             if "empty" not in line_id:
+                region2line_annotation[region_id].append(line_id)
                 region2textualbody[region_id].append(body_id)
 
             line_annotation = {
@@ -614,7 +622,11 @@ def add_entity_identifier(
 
     annotation_id = annotation["id"]
     source = annotation["target"][0]["source"]
-    tag = annotation["body"][0]["source"]["id"].replace(PREFIX + "tags/entities/", "")
+    tag = (
+        annotation["body"][0]["source"]["id"]
+        .replace(PREFIX + "tags/entities/", "")
+        .replace(PREFIX + "tags/concepts/", "")
+    )
     text = " ".join([t["selector"][0]["exact"] for t in annotation["target"]]).strip()
     text = text.replace("- ", "").replace("¬ ", "")
 
@@ -626,7 +638,7 @@ def add_entity_identifier(
             break
 
     # identifying
-    identifier, identifier_type, annotation_id, identifier_df = (
+    identifier, identifier_type, identifier_label, annotation_id, identifier_df = (
         get_annotation_identifier(
             diary, source, tag, text, annotation_id, identifier_df
         )
@@ -662,6 +674,7 @@ def add_entity_identifier(
                     "source": {
                         "id": identifier,
                         "type": identifier_type,
+                        "label": identifier_label,
                     },
                     "purpose": "identifying",
                 }
@@ -750,6 +763,8 @@ def get_annotation_identifier(diary, source_body, tag, text, annotation_id, df):
     else:
         annotation_id = results.iloc[0]["annotation"]
 
+        identifier_label = results.iloc[0]["label"]
+
         identifier = (
             results.iloc[0]["uri"] if not pd.isna(results.iloc[0]["uri"]) else None
         )
@@ -768,7 +783,7 @@ def get_annotation_identifier(diary, source_body, tag, text, annotation_id, df):
         else:
             identifier_type = None
 
-    return identifier, identifier_type, annotation_id, df
+    return identifier, identifier_type, identifier_label, annotation_id, df
 
 
 def generate_external_data(df):
@@ -839,7 +854,12 @@ def main():
                 filepath = os.path.join(page_xml_path, file)
 
                 textual_annotations += parse_pagexml(
-                    diary, filepath, region2textualbody, diary2scan, body2length
+                    diary,
+                    filepath,
+                    region2textualbody,
+                    region2line_annotation,
+                    diary2scan,
+                    body2length,
                 )
 
     with open("rdf/textual_annotations.jsonld", "w") as outfile:

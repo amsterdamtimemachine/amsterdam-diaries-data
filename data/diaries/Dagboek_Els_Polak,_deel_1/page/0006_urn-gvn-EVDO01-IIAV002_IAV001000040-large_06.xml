@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=06_12_2023_14:09</Creator>
         <Created>2023-12-02T01:20:39.941+01:00</Created>
-        <LastChange>2024-04-23T22:49:30.300+02:00</LastChange>
-        <TranskribusMetadata docId="1687897" pageId="61988535" pageNr="6" tsid="159925492" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=TUUQSCCLQLTAQUUNLMRSUXFW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CCVJUYSIAODHEIBRHDXWSBKV" imageId="50105343"/>
+        <LastChange>2024-04-29T16:02:59.995+02:00</LastChange>
+        <TranskribusMetadata docId="1687897" pageId="61988535" pageNr="6" tsid="162047542" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=TUUQSCCLQLTAQUUNLMRSUXFW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XDXJIDIFWZMUGISHBOSAOBUN" imageId="50105343"/>
     </Metadata>
     <Page imageFilename="0006_urn-gvn-EVDO01-IIAV002_IAV001000040-large_06.jpeg" imageWidth="1500" imageHeight="973">
         <ReadingOrder>
-            <OrderedGroup id="ro_1713945831741" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976398126" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r_1694"/>
                 <RegionRefIndexed index="1" regionRef="r_1693"/>
                 <RegionRefIndexed index="2" regionRef="r_994"/>
@@ -260,7 +260,7 @@
                 <Coords points="865,334 926,320 1035,320 1054,337 1119,320 1178,336 1248,319 1454,322 1439,291 865,287"/>
                 <Baseline points="870,316 900,316 930,316 960,316 991,316 1021,316 1051,316 1081,316 1111,314 1141,316 1171,318 1201,318 1231,316 1261,314 1291,314 1321,314 1351,316 1381,316 1411,316 1441,318 1455,318"/>
                 <TextEquiv>
-                    <Unicode>Ina, (zusje van Ben) aten ook mee en</Unicode>
+                    <Unicode>Ima, (zusje van Ben) aten ook mee en</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r_19_tl_8" custom="readingOrder {index:7;} person {offset:22; length:3;}">
@@ -302,7 +302,7 @@
                 <Coords points="871,535 1101,544 1142,531 1218,546 1348,531 1406,545 1463,534 1463,500 1290,496 1230,519 1201,496 1140,514 1103,497 871,507"/>
                 <Baseline points="876,526 906,528 936,528 966,528 997,528 1027,528 1057,530 1087,530 1117,530 1147,528 1177,528 1207,528 1237,528 1267,528 1297,528 1327,528 1357,528 1387,528 1417,528 1447,530 1465,530"/>
                 <TextEquiv>
-                    <Unicode>moeite voor. De ondelui v. Esso kwamen</Unicode>
+                    <Unicode>moeite voor. De oudelui v. Esso kwamen</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r_19_tl_14" custom="readingOrder {index:13;} person {offset:20; length:5;}">

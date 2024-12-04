@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=TrHtr:version=2.1.0:model_id=51170:date=04_08_2023_17:45</Creator>
         <Created>2023-07-28T17:11:23.785+02:00</Created>
-        <LastChange>2024-03-27T12:39:35.990+01:00</LastChange>
-        <TranskribusMetadata docId="1515124" pageId="58235955" pageNr="9" tsid="155642491" status="DONE" userId="89972" imgUrl="https://files.transkribus.eu/Get?id=IZFAIQHFDAAJNABUHEOKLKLY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RBRHXHSUHORCEGNROBHPAFIY" imageId="47162870"/>
+        <LastChange>2024-04-24T11:10:59.197+02:00</LastChange>
+        <TranskribusMetadata docId="1515124" pageId="58235955" pageNr="9" tsid="160089226" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=IZFAIQHFDAAJNABUHEOKLKLY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WXEMMEHAWQGMFIDEVDRJKDFX" imageId="47162870"/>
     </Metadata>
     <Page imageFilename="0009_urn-gvn-EVDO01-IIAV002_IAV001000030-large_09.jpeg" imageWidth="1500" imageHeight="1185">
         <ReadingOrder>
-            <OrderedGroup id="ro_1713945884046" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976416496" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r_21"/>
                 <RegionRefIndexed index="1" regionRef="r"/>
             </OrderedGroup>
@@ -16,6 +16,12 @@
         <Relations/>
         <TextRegion id="r_21" custom="readingOrder {index:0;} structure {type:visual;}">
             <Coords points="768,361 1458,361 1458,1172 768,1172"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:heading;}">
+            <Coords points="1464,416 1426,416 1426,190 1464,190"/>
             <TextLine id="l" custom="readingOrder {index:0;} date {offset:18; length:10;when:zomer\u00201944;}">
                 <Coords points="1457,402 1448,379 1459,290 1449,273 1456,203 1393,204 1392,233 1399,247 1392,257 1410,315 1393,332 1400,346 1391,366 1388,403"/>
                 <Baseline points="1446,397 1448,380 1447,368 1449,361 1448,350 1448,329 1447,320 1450,283 1448,262 1449,235 1452,224 1451,201"/>
@@ -23,12 +29,6 @@
                     <Unicode>Vue de mon bureau L'été 1944</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextEquiv>
-                <Unicode></Unicode>
-            </TextEquiv>
-        </TextRegion>
-        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:heading;}">
-            <Coords points="1464,416 1426,416 1426,190 1464,190"/>
             <TextEquiv>
                 <Unicode></Unicode>
             </TextEquiv>

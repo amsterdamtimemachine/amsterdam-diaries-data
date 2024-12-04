@@ -125,16 +125,16 @@ def main(annotations_file):
         elif pd.notna(row["label"]):
             continue
         # Diary writers have their own biography in the project
-        elif row["uri"] in (
-            "http://www.wikidata.org/entity/Q113810404",
-            "http://www.wikidata.org/entity/Q123396315",
-            "http://www.wikidata.org/entity/Q124972258",
-            "http://www.wikidata.org/entity/Q124987744",
-            "http://www.wikidata.org/entity/Q125019911",
-            "http://www.wikidata.org/entity/Q125020291",
-            "http://www.wikidata.org/entity/Q65965451",
-        ):
-            continue
+        # elif row["uri"] in (
+        #     "http://www.wikidata.org/entity/Q113810404",
+        #     "http://www.wikidata.org/entity/Q123396315",
+        #     "http://www.wikidata.org/entity/Q124972258",
+        #     "http://www.wikidata.org/entity/Q124987744",
+        #     "http://www.wikidata.org/entity/Q108534152",
+        #     "http://www.wikidata.org/entity/Q125020291",
+        #     "http://www.wikidata.org/entity/Q65965451",
+        # ):
+        #     continue
 
         uri = row["uri"]
         if "wikidata" in uri:

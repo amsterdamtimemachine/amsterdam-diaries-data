@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "https://schema.org/",
+    {
+      "@base": "https://diaries.amsterdamtimemachine.nl/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "home",
+      "@type": "WebPage",
+      "name": "Amsterdam",
+      "description": "Hoe zag het dagelijks leven in Amsterdam eruit in de Tweede Wereldoorlog? Hoe beleefden Amsterdammers hun stad? De Amsterdam Diaries Time Machine brengt het verleden tot leven met dagboekfragmenten van Amsterdamse vrouwen tijdens WOII. Navigeer door hun dagboeken. Lees over hun familie en vrienden, plaatsen en gebouwen in de stad."
+    },
+    {
+      "@id": "about",
+      "@type": "WebPage",
+      "name": "About",
+      "description": "<h2>Amsterdam Time Machine</h2>\n<p><a href=\"https://www.amsterdamtimemachine.nl/\" target=\"_blank\">De Amsterdam Time Machine (ATM)</a> is een open onderzoeksinfrastructuur over de geschiedenis van Amsterdam. In deze ‘Google Earth van het verleden’ zullen gebruikers uiteindelijk terug in de tijd kunnen reizen en door de stad navigeren op het niveau van buurten, straten en huizen. Onder leiding van de UvA wordt samengewerkt met partners uit het veld van onderzoek, erfgoed, de creatieve industrie en met maatschappelijke organisaties. Het doel is alle digitale historische data van de stad en haar inwoners met elkaar te verbinden en te koppelen aan historische kaarten en 3D modellen. Daarnaast wil de ATM bijdragen aan de toekomstige inrichting van de stad onder het motto ‘Understanding the past to help shape the future’.</p>\n<h2>Amsterdam Diaries</h2>\n<p>Amsterdam Diaries is een samenwerkingsproject onder leiding van de UvA en VU dat persoonlijke verhalen van Amsterdammers verzamelt en bestudeert om tot een beter begrip te komen van het leven in de stad door de eeuwen heen. Doel van dit project is om met onderzoek naar dagboeken en andere egodocumenten bij te dragen aan de lange geschiedenis van Amsterdam van diversiteit door de verhalen van stadsbewoners met een verschillende culturele en socio-economische achtergrond bijeen te brengen.</p>\n<p>Voor de nieuwe applicatie is een selectie gemaakt van een aantal dagboeken uit het Amsterdam Diaries-project. De dagboeken komen uit de collecties van het Stadsarchief, Atria, het Joods Museum en het Verzetsmuseum. Het betreft dagboeken die alle gaan over de periode van de Tweede Wereldoorlog. Door het combineren van de dagboekfragmenten van deze bijzondere vrouwen ontstaat een persoonlijke blik op een roerige periode in de Amsterdamse geschiedenis.</p>\n<p>We zijn geïnteresseerd in aanvullend materiaal en andere verhalen van vrouwen in Amsterdam tijdens de Tweede Wereldoorlog. Contact opnemen kan via het e-mailadres <a href=\"mailto:m.j.m.rensen@uva.nl\">m.j.m.rensen@uva.nl</a>.</p>\n<p>De applicatie is ontwikkeld door <a href=\"https://www.totaldesign.com/\" target=\"_blank\">Total Design</a>, met steun van het <a href=\"https://netwerkdigitaalerfgoed.nl/\" target=\"_blank\">Netwerk Digitaal Erfgoed.</a></p>"
+    },
+    {
+      "@id": "organisaties",
+      "@type": "WebPage",
+      "name": "Alle organisaties",
+      "description": "Ontdek de diverse perspectieven over specifieke organisaties die terugkomen in diverse dagboeken."
+    },
+    {
+      "@id": "personen",
+      "@type": "WebPage",
+      "name": "Alle personen",
+      "description": "Ontdek personen die worden genoemd in diverse dagboeken."
+    },
+    {
+      "@id": "themas",
+      "@type": "WebPage",
+      "name": "Alle thema's",
+      "description": "Thema's worden beïnvloed door diverse perspectieven en grote gebeurtenissen. Schrijvers, als weerspiegeling van hun tijd, verwerken deze invloeden in hun werk, waardoor unieke en veelzijdige verhalen ontstaan."
+    },
+    {
+      "@id": "dagboekschrijfsters",
+      "@type": "WebPage",
+      "name": "Alle dagboekschrijfsters",
+      "description": "Ontdek de diverse perspectieven die dagboeken ons bieden en laat je inspireren door de persoonlijke verhalen van anderen."
+    },
+    {
+      "@id": "amsterdam",
+      "@type": "WebPage",
+      "name": "Wat beleefden de dagboekschrijfsters in Amsterdam?",
+      "description": "In de dagboeken was veel aandacht voor de beslommeringen van alle dag. Onvermijdelijk drong ook de oorlog daarin door. Bekijk op deze kaart waar in Amsterdam het dagelijks leven van de dagboekschrijfsters zich afspeelde en wat ze erover in hun dagboeken noteerden."
+    }
+  ]
+}

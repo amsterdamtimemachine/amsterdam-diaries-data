@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-01-12T15:25:44.807+01:00</Created>
-        <LastChange>2024-04-25T15:52:13.399+02:00</LastChange>
-        <TranskribusMetadata docId="1744898" pageId="63299877" pageNr="10" tsid="160470908" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=QEBTZGUIJPRAWRUOOICNVJQJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=TCKTLXYMPZLTWYHJEEZUAWIX" imageId="51197882"/>
+        <LastChange>2024-08-21T13:44:56.894+02:00</LastChange>
+        <TranskribusMetadata docId="1744898" pageId="63299877" pageNr="10" tsid="183990853" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=QEBTZGUIJPRAWRUOOICNVJQJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OTXIVYYSBZPLLOOOCPXQSMDX" imageId="51197882"/>
     </Metadata>
     <Page imageFilename="0010_p010.jpg" imageWidth="2479" imageHeight="3508">
         <ReadingOrder>
-            <OrderedGroup id="ro_1714088094496" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976332907" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
                 <RegionRefIndexed index="1" regionRef="r_9"/>
                 <RegionRefIndexed index="2" regionRef="r_18"/>
@@ -43,7 +43,7 @@
         </TextRegion>
         <TextRegion id="r_27" custom="readingOrder {index:3;} structure {type:caption;}">
             <Coords points="796,2781 1810,2781 1810,2967 796,2967"/>
-            <TextLine id="l_91" custom="readingOrder {index:0;} date {offset:9; length:4;} person {offset:29; length:6;} person {offset:39; length:5;}">
+            <TextLine id="l_91" custom="readingOrder {index:0;} person {offset:0; length:5;} date {offset:9; length:4;} person {offset:29; length:6;} person {offset:39; length:5;}">
                 <Coords points="811,2851 946,2856 1085,2856 1227,2858 1337,2856 1458,2858 1564,2858 1649,2858 1776,2858 1776,2814 1649,2814 1564,2814 1458,2814 1337,2811 1226,2814 1085,2811 947,2811 813,2807"/>
                 <Baseline points="811,2851 946,2856 1085,2856 1227,2858 1337,2856 1458,2858 1564,2858 1649,2858 1776,2858"/>
                 <TextEquiv>

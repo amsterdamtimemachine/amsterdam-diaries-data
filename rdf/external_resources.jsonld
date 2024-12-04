@@ -472,7 +472,9 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q124972258",
-        "@type": "Person"
+        "@type": "Person",
+        "name": "Margaretha van Hinte",
+        "description": "Nederlandse dagboekschrijfster"
     },
     {
         "@context": {
@@ -487,7 +489,9 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q124987744",
-        "@type": "Person"
+        "@type": "Person",
+        "name": "Berdi Vieyra-Pront",
+        "description": "Holocaustoverlevende"
     },
     {
         "@context": {
@@ -517,8 +521,10 @@
                 "@id": "https://schema.org/longitude"
             }
         },
-        "@id": "http://www.wikidata.org/entity/Q125019911",
-        "@type": "Person"
+        "@id": "http://www.wikidata.org/entity/Q108534152",
+        "@type": "Person",
+        "name": "Celina Veffer",
+        "description": "Nederlandse dagboekschrijfster"
     },
     {
         "@context": {
@@ -533,7 +539,9 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q125020291",
-        "@type": "Person"
+        "@type": "Person",
+        "name": "Els Polak",
+        "description": "Nederlandse dagboekschrijfster"
     },
     {
         "@context": {
@@ -4674,7 +4682,9 @@
             }
         },
         "@id": "http://www.wikidata.org/entity/Q65965451",
-        "@type": "Person"
+        "@type": "Person",
+        "name": "Toby Vos",
+        "description": "Nederlands striptekenares"
     },
     {
         "@context": {

@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=24_01_2024_12:49</Creator>
         <Created>2023-12-02T01:28:57.400+01:00</Created>
-        <LastChange>2024-04-10T13:26:06.282+02:00</LastChange>
-        <TranskribusMetadata docId="1687900" pageId="61988576" pageNr="3" tsid="157813297" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=ZSSWLPCUICXNKFWDGVXVDDHQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WZJKEFXKJOXLXRGSHQHWWQHD" imageId="50105384"/>
+        <LastChange>2024-08-21T12:45:33.503+02:00</LastChange>
+        <TranskribusMetadata docId="1687900" pageId="61988576" pageNr="3" tsid="183978527" status="IN_PROGRESS" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=ZSSWLPCUICXNKFWDGVXVDDHQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GKBPCLHKWPWLSFMRWNVNSXVK" imageId="50105384"/>
     </Metadata>
     <Page imageFilename="0003_urn-gvn-EVDO01-IIAV002_IAV001000041-large_03.jpeg" imageWidth="1500" imageHeight="981">
         <ReadingOrder>
-            <OrderedGroup id="ro_1712755214385" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976400615" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r"/>
                 <RegionRefIndexed index="1" regionRef="r_9"/>
                 <RegionRefIndexed index="2" regionRef="r_18"/>
@@ -151,14 +151,14 @@
                     <Unicode>ik nog vele nieuwe dingen. Ze vertelde</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r_tl_20" custom="readingOrder {index:19;}">
+            <TextLine id="r_tl_20" custom="readingOrder {index:19;} person {offset:30; length:9; continued:true;}">
                 <Coords points="135,752 567,745 586,762 618,745 724,751 725,715 542,711 491,730 412,713 387,730 229,714 207,735 136,721"/>
                 <Baseline points="140,744 170,746 200,746 230,746 260,746 290,746 320,746 350,744 380,742 410,742 440,742 470,742 500,742 530,740 560,740 590,742 620,740 650,738 680,740 710,742 726,744"/>
                 <TextEquiv>
                     <Unicode>dat ze vroeger met een zekere Heer Harm</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r_tl_21" custom="readingOrder {index:20;} place {offset:30; length:3; continued:true;}">
+            <TextLine id="r_tl_21" custom="readingOrder {index:20;} person {offset:0; length:5; continued:true;} place {offset:30; length:3; continued:true;}">
                 <Coords points="131,786 262,787 280,805 312,783 505,796 725,779 725,762 687,746 607,747 587,765 558,746 510,760 403,748 353,765 332,746 208,764 131,754"/>
                 <Baseline points="136,784 156,784 186,784 216,784 246,784 276,784 306,780 336,780 366,780 396,778 426,778 456,778 486,778 516,778 546,778 576,778 606,778 636,778 666,778 696,778 726,778"/>
                 <TextEquiv>
@@ -342,7 +342,7 @@
                 <Coords points="863,745 1467,746 1467,724 1374,702 1328,702 1295,727 1272,706 1106,720 1030,704 920,732 863,712"/>
                 <Baseline points="868,738 898,738 928,740 958,738 989,740 1019,740 1049,738 1079,740 1109,738 1139,736 1169,738 1199,738 1229,738 1259,738 1289,738 1319,736 1349,736 1379,736 1409,736 1439,736 1469,736"/>
                 <TextEquiv>
-                    <Unicode>we in de kou, daar er geen kolen aan</Unicode>
+                    <Unicode>we in de kou, daar er geen kolen aan-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r_18_tl_20" custom="readingOrder {index:19;} atm_food {offset:14; length:4;}">

@@ -3,17 +3,17 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2023-07-28T17:11:23.886+02:00</Created>
-        <LastChange>2024-04-11T15:15:19.414+02:00</LastChange>
-        <TranskribusMetadata docId="1515124" pageId="58235956" pageNr="10" tsid="158026694" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=WWBUZSZGBAWAXINZWWNNUXIG&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UFROLUQXVRBUZOOUSSMETZLP" imageId="47162871"/>
+        <LastChange>2024-04-24T11:13:06.932+02:00</LastChange>
+        <TranskribusMetadata docId="1515124" pageId="58235956" pageNr="10" tsid="160089484" status="DONE" userId="145668" imgUrl="https://files.transkribus.eu/Get?id=WWBUZSZGBAWAXINZWWNNUXIG&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NUNRKXATMBFAWDSVSPRSQPNB" imageId="47162871"/>
     </Metadata>
     <Page imageFilename="0010_urn-gvn-EVDO01-IIAV002_IAV001000030-large_10.jpeg" imageWidth="1186" imageHeight="1500">
         <ReadingOrder>
-            <OrderedGroup id="ro_1713945884055" caption="Regions reading order">
+            <OrderedGroup id="ro_1730976416505" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r_79"/>
                 <RegionRefIndexed index="1" regionRef="r_74"/>
                 <RegionRefIndexed index="2" regionRef="r_69"/>
-                <RegionRefIndexed index="3" regionRef="r"/>
-                <RegionRefIndexed index="4" regionRef="r_63"/>
+                <RegionRefIndexed index="3" regionRef="r_63"/>
+                <RegionRefIndexed index="4" regionRef="r"/>
             </OrderedGroup>
         </ReadingOrder>
         <Relations/>
@@ -42,14 +42,14 @@
                 <Unicode></Unicode>
             </TextEquiv>
         </TextRegion>
-        <TextRegion id="r" custom="readingOrder {index:3;} structure {type:caption;}">
-            <Coords points="285,1463 29,1463 29,1429 285,1429"/>
+        <TextRegion id="r_63" custom="readingOrder {index:3;} structure {type:visual;}">
+            <Coords points="80,1460 80,806 1163,806 1163,1460"/>
             <TextEquiv>
                 <Unicode></Unicode>
             </TextEquiv>
         </TextRegion>
-        <TextRegion id="r_63" custom="readingOrder {index:4;} structure {type:visual;}">
-            <Coords points="80,1460 80,806 1163,806 1163,1460"/>
+        <TextRegion id="r" custom="readingOrder {index:4;} structure {type:caption;}">
+            <Coords points="285,1463 29,1463 29,1429 285,1429"/>
             <TextLine id="l_50" custom="readingOrder {index:0;} place {offset:0; length:20;} date {offset:21; length:9;}">
                 <Coords points="34,1444 105,1446 122,1448 183,1451 203,1451 219,1452 222,1450 245,1452 255,1453 265,1452 265,1452 266,1452 273,1439 269,1437 264,1437 255,1438 246,1437 218,1436 215,1438 204,1436 183,1436 123,1433 106,1431 35,1429"/>
                 <Baseline points="34,1444 105,1446 122,1448 183,1451 203,1451 219,1452 222,1450 245,1452 255,1453 265,1452 265,1452 266,1452"/>
